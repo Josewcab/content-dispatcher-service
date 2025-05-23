@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8080
   compression:
     enabled: true
     min-response-size: 1024
@@ -8,11 +8,15 @@ server:
 spring:
   application:
     name: content-dispatcher-es.amaru.dispacher.es.amaru.dispacher.service
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 
 diccionario-file-name:  ruta-mapa.json
 
 initial-test:
   path: contenido/test-path-001.json
+
 
 
 
