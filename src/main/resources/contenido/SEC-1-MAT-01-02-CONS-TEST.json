@@ -1,0 +1,441 @@
+{
+    "unidadId": "U1C2-NUM-1ESO-CONS-TEST",
+    "titulo": "Aproximación de números naturales",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 2,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q1",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una familia va de vacaciones. Han recorrido 478 km el primer día y 493 km el segundo. ¿Aproximadamente cuántos kilómetros recorrieron en total?",
+            "opciones": [
+                {
+                    "texto": "1 000 km",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Al redondear 478 a 500 y 493 a 500, el total aproximado es 1 000 km.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "950 km",
+                    "esCorrecta": false,
+                    "justificacion": "Es demasiado bajo. No tomaste en cuenta un redondeo práctico a la centena.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "970 km",
+                    "esCorrecta": false,
+                    "justificacion": "Aproximaste de forma muy ajustada, sin simplificar lo suficiente para un cálculo práctico.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "1 100 km",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestimaste. El redondeo de ambos valores no justifica ese total.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✔️ Muy bien. Redondear a la centena más cercana ayuda a estimar distancias rápidamente.",
+            "feedbackIncorrecto": "Piensa en redondear cada número por separado para facilitar la suma estimada."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q2",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Vas al supermercado con 20 €. Compras productos que valen 4,78 €, 5,32 € y 9,91 €. ¿Puedes estimar rápidamente si te alcanza sin hacer la suma exacta?",
+            "opciones": [
+                {
+                    "texto": "Sí, porque redondeando a 5 + 5 + 10 da 20 €.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. El redondeo rápido te ayuda a comprobar si te alcanza sin sumar con decimales.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "No, porque todos los precios tienen decimales.",
+                    "esCorrecta": false,
+                    "justificacion": "No es necesario tener cifras exactas para hacer una estimación útil.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Sí, porque son 3 productos de menos de 10 € cada uno.",
+                    "esCorrecta": false,
+                    "justificacion": "Es muy general. Estimar requiere observar los valores con más atención.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "No, porque no se puede redondear en dinero.",
+                    "esCorrecta": false,
+                    "justificacion": "Redondear es muy útil justamente en cálculos de dinero para decidir compras.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🛒 ¡Perfecto! Redondear en una compra te permite decidir rápidamente sin calculadora.",
+            "feedbackIncorrecto": "Puedes usar redondeo para estimar si una compra te alcanza. A veces no hace falta sumar con precisión."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q3",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una escuela recibe 238 420 € para renovar su equipamiento. ¿Qué cantidad deberían comunicar públicamente si desean simplificar el presupuesto para un folleto?",
+            "opciones": [
+                {
+                    "texto": "240 000 €",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear a la decena de millar hace más fácil de entender la cifra.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "230 000 €",
+                    "esCorrecta": false,
+                    "justificacion": "Subestima la cantidad recibida. No refleja bien el presupuesto.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "238 000 €",
+                    "esCorrecta": false,
+                    "justificacion": "Redondeo a la centena o unidad de millar, no adecuado para simplificación pública.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "238 420 €",
+                    "esCorrecta": false,
+                    "justificacion": "Es la cifra exacta. Pero en un folleto es mejor simplificar.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✔️ Muy bien. Para comunicar presupuestos grandes, se suelen redondear a órdenes altos.",
+            "feedbackIncorrecto": "Recuerda que en comunicaciones públicas se busca claridad antes que precisión."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q4",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una casa consume 194,7 kWh, 207,3 kWh y 198,2 kWh de electricidad en tres meses. ¿Qué redondeo puede usarse para estimar el total consumido en ese trimestre?",
+            "opciones": [
+                {
+                    "texto": "200 + 200 + 200 = 600 kWh",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear cada mes a 200 kWh facilita una estimación rápida y útil del total.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "190 + 210 + 200 = 600 kWh",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque llega al mismo total, la lógica del redondeo no es uniforme ni práctica.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "195 + 207 + 198 = 600 kWh",
+                    "esCorrecta": false,
+                    "justificacion": "Estás sumando valores casi exactos, lo cual no es un redondeo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "190 + 200 + 190 = 580 kWh",
+                    "esCorrecta": false,
+                    "justificacion": "Subestima el total y no es un redondeo equilibrado.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "⚡ Bien hecho. Redondear los consumos a valores fáciles de sumar ayuda a planificar mejor.",
+            "feedbackIncorrecto": "Redondear cada valor por separado te ayuda a hacer cálculos prácticos sin perder tiempo."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q5",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una empresa de transporte estima que cada furgoneta recorre unos 398 km al día. Si tiene 6 furgonetas, ¿cómo pueden usar el redondeo para estimar la distancia total recorrida diariamente?",
+            "opciones": [
+                {
+                    "texto": "Redondear a 400 km por furgoneta: 400 × 6 = 2 400 km",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear a 400 facilita la multiplicación y da una estimación muy cercana.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "Redondear a 390 km por furgoneta: 390 × 6 = 2 340 km",
+                    "esCorrecta": false,
+                    "justificacion": "Subestimas el total. 398 está más cerca de 400 que de 390.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Redondear a 350 km por furgoneta: 350 × 6 = 2 100 km",
+                    "esCorrecta": false,
+                    "justificacion": "Redondeo muy bajo, pierde precisión funcional.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Usar exactamente 398 × 6 sin redondear",
+                    "esCorrecta": false,
+                    "justificacion": "Eso daría el total exacto, pero no es una estimación práctica rápida.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🚚 Excelente. En logística se suele redondear para planificar sin perder eficiencia.",
+            "feedbackIncorrecto": "Para estimar rápidamente, usa el número redondeado más próximo y fácil de multiplicar."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q6",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Se vendieron 4 785 entradas para un concierto, y el organizador quiere estimar el número para planificar la seguridad y la limpieza. ¿Qué redondeo sería el más funcional?",
+            "opciones": [
+                {
+                    "texto": "5 000 personas",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Es un redondeo funcional a la unidad de millar más cercana, útil para logística.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "4 700 personas",
+                    "esCorrecta": false,
+                    "justificacion": "Subestima el aforo y puede afectar la planificación de recursos.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "4 785 personas",
+                    "esCorrecta": false,
+                    "justificacion": "Es el número exacto, pero no ayuda en una estimación rápida de planificación.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "5 100 personas",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestima innecesariamente y puede generar gastos de más.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🎟️ Correcto. En eventos, se suele redondear a millares para facilitar la organización.",
+            "feedbackIncorrecto": "Piensa en qué cifra facilita prever personal y materiales sin sobreestimar demasiado."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q7",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una constructora necesita estimar la cantidad de ladrillos necesarios para varios muros.\nSi un muro requiere 1 947 ladrillos, ¿qué redondeo pueden usar para planificar la compra sin quedarse cortos?",
+            "opciones": [
+                {
+                    "texto": "2 000 ladrillos",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear hacia arriba evita quedarse corto en el suministro de materiales.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "1 900 ladrillos",
+                    "esCorrecta": false,
+                    "justificacion": "Es menos de lo necesario. Podrías quedarte sin material.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "1 947 ladrillos",
+                    "esCorrecta": false,
+                    "justificacion": "Es exacto, pero no es una estimación. Planificar requiere cierta holgura.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "2 100 ladrillos",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestima en exceso. Se busca equilibrio entre precisión y seguridad.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧱 Bien pensado. En obras, es mejor redondear hacia arriba para no detener el trabajo.",
+            "feedbackIncorrecto": "Planifica con un margen realista. Mejor un poco de sobra que quedarse sin materiales."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q8",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Un técnico calcula que un trabajo tomará 292 minutos. Si quiere planificar el día de forma más clara, ¿qué redondeo puede usar?",
+            "opciones": [
+                {
+                    "texto": "300 minutos (5 horas)",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear a la decena más cercana permite planificar mejor en bloques horarios.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "290 minutos",
+                    "esCorrecta": false,
+                    "justificacion": "Subestima el tiempo y puede causar retrasos en la planificación.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "292 minutos exactos",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado específico para una planificación práctica del día.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "310 minutos",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestima innecesariamente el tiempo necesario para esta tarea.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🕒 ¡Perfecto! Redondear a múltiplos de 10 o de hora ayuda a organizar el tiempo de trabajo.",
+            "feedbackIncorrecto": "Para planificar bien, redondea a un número cercano y fácil de manejar."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q9",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una imprenta necesita imprimir 29 476 folletos. Si quiere pedir papel a su proveedor, ¿cuál sería un redondeo útil para planificar la cantidad de hojas?",
+            "opciones": [
+                {
+                    "texto": "30 000 folletos",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear hacia arriba permite cubrir errores, pruebas y sobrantes sin quedarse corto.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "29 000 folletos",
+                    "esCorrecta": false,
+                    "justificacion": "Es menos de lo necesario y puede generar problemas de stock.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "29 400 folletos",
+                    "esCorrecta": false,
+                    "justificacion": "Muy cercano al número real, pero no deja margen de error ni extras.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "29 476 folletos exactos",
+                    "esCorrecta": false,
+                    "justificacion": "Es el número justo, pero no es práctico en pedidos a gran escala.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🖨️ Muy bien. En producción se suele redondear hacia arriba para evitar imprevistos.",
+            "feedbackIncorrecto": "Piensa en un número redondeado que te permita incluir margen de error y sobrantes."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONSTRUCTOR-Q10",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una tienda ha ganado 19 873 € este mes. Para hacer una presentación rápida en una reunión, ¿cuál sería un redondeo funcional para comunicar sus ingresos?",
+            "opciones": [
+                {
+                    "texto": "20 000 €",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear a la decena de millar transmite una idea clara y rápida de los ingresos.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "19 800 €",
+                    "esCorrecta": false,
+                    "justificacion": "Es demasiado específico y no es práctico para una presentación general.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "19 873 €",
+                    "esCorrecta": false,
+                    "justificacion": "Es el dato exacto. Pero en este caso se busca un número más fácil de recordar y comunicar.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "18 000 €",
+                    "esCorrecta": false,
+                    "justificacion": "Subestima notablemente el ingreso mensual real.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "📊 Exacto. En presentaciones rápidas, el redondeo ayuda a comunicar cifras con impacto y claridad.",
+            "feedbackIncorrecto": "Recuerda que para comunicar datos rápidamente, conviene usar un redondeo funcional."
+        }
+    ]
+}

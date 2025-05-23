@@ -1,0 +1,431 @@
+  {
+    "unidadId": "U1C4-NUM-1ESO-CONQ-TEST",
+    "titulo": "La división",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 5,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q1",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "🎯 ¡Desafío activado! Si tienes que repartir 180 puntos de experiencia en 6 niveles iguales de un videojuego, ¿cuántos puntos ganarás en cada nivel para maximizar tu progreso?",
+        "opciones": [
+          {
+            "texto": "30 puntos por nivel",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 180 ÷ 6 = 30. Cada nivel te da el mismo avance, lo que permite subir consistentemente.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "36 puntos por nivel",
+            "esCorrecta": false,
+            "justificacion": "Demasiado. 36 × 6 = 216, superas el total. Tienes que ser preciso si quieres avanzar bien.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "25 puntos por nivel",
+            "esCorrecta": false,
+            "justificacion": "Te quedarías corto. 25 × 6 = 150, y perderías puntos que podrías aprovechar.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "20 puntos por nivel",
+            "esCorrecta": false,
+            "justificacion": "Muy poco. 20 × 6 = 120, y te costará más ganar recompensas finales.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🔥 ¡Victoria estratégica! Avanzas sólido nivel por nivel.",
+        "feedbackIncorrecto": "🎮 Revisa tus cálculos. Un error puede hacerte perder puntos importantes para subir de nivel."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q2",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "🏆 En una competición, el ganador debe completar 216 desafíos en 6 rondas. ¿Cuántos desafíos por ronda necesitas superar para mantenerte en la cima del ranking?",
+        "opciones": [
+          {
+            "texto": "36 desafíos por ronda",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 216 ÷ 6 = 36. Para dominar la competencia, necesitas mantener un rendimiento constante y alto.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "30 desafíos por ronda",
+            "esCorrecta": false,
+            "justificacion": "Te quedarías corto. 30 × 6 = 180. No alcanzarías el total necesario para ganar.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "40 desafíos por ronda",
+            "esCorrecta": false,
+            "justificacion": "Exagerado. 40 × 6 = 240, más de lo requerido. Derrochas energía.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "35 desafíos por ronda",
+            "esCorrecta": false,
+            "justificacion": "Insuficiente. 35 × 6 = 210. A solo 6 del objetivo, pero no llegas al oro.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🥇 ¡Impecable! Mantener el ritmo es la clave de la victoria.",
+        "feedbackIncorrecto": "⛔ ¡Cuidado! Un error puede sacarte del podio. Ajusta tu estrategia."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q3",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "💪 Estás entrenando para un torneo y debes completar 144 repeticiones en 6 sesiones iguales. ¿Cuántas repeticiones necesitas lograr en cada sesión para mantenerte en el top de rendimiento?",
+        "opciones": [
+          {
+            "texto": "24 repeticiones por sesión",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 144 ÷ 6 = 24. Con este ritmo alcanzas el objetivo sin decaer en rendimiento.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "20 repeticiones por sesión",
+            "esCorrecta": false,
+            "justificacion": "20 × 6 = 120. Estás por debajo del total necesario. No alcanzarás el nivel exigido.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "25 repeticiones por sesión",
+            "esCorrecta": false,
+            "justificacion": "25 × 6 = 150, más de lo requerido. Puedes desperdiciar energía que necesitas en fases finales.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "30 repeticiones por sesión",
+            "esCorrecta": false,
+            "justificacion": "30 × 6 = 180, excede mucho el objetivo. Ir demasiado rápido puede agotar tus reservas.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🏋️ ¡Excelente! Alcanzar metas con disciplina te mantiene en lo más alto.",
+        "feedbackIncorrecto": "📉 Cuidado con calcular mal tu ritmo. Un paso en falso y podrías perder el liderato."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q4",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "🕹️ En un torneo de eSports, un jugador debe conseguir 1980 puntos repartidos en 9 partidas. ¿Cuántos puntos debe alcanzar por partida para mantenerse en el primer lugar del ranking?",
+        "opciones": [
+          {
+            "texto": "220 puntos por partida",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 1980 ÷ 9 = 220. Necesitas mantener este ritmo si quieres dominar el torneo sin caídas.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "200 puntos por partida",
+            "esCorrecta": false,
+            "justificacion": "200 × 9 = 1800. Te faltarán puntos para mantener el liderazgo.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "225 puntos por partida",
+            "esCorrecta": false,
+            "justificacion": "225 × 9 = 2025. Estás apuntando por encima del objetivo, lo que puede hacerte tomar riesgos innecesarios.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "210 puntos por partida",
+            "esCorrecta": false,
+            "justificacion": "210 × 9 = 1890. Estás por debajo del objetivo, no aseguras el primer lugar.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🎮 ¡Exacto! Mantener un ritmo constante es clave para alcanzar la gloria.",
+        "feedbackIncorrecto": "📊 Ajusta tu estrategia. Un cálculo preciso puede ser la diferencia entre la cima y la derrota."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q5",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "⏱️ Tienes que entregar 300 folletos en 5 horas durante una misión de promoción escolar. ¿Cuántos folletos debes entregar por hora para cumplir el objetivo a tiempo y destacar frente a los demás?",
+        "opciones": [
+          {
+            "texto": "60 folletos por hora",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 300 ÷ 5 = 60. Mantener ese ritmo te permitirá terminar a tiempo y sobresalir.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "50 folletos por hora",
+            "esCorrecta": false,
+            "justificacion": "50 × 5 = 250. No cumplirás el objetivo, y podrías quedar por detrás.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "70 folletos por hora",
+            "esCorrecta": false,
+            "justificacion": "70 × 5 = 350. Excedería el objetivo y podrías agotarte antes de tiempo.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "55 folletos por hora",
+            "esCorrecta": false,
+            "justificacion": "55 × 5 = 275. Te quedarás corto, aunque cerca del objetivo.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🚀 ¡Perfecto! Ritmo preciso y enfoque ganador. Objetivo cumplido.",
+        "feedbackIncorrecto": "⌛ Ajusta tu ritmo. Para llegar a la meta necesitas precisión y constancia."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q6",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "🚛 En una misión contrarreloj, tienes que entregar 252 paquetes entre 7 zonas antes del atardecer. ¿Cuántos paquetes por zona debes entregar para completar la tarea al 100%?",
+        "opciones": [
+          {
+            "texto": "36 paquetes por zona",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 252 ÷ 7 = 36. Cumples el reto si logras este número en cada zona sin errores.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "35 paquetes por zona",
+            "esCorrecta": false,
+            "justificacion": "35 × 7 = 245. Te quedarás corto. ¡No completarás la misión!",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "40 paquetes por zona",
+            "esCorrecta": false,
+            "justificacion": "40 × 7 = 280. Excede la carga disponible. Estás sobreestimando.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "30 paquetes por zona",
+            "esCorrecta": false,
+            "justificacion": "30 × 7 = 210. Estás lejos del objetivo, no llegarás al 100%.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "📦 ¡Objetivo cumplido! Entrega eficaz y precisión total.",
+        "feedbackIncorrecto": "📍 Replantea tu estrategia. El reparto correcto es clave para alcanzar la victoria."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q7",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "🎯 En un reto de habilidad, debes completar 168 pruebas en 6 etapas para conseguir la medalla de oro. ¿Cuántas pruebas necesitas superar en cada etapa para mantenerte en competencia?",
+        "opciones": [
+          {
+            "texto": "28 pruebas por etapa",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 168 ÷ 6 = 28. Es el ritmo exacto para completar todas las pruebas y alcanzar la medalla.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "30 pruebas por etapa",
+            "esCorrecta": false,
+            "justificacion": "30 × 6 = 180. Te pasarías del objetivo y podrías desgastarte innecesariamente.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "25 pruebas por etapa",
+            "esCorrecta": false,
+            "justificacion": "25 × 6 = 150. No llegarás al total, y eso te dejará fuera del podio.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "24 pruebas por etapa",
+            "esCorrecta": false,
+            "justificacion": "24 × 6 = 144. Demasiado bajo para alcanzar la meta del reto completo.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🏅 ¡Gran rendimiento! Estás en el camino correcto para llevarte el oro.",
+        "feedbackIncorrecto": "📉 Cuida tu estrategia. Sin el ritmo adecuado, podrías perder tu oportunidad."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q8",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "🧗‍♂️ Estás escalando una torre de 252 metros dividida en 6 tramos iguales. ¿Cuántos metros debes subir en cada tramo para alcanzar la cima sin detenerte?",
+        "opciones": [
+          {
+            "texto": "42 metros por tramo",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 252 ÷ 6 = 42. Cada tramo superado te acerca a la meta final.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "40 metros por tramo",
+            "esCorrecta": false,
+            "justificacion": "40 × 6 = 240. Te quedarás 12 metros por debajo del objetivo. No alcanzarás la cima.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "45 metros por tramo",
+            "esCorrecta": false,
+            "justificacion": "45 × 6 = 270. Excede el objetivo. Puede parecer mejor, pero es un cálculo incorrecto.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "36 metros por tramo",
+            "esCorrecta": false,
+            "justificacion": "36 × 6 = 216. Demasiado poco para lograr la cima. Te quedarás corto.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🧗 ¡Has alcanzado la cima con cálculo preciso y estrategia clara!",
+        "feedbackIncorrecto": "📏 Revisa tu planificación. Cada tramo cuenta para alcanzar el éxito completo."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q9",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "💡 En una competencia de ideas, tienes que presentar 288 argumentos en 8 fases iguales. ¿Cuántos argumentos debes mostrar en cada fase para mantener el liderazgo?",
+        "opciones": [
+          {
+            "texto": "36 argumentos por fase",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 288 ÷ 8 = 36. Así te mantienes fuerte en cada fase y aseguras tu liderazgo.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "30 argumentos por fase",
+            "esCorrecta": false,
+            "justificacion": "30 × 8 = 240. Te quedas corto y podrías ser superado por otros competidores.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "40 argumentos por fase",
+            "esCorrecta": false,
+            "justificacion": "40 × 8 = 320. Estás sobredimensionando el reto y puedes perder consistencia.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "32 argumentos por fase",
+            "esCorrecta": false,
+            "justificacion": "32 × 8 = 256. Faltan argumentos. No alcanzarás el rendimiento total esperado.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🧠 ¡Perfecto! Argumento a argumento construyes tu camino a la victoria.",
+        "feedbackIncorrecto": "📊 Un error en la división puede dejarte atrás. Calcula bien tu estrategia."
+      },
+      {
+        "preguntaId": "1ESO-division-CONQUISTADOR-Q10",
+        "targetPath": "CONQUISTADOR",
+        "enunciado": "🏁 Estás en una carrera por equipos y deben recorrer 315 km en 7 etapas. ¿Cuántos kilómetros necesita cubrir cada etapa para lograr el objetivo y ganar la competencia?",
+        "opciones": [
+          {
+            "texto": "45 km por etapa",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 315 ÷ 7 = 45. Es la división justa del trayecto para que todo el equipo alcance la meta de forma óptima.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.9
+            }
+          },
+          {
+            "texto": "40 km por etapa",
+            "esCorrecta": false,
+            "justificacion": "40 × 7 = 280. No alcanzarás la meta, te quedarás atrás del pelotón líder.",
+            "pathWeight": {
+              "MINIMALISTA": 0.3
+            }
+          },
+          {
+            "texto": "50 km por etapa",
+            "esCorrecta": false,
+            "justificacion": "50 × 7 = 350. Excede la distancia total, lo que indica un mal cálculo.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "42 km por etapa",
+            "esCorrecta": false,
+            "justificacion": "42 × 7 = 294. Cerca del objetivo, pero insuficiente para ganar.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🚴 ¡Gran estrategia! Ritmo perfecto para asegurar la victoria del equipo.",
+        "feedbackIncorrecto": "📏 Ajusta tu cálculo. Un paso en falso puede hacerte perder el liderazgo."
+      }
+    ]
+  }

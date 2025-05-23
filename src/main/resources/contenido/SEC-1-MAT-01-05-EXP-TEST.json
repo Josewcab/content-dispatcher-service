@@ -1,0 +1,431 @@
+{
+  "unidadId": "U1C4-NUM-1ESO-EXP-TEST",
+  "titulo": "La división",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 5,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q1",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🧭 Una torta se divide en 8 partes iguales. Si repartes 3 tortas, ¿en cuántas partes queda dividida la cantidad total?",
+      "opciones": [
+        {
+          "texto": "24",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 3 tortas × 8 partes cada una = 24 porciones.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "8",
+          "esCorrecta": false,
+          "justificacion": "Parece que solo contaste una torta. Faltan las otras dos.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "3",
+          "esCorrecta": false,
+          "justificacion": "Confundiste la cantidad de tortas con la cantidad de partes.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "11",
+          "esCorrecta": false,
+          "justificacion": "Parece una estimación sin aplicar el razonamiento lógico de la multiplicación.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧭 ¡Muy bien! Aplicaste tu capacidad de visualizar cantidades repartidas.",
+      "feedbackIncorrecto": "🔍 Imagina las tortas completas divididas. Usa multiplicación para sumar las porciones."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q2",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🌍 Un grupo de exploradores lleva 48 botellas de agua para repartir entre 6 mochilas. ¿Cuántas botellas debe llevar cada mochila para que todas tengan la misma cantidad?",
+      "opciones": [
+        {
+          "texto": "8",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 48 ÷ 6 = 8. Reparto equitativo entre mochilas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "6",
+          "esCorrecta": false,
+          "justificacion": "Parece que invertiste los términos de la división.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "42",
+          "esCorrecta": false,
+          "justificacion": "Muy lejos del resultado. ¿Quizá restaste en lugar de dividir?",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "12",
+          "esCorrecta": false,
+          "justificacion": "Confusión frecuente. 48 ÷ 4 es 12, pero aquí son 6 mochilas.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🎒 ¡Perfecto! Sabes repartir equitativamente los recursos.",
+      "feedbackIncorrecto": "🧭 Reparte 48 botellas en 6 mochilas: usa una división para descubrirlo."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q3",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🏕️ En un campamento hay 36 linternas y se quiere repartir la misma cantidad en 9 carpas. ¿Cuántas linternas recibirá cada carpa?",
+      "opciones": [
+        {
+          "texto": "4",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 36 ÷ 9 = 4 linternas por carpa.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "9",
+          "esCorrecta": false,
+          "justificacion": "Es la cantidad de carpas, no el resultado de la división.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "6",
+          "esCorrecta": false,
+          "justificacion": "Cálculo incorrecto. Quizás lo confundiste con 36 ÷ 6.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "3",
+          "esCorrecta": false,
+          "justificacion": "Menor de lo esperado. 9 × 3 = 27, no 36.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🏕️ ¡Genial! Todas las carpas recibirán la misma cantidad de linternas.",
+      "feedbackIncorrecto": "💡 Usa la división para repartir de forma equitativa entre las carpas."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q4",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🧭 Una cuerda de 72 metros se corta en trozos de 6 metros cada uno. ¿Cuántos trozos se obtienen?",
+      "opciones": [
+        {
+          "texto": "12",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 72 ÷ 6 = 12. La cuerda se puede cortar en 12 partes iguales.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "6",
+          "esCorrecta": false,
+          "justificacion": "Es posible que confundiste los valores o hiciste una resta.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "18",
+          "esCorrecta": false,
+          "justificacion": "Confusión común si invertiste divisor y dividendo: 6 ÷ 72.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "10",
+          "esCorrecta": false,
+          "justificacion": "Parece una estimación sin calcular la división exacta.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "📏 ¡Perfecto! Has visualizado correctamente la división en partes iguales.",
+      "feedbackIncorrecto": "✂️ Imagina cuántos trozos de 6 m caben en una cuerda de 72 m: divide 72 ÷ 6."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q5",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🌳 En un bosque hay 120 árboles y 10 senderos para visitarlos. Si se reparten de forma equitativa, ¿cuántos árboles hay por sendero?",
+      "opciones": [
+        {
+          "texto": "12",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 120 ÷ 10 = 12 árboles por sendero.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "10",
+          "esCorrecta": false,
+          "justificacion": "Es posible que confundiste divisor con cociente.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "130",
+          "esCorrecta": false,
+          "justificacion": "Parece una suma o estimación exagerada. El total es 120.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "110",
+          "esCorrecta": false,
+          "justificacion": "Valor cercano al total. Puede ser confusión entre total y resto.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌲 ¡Muy bien! Repartiste los árboles en partes iguales.",
+      "feedbackIncorrecto": "🧭 Reparte 120 árboles en 10 caminos: haz la división para saber cuántos hay en cada uno."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q6",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🚌 Un autobús lleva 96 alumnos y cada asiento puede ocupar a 4 alumnos. ¿Cuántos asientos ocupan en total?",
+      "opciones": [
+        {
+          "texto": "24",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 96 ÷ 4 = 24 asientos necesarios.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "4",
+          "esCorrecta": false,
+          "justificacion": "Es el número de alumnos por asiento, no el total de asientos.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "20",
+          "esCorrecta": false,
+          "justificacion": "Subestimación. 4 × 20 = 80, no alcanza.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "25",
+          "esCorrecta": false,
+          "justificacion": "Casi. 4 × 25 = 100, más de lo necesario.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🚌 ¡Perfecto! Calculaste bien el número de asientos necesarios.",
+      "feedbackIncorrecto": "✏️ Divide el total de alumnos entre los que caben en cada asiento: 96 ÷ 4."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q7",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🥣 Tienes 60 cucharadas de avena y quieres preparar 5 porciones iguales. ¿Cuántas cucharadas llevará cada porción?",
+      "opciones": [
+        {
+          "texto": "12",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 60 ÷ 5 = 12 cucharadas por porción.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "10",
+          "esCorrecta": false,
+          "justificacion": "Parece que usaste 50 como total, no 60.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "6",
+          "esCorrecta": false,
+          "justificacion": "Error por confusión con 60 ÷ 10. Verifica el divisor.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "15",
+          "esCorrecta": false,
+          "justificacion": "Sobreestimación. 5 × 15 = 75, más de lo disponible.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🥣 ¡Perfecto! Cada porción tendrá 12 cucharadas de avena.",
+      "feedbackIncorrecto": "🍽️ Divide las 60 cucharadas en 5 porciones iguales para saber cuántas lleva cada una."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q8",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🚶‍♂️ Un grupo de 84 alumnos va de excursión y se organiza en grupos de 7. ¿Cuántos grupos se forman?",
+      "opciones": [
+        {
+          "texto": "12",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 84 ÷ 7 = 12 grupos.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "7",
+          "esCorrecta": false,
+          "justificacion": "Ese es el tamaño de cada grupo, no el número de grupos.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "10",
+          "esCorrecta": false,
+          "justificacion": "Subestimación. 10 × 7 = 70, no es suficiente para 84.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "14",
+          "esCorrecta": false,
+          "justificacion": "Exceso. 14 × 7 = 98, más de los alumnos que hay.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🚶‍♂️ ¡Muy bien! Calculaste cuántos grupos iguales pueden formarse.",
+      "feedbackIncorrecto": "🎒 Divide la cantidad total de alumnos entre el tamaño de cada grupo: 84 ÷ 7."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q9",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🦁 En un zoológico hay 72 manzanas para alimentar a 9 monos. Si se reparten por igual, ¿cuántas manzanas recibe cada mono?",
+      "opciones": [
+        {
+          "texto": "8",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 72 ÷ 9 = 8 manzanas por mono.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "9",
+          "esCorrecta": false,
+          "justificacion": "Ese número es la cantidad de monos, no de manzanas por mono.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "7",
+          "esCorrecta": false,
+          "justificacion": "Subestimación. 9 × 7 = 63. Faltan manzanas.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "6",
+          "esCorrecta": false,
+          "justificacion": "Menor de lo esperado. 9 × 6 = 54, no alcanza para 72.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🍎 ¡Perfecto! Cada mono recibe 8 manzanas.",
+      "feedbackIncorrecto": "🧭 Divide las 72 manzanas entre los 9 monos para saber cuántas recibe cada uno."
+    },
+    {
+      "preguntaId": "1ESO-division-EXPLORADOR-Q10",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🚴‍♀️ Un grupo de 108 ciclistas se distribuye en 12 rutas diferentes para una competencia. ¿Cuántos ciclistas hay en cada ruta si se reparten equitativamente?",
+      "opciones": [
+        {
+          "texto": "9",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 108 ÷ 12 = 9 ciclistas por ruta.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9
+          }
+        },
+        {
+          "texto": "12",
+          "esCorrecta": false,
+          "justificacion": "Es el número de rutas, no el resultado de la división.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "8",
+          "esCorrecta": false,
+          "justificacion": "Subestimación. 12 × 8 = 96, no suficiente.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "10",
+          "esCorrecta": false,
+          "justificacion": "Sobreestimación. 12 × 10 = 120, excede el total.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🚴‍♀️ ¡Buen cálculo! Repartiste correctamente los ciclistas por ruta.",
+      "feedbackIncorrecto": "🧭 Usa la división: 108 ciclistas entre 12 rutas te dará la cantidad exacta por grupo."
+    }
+  ]
+}

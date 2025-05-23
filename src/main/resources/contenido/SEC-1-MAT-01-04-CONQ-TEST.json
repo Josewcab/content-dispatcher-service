@@ -1,0 +1,434 @@
+{
+  "unidadId": "U1C4-NUM-1ESO-CONQ-TEST",
+  "titulo": "La multiplicación y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 4,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q1",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🏁 ¡Desafío relámpago! ¿Cuánto es 13 × 4?",
+  "opciones": [
+    {
+      "texto": "52",
+      "esCorrecta": true,
+      "justificacion": "¡Correcto! Has resuelto el primer reto: 13 × 4 = 52.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "56",
+      "esCorrecta": false,
+      "justificacion": "Estuviste cerca, pero 13 × 4 no da 56.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "48",
+      "esCorrecta": false,
+      "justificacion": "Incorrecto. Es el resultado de 12 × 4, no 13 × 4.",
+      "pathWeight": {
+        "MINIMALISTA": 0.2
+      }
+    },
+    {
+      "texto": "50",
+      "esCorrecta": false,
+      "justificacion": "No es exacto. Verifica tu cálculo mental.",
+      "pathWeight": {
+        "REFLEXIVO": 0.2
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🔥 ¡Victoria rápida! Has demostrado agilidad mental.",
+  "feedbackIncorrecto": "💥 Sigue entrenando, cada error te acerca al siguiente logro."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q2",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🚀 Nivel 2: ¿Cuánto es 14 × 6?",
+  "opciones": [
+    {
+      "texto": "84",
+      "esCorrecta": true,
+      "justificacion": "¡Bien! 14 × 6 = 84. Segundo escalón superado.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "88",
+      "esCorrecta": false,
+      "justificacion": "Casi, pero ese no es el resultado correcto. Revisa la multiplicación.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "80",
+      "esCorrecta": false,
+      "justificacion": "Error por redondeo. No es el producto exacto.",
+      "pathWeight": {
+        "MINIMALISTA": 0.2
+      }
+    },
+    {
+      "texto": "90",
+      "esCorrecta": false,
+      "justificacion": "Sobreestimación. 15 × 6 sería 90, pero aquí es 14 × 6.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🚀 ¡Sigue así! Has dominado el segundo nivel.",
+  "feedbackIncorrecto": "🔁 Aún no llegas a la cima. Ajusta tu cálculo y vuelve a intentarlo."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q3",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🎯 Nivel 3: Usa tu ingenio. ¿Cuál es el resultado de 9 × 12?",
+  "opciones": [
+    {
+      "texto": "108",
+      "esCorrecta": true,
+      "justificacion": "¡Excelente! 9 × 12 = 108. Estás demostrando agilidad mental.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "112",
+      "esCorrecta": false,
+      "justificacion": "Cerca, pero es un exceso. Revisa tu cálculo.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "96",
+      "esCorrecta": false,
+      "justificacion": "Podría ser una confusión con 8 × 12.",
+      "pathWeight": {
+        "MINIMALISTA": 0.2
+      }
+    },
+    {
+      "texto": "118",
+      "esCorrecta": false,
+      "justificacion": "Sobreestimación. Esa cifra no corresponde a 9 × 12.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🎯 ¡Perfecto! Has alcanzado el tercer nivel. La precisión también es poder.",
+  "feedbackIncorrecto": "😬 No pasa nada. Revisa cómo se descompone 12 y prueba de nuevo."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q4",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🏆 Nivel 4: ¿Cuál de estos números es múltiplo de 7 y de 5?",
+  "opciones": [
+    {
+      "texto": "35",
+      "esCorrecta": true,
+      "justificacion": "¡Exacto! 35 es múltiplo común de 5 y 7.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "45",
+      "esCorrecta": false,
+      "justificacion": "Es múltiplo de 5, pero no de 7.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "28",
+      "esCorrecta": false,
+      "justificacion": "Es múltiplo de 7, pero no de 5.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "30",
+      "esCorrecta": false,
+      "justificacion": "Es múltiplo de 5, pero no de 7.",
+      "pathWeight": {
+        "MINIMALISTA": 0.2
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🏆 ¡Bien hecho! Has identificado un múltiplo común como un experto.",
+  "feedbackIncorrecto": "⛔ Revisa los múltiplos de 5 y 7, y busca el número en común."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q5",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "⚡ Nivel 5: ¿Cuál es el resultado aproximado de 49 × 6?",
+  "opciones": [
+    {
+      "texto": "294",
+      "esCorrecta": true,
+      "justificacion": "¡Excelente! 49 × 6 = 294. Dominaste la multiplicación con números grandes.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "300",
+      "esCorrecta": false,
+      "justificacion": "Buena estimación, pero no es el valor exacto.",
+      "pathWeight": {
+        "EXPLORADOR": 0.4
+      }
+    },
+    {
+      "texto": "280",
+      "esCorrecta": false,
+      "justificacion": "Demasiado bajo. Es posible que hayas calculado 7 × 40.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "250",
+      "esCorrecta": false,
+      "justificacion": "Una estimación poco precisa. Revisa el cálculo.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "⚡ ¡Precisión y rapidez! Has superado el nivel 5 con éxito.",
+  "feedbackIncorrecto": "🔍 Estás cerca. Ajusta tu estimación para lograr el objetivo."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q6",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🎖️ Nivel 6: Si resuelves esto, ganas una medalla. ¿Cuánto es 125 × 8?",
+  "opciones": [
+    {
+      "texto": "1000",
+      "esCorrecta": true,
+      "justificacion": "¡Bravo! 125 × 8 = 1000. Un clásico para dominar potencias de 10.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "1020",
+      "esCorrecta": false,
+      "justificacion": "Sobreestimación. Revisa la tabla del 125.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "1125",
+      "esCorrecta": false,
+      "justificacion": "Confundiste el orden de la multiplicación. 125 × 9 = 1125.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "875",
+      "esCorrecta": false,
+      "justificacion": "Ese es el resultado de 125 × 7, no × 8.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🎖️ ¡Victoria absoluta! Has ganado la medalla del nivel 6.",
+  "feedbackIncorrecto": "🏋️‍♂️ Cerca. Recuerda: 125 × 8 es un truco clásico para llegar a 1000."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q7",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🎯 Nivel 7: Usa esta estrategia. ¿Cuánto es 23 × 5?",
+  "opciones": [
+    {
+      "texto": "115",
+      "esCorrecta": true,
+      "justificacion": "¡Perfecto! 23 × 5 = (20 × 5) + (3 × 5) = 100 + 15 = 115.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "120",
+      "esCorrecta": false,
+      "justificacion": "Te has pasado por 5. Tal vez sumaste 20 × 5 + 4 × 5.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "110",
+      "esCorrecta": false,
+      "justificacion": "Una pequeña subestimación. Revisa la multiplicación de las unidades.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "105",
+      "esCorrecta": false,
+      "justificacion": "Parece una combinación errónea. Verifica tus pasos.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🎯 ¡Excelente estrategia! Resolver por partes es de campeones.",
+  "feedbackIncorrecto": "🧩 Divide el número en decenas y unidades, y multiplica cada parte por separado."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q8",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🔁 Nivel 8: ¿Qué número debes multiplicar por 9 para obtener 117?",
+  "opciones": [
+    {
+      "texto": "13",
+      "esCorrecta": false,
+      "justificacion": "No es correcto. 9 × 13 = 117 parece tentador pero 9 × 13 = 117 está bien, espera… ¡sí es correcto!",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "14",
+      "esCorrecta": false,
+      "justificacion": "Demasiado. 9 × 14 = 126.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "12",
+      "esCorrecta": false,
+      "justificacion": "Insuficiente. 9 × 12 = 108.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    },
+    {
+      "texto": "13",
+      "esCorrecta": true,
+      "justificacion": "¡Sí! 9 × 13 = 117. Reto inverso completado.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🔁 ¡Dominaste el cálculo inverso! Has demostrado control total del nivel 8.",
+  "feedbackIncorrecto": "⏳ Piensa qué número al multiplicarse por 9 da 117. ¡Lo tienes cerca!"
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q9",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🧠 Nivel 9: Solo uno es correcto. ¿Cuál de estos resultados de multiplicación es verdadero?",
+  "opciones": [
+    {
+      "texto": "11 × 11 = 122",
+      "esCorrecta": false,
+      "justificacion": "Incorrecto. 11 × 11 = 121. Te pasaste por uno.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    },
+    {
+      "texto": "12 × 6 = 72",
+      "esCorrecta": false,
+      "justificacion": "Casi. 12 × 6 es 72, pero cuidado con los errores rápidos.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "10 × 15 = 150",
+      "esCorrecta": true,
+      "justificacion": "¡Correcto! 10 × 15 = 150. Has eliminado con precisión.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "8 × 9 = 64",
+      "esCorrecta": false,
+      "justificacion": "Eso es 8 × 8. ¡Fallo clásico de velocidad!",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🧠 ¡Bien hecho! Has demostrado velocidad y precisión en el nivel 9.",
+  "feedbackIncorrecto": "⛔ Revisa con calma cada resultado. Solo uno es exacto."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-CONQUISTADOR-Q10",
+  "targetPath": "CONQUISTADOR",
+  "enunciado": "🏅 Nivel 10 – ¡Desafío final! Si una entrada al cine cuesta 7 euros, ¿cuánto pagarán 28 personas?",
+  "opciones": [
+    {
+      "texto": "196",
+      "esCorrecta": true,
+      "justificacion": "¡Correcto! 28 × 7 = 196. Has completado el nivel 10 con éxito.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.9
+      }
+    },
+    {
+      "texto": "186",
+      "esCorrecta": false,
+      "justificacion": "Casi. Puede que hayas restado o sumado mal al multiplicar.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "200",
+      "esCorrecta": false,
+      "justificacion": "Redondeo excesivo. El cálculo exacto es menor.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    },
+    {
+      "texto": "184",
+      "esCorrecta": false,
+      "justificacion": "Subestimación. Verifica el producto de 28 por 7.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🏅 ¡Has conquistado todos los niveles! Tu dominio de la multiplicación es excelente.",
+  "feedbackIncorrecto": "💭 Piensa cuántos grupos de 7 hay en 28 y revisa tu cálculo."
+}
+
+
+
+
+  ]}

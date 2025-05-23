@@ -1,0 +1,459 @@
+{
+    "unidadId": "U1C1-NUM-1ESO-REF-TEST",
+    "titulo": "Sistemas de numeración",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 1,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q1",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "¿Por qué crees que en el sistema decimal el valor de una cifra cambia según su posición en el número?",
+            "opciones": [
+                {
+                    "texto": "Porque cada posición representa una potencia de 10, lo que da estructura al sistema numérico.",
+                    "esCorrecta": true,
+                    "justificacion": "Responde con una idea profunda: conecta posición con potencia de 10. Propio del perfil reflexivo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "Porque así lo decidieron los matemáticos para hacer las cuentas más fáciles.",
+                    "esCorrecta": false,
+                    "justificacion": "Razonamiento utilitario sin comprensión estructural. Típico de pensamiento superficial o minimalista.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Porque las cifras más grandes deben ir adelante por orden.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde valor numérico con posición visual. Error común sin análisis profundo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "Porque si no cambiara, todos los números serían iguales.",
+                    "esCorrecta": false,
+                    "justificacion": "Explicación poco fundamentada. Da una razón que intenta ser lógica sin conectar con el sistema decimal.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! El sistema decimal se basa en potencias de 10, lo que permite que una misma cifra tenga diferentes valores según su posición.",
+            "feedbackIncorrecto": "Reflexiona: ¿qué haría posible que un mismo número tenga un valor tan diferente dependiendo de dónde se ubica?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q2",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "En el número 507 000, el cero no representa ninguna cantidad, pero sigue siendo importante. ¿Por qué crees que se mantiene en la escritura?",
+            "opciones": [
+                {
+                    "texto": "Porque indica que esa posición está vacía, pero es necesaria para que las demás cifras mantengan su lugar y valor.",
+                    "esCorrecta": true,
+                    "justificacion": "Muestra una comprensión estructural del 0 como marcador. Refleja pensamiento reflexivo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque así el número se ve más largo y parece más grande.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde forma visual con estructura interna. Razonamiento superficial.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque si se elimina, el número cambia y pierde su significado.",
+                    "esCorrecta": false,
+                    "justificacion": "Acierta parcialmente, pero no profundiza en la función estructural del 0. Falta de análisis del sistema.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque es obligatorio escribir todos los ceros por norma matemática.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde convención con necesidad lógica. Pensamiento normativo más que analítico.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! El cero cumple una función estructural que asegura el valor correcto de las demás cifras.",
+            "feedbackIncorrecto": "Reflexiona: si el cero desapareciera, ¿en qué posición quedaría el 7? ¿Tendría el mismo valor?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q3",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "¿En qué se parecen los números 300 000 + 40 000 + 7 y 340 007, y por qué es útil expresarlos de ambas formas?",
+            "opciones": [
+                {
+                    "texto": "Ambos representan el mismo número, pero uno muestra cómo está construido internamente, lo que ayuda a entender mejor su estructura.",
+                    "esCorrecta": true,
+                    "justificacion": "Conecta dos formas de representar un número y reflexiona sobre el valor pedagógico de la descomposición.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Son distintos, pero se parecen porque tienen cifras similares.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde forma con fondo. Falta de análisis estructural profundo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Ambos son útiles solo si necesitas hacer operaciones largas.",
+                    "esCorrecta": false,
+                    "justificacion": "Razonamiento funcional, pero sin comprensión reflexiva de la equivalencia estructural.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.5,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "Uno es más exacto que el otro porque tiene más cifras.",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre representación numérica y precisión. Error conceptual.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Correcto! Comprender cómo se construye un número desde su base ayuda a dominar la lógica del sistema decimal.",
+            "feedbackIncorrecto": "Reflexiona: ¿es lo mismo ver el número como un bloque entero o como una suma de partes?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q4",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "El sistema decimal es como una escalera donde cada peldaño es diez veces más alto que el anterior. ¿Qué idea ayuda a entender mejor esta analogía?",
+            "opciones": [
+                {
+                    "texto": "Cada cifra se multiplica por una potencia de 10 según el lugar que ocupa, como si subiera a un nuevo peldaño.",
+                    "esCorrecta": true,
+                    "justificacion": "Conecta una imagen visual con la lógica del sistema posicional. Muy adecuada para el pensamiento reflexivo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "EXPLORADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Las cifras están alineadas como escalones para que se vean ordenadas.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde estética con lógica estructural. Falta de profundidad conceptual.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Cada número usa escalones diferentes, pero no hay relación entre ellos.",
+                    "esCorrecta": false,
+                    "justificacion": "Niega la progresión jerárquica del sistema decimal. Error conceptual crítico.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Los números más grandes están más arriba porque tienen más cifras.",
+                    "esCorrecta": false,
+                    "justificacion": "Interpreta la analogía de forma literal sin captar el sentido de crecimiento exponencial.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Entender el sistema decimal como una escalera ayuda a visualizar cómo crecen los valores de las cifras.",
+            "feedbackIncorrecto": "Reflexiona: ¿qué tiene que pasar para que una cifra en una posición valga diez veces más que en otra?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q5",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Tienes que explicar a alguien qué número es mayor: 1 000 000 o 999 999. ¿Qué argumento crees que sería más claro y significativo?",
+            "opciones": [
+                {
+                    "texto": "1 000 000 tiene un orden más: entra en la categoría del millón, mientras que 999 999 se queda en los miles.",
+                    "esCorrecta": true,
+                    "justificacion": "Va más allá del simple valor y entra en categorías numéricas. Alineado con el pensamiento reflexivo por su búsqueda de significado.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque el uno del millón es más fuerte que los nueves juntos.",
+                    "esCorrecta": false,
+                    "justificacion": "Explicación metafórica no adecuada. No conecta con la lógica matemática.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "999 999 es más grande porque tiene más cifras visibles diferentes.",
+                    "esCorrecta": false,
+                    "justificacion": "Error visual. Confunde diversidad de cifras con valor.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Porque 1 000 000 termina en ceros y eso lo hace más redondo.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde estética con estructura jerárquica. Lectura superficial.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! El salto de categoría en el sistema numérico es una forma poderosa de entender el valor.",
+            "feedbackIncorrecto": "Reflexiona: ¿qué hace que 1 000 000 esté en otra 'liga' que 999 999 aunque la diferencia sea solo de uno?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q6",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Cuando escribimos el número 1 204 030, ¿qué habilidades mentales estamos poniendo en juego sin darnos cuenta?",
+            "opciones": [
+                {
+                    "texto": "Comprender cómo se combinan las potencias de diez para formar un número completo.",
+                    "esCorrecta": true,
+                    "justificacion": "Esta opción lleva al alumno a tomar conciencia de los procesos internos implicados en la numeración. Propio de la metacognición reflexiva.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Recordar el orden de las cifras sin pensar demasiado.",
+                    "esCorrecta": false,
+                    "justificacion": "Responde desde la automatización, no desde la reflexión. Más afín a estilos minimalistas.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Usar reglas para evitar errores y escribir rápido.",
+                    "esCorrecta": false,
+                    "justificacion": "Se centra en eficiencia superficial, no en análisis estructural.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "Evitar confundir ceros porque pueden ser engañosos.",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque tiene algo de valor práctico, no apunta al proceso cognitivo profundo.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! Al escribir números aplicamos automáticamente ideas profundas sobre estructura, posición y valor.",
+            "feedbackIncorrecto": "Reflexiona: ¿qué hay detrás del simple hecho de colocar cifras en cierto orden? ¿Qué entendemos sin decirlo?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q7",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "¿Por qué redondeamos los números en la vida cotidiana si eso implica perder parte de la información?",
+            "opciones": [
+                {
+                    "texto": "Porque a veces lo más importante no es la precisión, sino la comprensión general del valor.",
+                    "esCorrecta": true,
+                    "justificacion": "Reflexiona sobre el sentido práctico del redondeo y su función comunicativa. Muy alineado al perfil reflexivo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque los números largos son difíciles de recordar.",
+                    "esCorrecta": false,
+                    "justificacion": "Motivación superficial centrada en la memoria, no en el propósito del redondeo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Porque los profesores lo piden así para los exámenes.",
+                    "esCorrecta": false,
+                    "justificacion": "Razonamiento normativo sin reflexión conceptual. Enfoque obediente más que comprensivo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque el redondeo engaña a veces, pero se usa igual.",
+                    "esCorrecta": false,
+                    "justificacion": "Razonamiento cínico o errático. No aporta una comprensión clara de su propósito.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "CONQUISTADOR": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! Redondear nos permite comunicar y tomar decisiones con una visión global aunque no tengamos todos los detalles.",
+            "feedbackIncorrecto": "Reflexiona: ¿cuándo importa más tener una idea clara y cuándo es crucial tener cada cifra exacta?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q8",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Los antiguos romanos no usaban el cero en su sistema de numeración. ¿Qué ventaja trajo el uso del cero en el sistema decimal?",
+            "opciones": [
+                {
+                    "texto": "Permitió representar valores vacíos y crear un sistema posicional más flexible y universal.",
+                    "esCorrecta": true,
+                    "justificacion": "Reflexiona sobre el papel del cero como parte estructural del sistema posicional. Propio de un pensamiento reflexivo que conecta historia y estructura.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Hizo que los números fueran más largos y complejos.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde dificultad con innovación estructural. No reconoce el valor lógico del cero.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Solo sirve para operaciones con fracciones y porcentajes.",
+                    "esCorrecta": false,
+                    "justificacion": "Limita el uso del cero a contextos específicos, sin entender su rol esencial.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Evita errores al contar con los dedos.",
+                    "esCorrecta": false,
+                    "justificacion": "Responde desde una lógica anecdótica y no estructural. Razonamiento impreciso.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! El cero no solo representa 'nada', sino que estructura todo el sistema decimal que usamos hoy.",
+            "feedbackIncorrecto": "Reflexiona: ¿cómo podrías escribir el número 101 sin usar el cero? ¿Qué problema tendrías sin él?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q9",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "¿Por qué puede ser útil descomponer un número como 203 057 en sumas como 200 000 + 3 000 + 50 + 7?",
+            "opciones": [
+                {
+                    "texto": "Porque al descomponerlo entendemos mejor su estructura interna y podemos operar con más claridad.",
+                    "esCorrecta": true,
+                    "justificacion": "Conecta descomposición con claridad conceptual. Es una práctica cognitiva ideal para la mente reflexiva.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque así se puede escribir más rápido en algunos casos.",
+                    "esCorrecta": false,
+                    "justificacion": "Razón funcional que no aprovecha el valor pedagógico de la descomposición.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque separar los números evita confusiones visuales con ceros.",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque útil, no profundiza en el beneficio cognitivo o estructural.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque es obligatorio para poder sumar en columna.",
+                    "esCorrecta": false,
+                    "justificacion": "Razonamiento normativo. No responde al sentido profundo del proceso.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! La descomposición permite ver cómo se construye un número y facilita la comprensión y el cálculo.",
+            "feedbackIncorrecto": "Reflexiona: ¿qué entiendes del número cuando lo ves como suma de partes en lugar de una sola cifra?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-REFLEXIVO-Q10",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Dos personas discuten: una dice que el número 100 000 es pequeño porque tiene pocos dígitos distintos, y la otra que es grande porque representa muchos objetos. ¿Cuál de estas ideas refleja mejor una comprensión profunda del número?",
+            "opciones": [
+                {
+                    "texto": "Que su tamaño no depende de la variedad de cifras, sino de su valor posicional en el sistema decimal.",
+                    "esCorrecta": true,
+                    "justificacion": "Muestra una comprensión estructural del sistema decimal. Muy propia del perfil reflexivo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Que los números grandes deben tener muchos tipos de cifras.",
+                    "esCorrecta": false,
+                    "justificacion": "Asocia tamaño a complejidad visual, no a valor real. Error superficial.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Que depende del contexto: 100 000 puede ser mucho o poco según lo que midas.",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque contextualiza, no aborda la lógica interna del valor posicional.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "Que es pequeño comparado con un millón, pero grande comparado con mil.",
+                    "esCorrecta": false,
+                    "justificacion": "Comparación válida pero relativa, sin analizar la estructura que le da el valor.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5,
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! El valor de un número depende de su posición en el sistema decimal, no de cuántas cifras distintas tenga.",
+            "feedbackIncorrecto": "Reflexiona: ¿cómo sabe el sistema decimal que 100 000 vale más que 9 999 aunque tenga menos variedad de cifras?"
+        }
+    ]
+}

@@ -1,0 +1,441 @@
+{
+  "unidadId": "U1C4-NUM-1ESO-EXP-TEST",
+  "titulo": "La multiplicación y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 4,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q1",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🧭 Observa esta serie: 12 × 10 = 120, 12 × 100 = 1 200, 12 × 1 000 = 12 000. ¿Qué crees que pasa con los ceros?",
+      "opciones": [
+        {
+          "texto": "Se añade un cero por cada cero del número con que multiplicas.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Has descubierto el patrón: multiplicar por 10, 100, 1 000 añade ceros al final.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "Se duplican los ceros del número original.",
+          "esCorrecta": false,
+          "justificacion": "No se duplican ceros. La multiplicación solo añade ceros según el multiplicador.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Los ceros se cambian por unos.",
+          "esCorrecta": false,
+          "justificacion": "No hay cambio de ceros por unos. Revisa el patrón real.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        },
+        {
+          "texto": "Depende del número, no hay una regla clara.",
+          "esCorrecta": false,
+          "justificacion": "Sí hay un patrón claro en este caso. La respuesta correcta lo revela.",
+          "pathWeight": {
+            "REFLEXIVO": 0.4
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 ¡Muy bien! Has descubierto cómo funciona la multiplicación con potencias de 10.",
+      "feedbackIncorrecto": "🔍 Observa qué pasa con los ceros al multiplicar por 10, 100 y 1 000."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q2",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🔍 ¿Qué número falta para que esta multiplicación tenga sentido?:\n\n___ × 100 = 3 500",
+      "opciones": [
+        {
+          "texto": "35",
+          "esCorrecta": false,
+          "justificacion": "35 × 100 = 3 500 solo si se añade otro 0. No es exacto.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        },
+        {
+          "texto": "350",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 350 × 100 = 35 000, pero la pregunta es 3 500. Cuidado.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "3 500",
+          "esCorrecta": false,
+          "justificacion": "Multiplicar 3 500 × 100 daría 350 000. Es demasiado.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "35 000",
+          "esCorrecta": false,
+          "justificacion": "Este número es el resultado de 350 × 100. No es el que buscamos.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 ¡Bien hecho! Descubriste el número que al multiplicarlo por 100 da 3 500.",
+      "feedbackIncorrecto": "💡 Pista: quita dos ceros al resultado para ver con qué multiplicaste."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q3",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🧭 ¿Cuál de estas expresiones da el mismo resultado que 15 × (6 − 2)?",
+      "opciones": [
+        {
+          "texto": "15 × 4",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 6 − 2 = 4, por tanto 15 × 4 = 60.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "15 × 6 − 2",
+          "esCorrecta": false,
+          "justificacion": "Aquí primero se multiplica 15 × 6 = 90 y luego se resta 2: da 88, que no es igual.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.4
+          }
+        },
+        {
+          "texto": "15 − 6 × 2",
+          "esCorrecta": false,
+          "justificacion": "El orden de operaciones da 15 − 12 = 3, que no es el resultado correcto.",
+          "pathWeight": {
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "15 × 2 − 6",
+          "esCorrecta": false,
+          "justificacion": "Esta da 30 − 6 = 24. No equivale a la original.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 Muy bien. Descubriste la equivalencia al resolver primero la resta dentro del paréntesis.",
+      "feedbackIncorrecto": "💡 Recuerda: resuelve lo que está entre paréntesis antes de multiplicar."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q4",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🧃 Una caja de refrescos contiene 24 botellas. Si ves 10 cajas apiladas en el supermercado, ¿qué operación te permite saber cuántas botellas hay?",
+      "opciones": [
+        {
+          "texto": "24 × 10",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Cada caja tiene 24 botellas, por lo tanto 10 cajas son 24 × 10 = 240.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "CONSTRUCTOR": 0.3
+          }
+        },
+        {
+          "texto": "24 + 10",
+          "esCorrecta": false,
+          "justificacion": "Sumar solo da 34. No refleja repetición ni cantidad total.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "10 ÷ 24",
+          "esCorrecta": false,
+          "justificacion": "Esto da fracción, no tiene sentido aquí.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "240 − 10",
+          "esCorrecta": false,
+          "justificacion": "Este es el resultado final menos 10. No es una operación de inicio.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ ¡Muy bien! Detectaste el patrón de multiplicar unidades por grupos.",
+      "feedbackIncorrecto": "💡 Multiplica el contenido de una caja por la cantidad total de cajas."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q5",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🐄 En una granja hay 38 vacas y 15 caballos. Si cada animal tiene 4 patas, ¿cuántas patas hay en total?",
+      "opciones": [
+        {
+          "texto": "212",
+          "esCorrecta": false,
+          "justificacion": "Probablemente contaste solo las vacas o un solo tipo de animal.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "212 + 60",
+          "esCorrecta": false,
+          "justificacion": "Este es un paso intermedio. No es el total.",
+          "pathWeight": {
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "212 + 60 = 272",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 38 × 4 = 152 patas de vacas, 15 × 4 = 60 patas de caballos. Total: 152 + 60 = 212.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "CONSTRUCTOR": 0.4
+          }
+        },
+        {
+          "texto": "38 + 15 × 4",
+          "esCorrecta": false,
+          "justificacion": "Aplica mal el orden de operaciones. 15 × 4 se resuelve primero.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🐾 ¡Exacto! Has combinado correctamente dos multiplicaciones y sumado los resultados.",
+      "feedbackIncorrecto": "💡 Multiplica el número de vacas y caballos por 4, luego suma ambos resultados."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q6",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🧠 Un número multiplicado por 8 da 1 600. ¿Cuál es ese número oculto?",
+      "opciones": [
+        {
+          "texto": "200",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 200 × 8 = 1 600. Has deducido el número inicial a partir del resultado.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "80",
+          "esCorrecta": false,
+          "justificacion": "80 × 8 = 640, es muy poco. Necesitas un número más alto.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "1 800",
+          "esCorrecta": false,
+          "justificacion": "Es mucho mayor que el resultado. Revisa tu lógica inversa.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "2 000",
+          "esCorrecta": false,
+          "justificacion": "2 000 × 8 sería 16 000, no 1 600. Hay un error de escala.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🎯 Muy bien. Has usado la multiplicación inversa para encontrar el número oculto.",
+      "feedbackIncorrecto": "💡 Intenta dividir el resultado entre 8 para hallar el número original."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q7",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🔎 ¿Cuál de estas expresiones representa mejor la multiplicación 23 × 5 usando descomposición?",
+      "opciones": [
+        {
+          "texto": "(20 × 5) + (3 × 5)",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 23 se descompone en 20 y 3. Se multiplica cada parte por 5 y luego se suma.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "(25 × 5) − (2 × 5)",
+          "esCorrecta": false,
+          "justificacion": "Aproximación válida pero no representa descomposición directa de 23.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.4
+          }
+        },
+        {
+          "texto": "23 + 23 + 23 + 23 + 23",
+          "esCorrecta": false,
+          "justificacion": "Es una forma válida pero no se basa en descomposición posicional.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.4
+          }
+        },
+        {
+          "texto": "(20 + 5) × 3",
+          "esCorrecta": false,
+          "justificacion": "Confusión entre los factores. No representa 23 × 5.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 ¡Muy bien! Has descompuesto correctamente el número para multiplicar por partes.",
+      "feedbackIncorrecto": "💡 Intenta dividir 23 en decenas y unidades. Luego multiplica cada parte por 5."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q8",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🔭 Si 7 × 6 = 42, ¿cuánto será 70 × 6?",
+      "opciones": [
+        {
+          "texto": "420",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Has escalado 7 × 6 a 70 × 6, que es 10 veces más: 420.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "84",
+          "esCorrecta": false,
+          "justificacion": "Confundiste el doble de 42 con 10 veces más. Observa la escala.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "76",
+          "esCorrecta": false,
+          "justificacion": "Parece una suma rápida sin verificar la lógica de multiplicación.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "472",
+          "esCorrecta": false,
+          "justificacion": "Resultado aleatorio sin conexión directa con 7 × 6.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🔭 ¡Muy bien! Escalaste correctamente el resultado de una multiplicación simple.",
+      "feedbackIncorrecto": "💡 Pista: 70 × 6 es 10 veces más que 7 × 6."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q9",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🧩 Si sabes que 13 × 4 = 52, ¿cuánto será 13 × 8?",
+      "opciones": [
+        {
+          "texto": "104",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 13 × 8 es el doble de 13 × 4, porque 8 es el doble de 4.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "65",
+          "esCorrecta": false,
+          "justificacion": "Este valor no guarda relación clara con 13 × 4.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        },
+        {
+          "texto": "56",
+          "esCorrecta": false,
+          "justificacion": "Confundiste 13 × 4 con 14 × 4 o una suma aproximada.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "98",
+          "esCorrecta": false,
+          "justificacion": "Estás cerca, pero no aplicaste el patrón de duplicación exacto.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧩 ¡Exacto! Si duplicas uno de los factores, también se duplica el resultado.",
+      "feedbackIncorrecto": "💡 Observa que 8 es el doble de 4. Usa eso para razonar."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-EXPLORADOR-Q10",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "🧠 Si 9 × 11 = 99, ¿cuánto será 9 × 22?",
+      "opciones": [
+        {
+          "texto": "198",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 22 es el doble de 11, por lo tanto el resultado también se duplica.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "108",
+          "esCorrecta": false,
+          "justificacion": "Error común al confundir el producto con un múltiplo de 12.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "99",
+          "esCorrecta": false,
+          "justificacion": "Este es el valor original. No se actualizó al duplicar el segundo factor.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        },
+        {
+          "texto": "188",
+          "esCorrecta": false,
+          "justificacion": "Muy cerca, pero indica una mala estimación. No se aplicó bien la regla de duplicación.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 ¡Muy bien! Doblar uno de los factores dobla también el producto.",
+      "feedbackIncorrecto": "💡 Observa que 22 es el doble de 11. Usa eso para estimar el nuevo resultado."
+    }
+  ]
+}

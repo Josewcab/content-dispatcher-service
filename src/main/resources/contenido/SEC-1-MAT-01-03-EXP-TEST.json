@@ -1,0 +1,441 @@
+{
+  "unidadId": "U1C3-NUM-1ESO-EXP-TEST",
+  "titulo": "Suma, resta y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 3,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q1",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Observa estas dos operaciones:\n\n13 - (9 + 3) y 13 - 9 + 3\n\n¿Tienen el mismo resultado? ¿Por qué crees que sucede eso?",
+      "opciones": [
+        {
+          "texto": "No, porque el paréntesis cambia el orden de operaciones.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. El paréntesis hace que se resuelva primero la suma, lo que cambia el resultado final.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "Sí, porque todos los números son los mismos.",
+          "esCorrecta": false,
+          "justificacion": "Error común: tener los mismos números no garantiza el mismo resultado si cambia el orden.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Sí, porque la resta y la suma no importan en qué orden estén.",
+          "esCorrecta": false,
+          "justificacion": "Confusión con la propiedad conmutativa, que no se aplica a la resta.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "No, porque las operaciones están desordenadas.",
+          "esCorrecta": false,
+          "justificacion": "Respuesta ambigua sin evidencia clara. No ayuda a identificar el error real.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 Bien observado. El paréntesis altera el orden de cálculo, y eso cambia el resultado.",
+      "feedbackIncorrecto": "🔍 Fíjate en qué se resuelve primero. No es lo mismo restar primero que sumar primero."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q2",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Fíjate en esta comparación:\n\n15 - (8 + 4)  y 15 - 8 + 4\n\n¿Cambiar el agrupamiento cambia el resultado? ¿Qué observas?",
+      "opciones": [
+        {
+          "texto": "Sí, porque en una se resta primero y en otra se suma.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. El uso de paréntesis altera qué se resuelve primero, y eso cambia el resultado.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "No, porque el resultado siempre es el mismo si usas los mismos números.",
+          "esCorrecta": false,
+          "justificacion": "Confusión común: mismo orden no significa mismo resultado si cambia el agrupamiento.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "No, porque no hay multiplicaciones.",
+          "esCorrecta": false,
+          "justificacion": "La propiedad asociativa no depende de si hay multiplicación. Aquí la suma y resta se comportan diferente.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Sí, porque la suma no se puede hacer dentro de una resta.",
+          "esCorrecta": false,
+          "justificacion": "Idea incorrecta: sí se puede hacer una suma dentro de una resta, pero cambia el orden del cálculo.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🔍 Buen ojo. Cambiar el orden con paréntesis cambia el resultado en resta.",
+      "feedbackIncorrecto": "📌 Revisa el orden en que se hace cada operación. El agrupamiento importa mucho en la resta."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q3",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Compara estas expresiones:\n\n13 + 3 - 9  y  (13 + 3) - 9\n\n¿Son equivalentes? ¿Por qué?",
+      "opciones": [
+        {
+          "texto": "Sí, porque la suma se puede hacer antes sin cambiar el resultado.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. El paréntesis en este caso no altera el resultado porque la operación sigue el orden natural: suma antes de la resta.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.5
+          }
+        },
+        {
+          "texto": "No, porque el paréntesis cambia totalmente el resultado.",
+          "esCorrecta": false,
+          "justificacion": "Aquí el paréntesis solo reafirma un orden que ya se sigue naturalmente.",
+          "pathWeight": {
+            "MINIMALISTA": 0.5
+          }
+        },
+        {
+          "texto": "Sí, porque todas las operaciones con números pequeños dan igual.",
+          "esCorrecta": false,
+          "justificacion": "Razonamiento erróneo: el tamaño de los números no garantiza igualdad.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "No, porque la resta debe ir primero.",
+          "esCorrecta": false,
+          "justificacion": "Confusión de prioridades: la suma se resuelve primero según las reglas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🔎 Correcto. El orden de operaciones ya resuelve la suma primero, igual que con el paréntesis.",
+      "feedbackIncorrecto": "📌 Aquí el paréntesis no cambia el resultado porque ya se suma antes de restar según las reglas."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q4",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Imagínate que alguien dice: 'Como en 13 - 9 + 3 todos los números son iguales que en 13 - (9 + 3), entonces el resultado también debe ser igual'.\n\n¿Estás de acuerdo? ¿Por qué?",
+      "opciones": [
+        {
+          "texto": "No, porque el orden de operaciones cambia el resultado aunque los números sean los mismos.",
+          "esCorrecta": true,
+          "justificacion": "Exactamente. En matemáticas, no solo importa qué números usas, sino cómo los usas y en qué orden.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.5
+          }
+        },
+        {
+          "texto": "Sí, porque si los números son iguales, el resultado debe ser igual también.",
+          "esCorrecta": false,
+          "justificacion": "Error típico: ignora el efecto del paréntesis en la operación.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "No, porque los signos son diferentes en cada operación.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto: los signos no cambian, cambia el agrupamiento.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Sí, porque el orden de los factores no altera el producto.",
+          "esCorrecta": false,
+          "justificacion": "Confunde propiedades de multiplicación con suma/resta.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧭 Bien pensado. El orden y los paréntesis cambian el significado de la operación.",
+      "feedbackIncorrecto": "📌 Revisa cómo se agrupan las operaciones. Mismo número no implica mismo resultado."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q5",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Si sabes que 13 - (9 + 3) da 1 y que 13 - 9 + 3 da 7,\n¿qué puedes concluir sobre el uso de paréntesis?",
+      "opciones": [
+        {
+          "texto": "Que los paréntesis pueden cambiar mucho el resultado.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Aunque uses los mismos números, agruparlos de forma distinta cambia el resultado.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "Que da lo mismo usar o no usar paréntesis.",
+          "esCorrecta": false,
+          "justificacion": "Los resultados muestran una diferencia clara. Este razonamiento ignora esa evidencia.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Que los paréntesis solo sirven en multiplicación.",
+          "esCorrecta": false,
+          "justificacion": "No es cierto. Los paréntesis afectan el orden de cualquier operación.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "Que los números más grandes siempre ganan.",
+          "esCorrecta": false,
+          "justificacion": "Este razonamiento no se basa en reglas matemáticas reales.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 Muy bien. El orden y los agrupamientos afectan totalmente el resultado.",
+      "feedbackIncorrecto": "📌 Observa los dos resultados: 1 y 7. Los paréntesis cambian el recorrido del cálculo."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q6",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Explora este cambio:\n\n13 - (9 + 3)  →  ¿Qué pasa si cambio la suma del paréntesis por una resta? ¿Cómo afecta el resultado?",
+      "opciones": [
+        {
+          "texto": "El resultado aumenta porque estoy restando menos dentro del paréntesis.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Si restas en lugar de sumar dentro del paréntesis, el número que se resta al principio es más pequeño.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.5
+          }
+        },
+        {
+          "texto": "No cambia nada, solo hay un signo distinto.",
+          "esCorrecta": false,
+          "justificacion": "Error común: los signos afectan directamente el valor de lo que se calcula dentro del paréntesis.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "El resultado baja porque hay más operaciones.",
+          "esCorrecta": false,
+          "justificacion": "Cantidad de operaciones no determina si sube o baja. Importa qué se hace.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Es imposible saberlo sin una calculadora.",
+          "esCorrecta": false,
+          "justificacion": "No hace falta una calculadora, puedes pensar en el efecto del signo.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🔍 Muy bien. Cambiar una suma por una resta dentro de un paréntesis puede afectar bastante el resultado.",
+      "feedbackIncorrecto": "📌 Cambiar el signo dentro del paréntesis cambia qué cantidad se está restando al número original."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q7",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Explora estas sumas:\n\n45 + 27  y  27 + 45\n\n¿Tienen el mismo resultado? ¿Por qué crees que sucede eso?",
+      "opciones": [
+        {
+          "texto": "Sí, porque en la suma puedes cambiar el orden sin que cambie el resultado.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Es un ejemplo claro de la propiedad conmutativa de la suma.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "No, porque en la segunda operación el número grande está después.",
+          "esCorrecta": false,
+          "justificacion": "Confusión visual: el orden no importa en la suma.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Sí, porque es lo que dice la calculadora.",
+          "esCorrecta": false,
+          "justificacion": "Razonamiento superficial. Necesitamos entender el principio detrás.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "No, porque los signos cambian cuando inviertes los números.",
+          "esCorrecta": false,
+          "justificacion": "Falso. En una suma los signos no cambian.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧭 Bien hecho. Has descubierto la propiedad conmutativa: el orden no altera la suma.",
+      "feedbackIncorrecto": "📌 En la suma, puedes cambiar el orden de los números sin que afecte el resultado."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q8",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Observa estas dos operaciones:\n\n(6 + 7) + 3  y  6 + (7 + 3)\n\n¿Son iguales? ¿Qué idea puedes descubrir aquí?",
+      "opciones": [
+        {
+          "texto": "Sí, porque en la suma da lo mismo cómo agrupes los números.",
+          "esCorrecta": true,
+          "justificacion": "¡Correcto! Estás viendo la propiedad asociativa: en la suma, puedes agrupar los términos sin cambiar el resultado.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "No, porque el paréntesis cambia el orden del cálculo.",
+          "esCorrecta": false,
+          "justificacion": "Error común: en la suma el orden de agrupación no cambia el resultado.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "No, porque se suman cosas diferentes.",
+          "esCorrecta": false,
+          "justificacion": "No es cierto. Los valores sumados son los mismos, solo agrupados de otro modo.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Sí, pero solo porque los números son pequeños.",
+          "esCorrecta": false,
+          "justificacion": "El tamaño no afecta la propiedad matemática.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧭 Genial. Acabas de descubrir la propiedad asociativa: da igual cómo agrupes en la suma.",
+      "feedbackIncorrecto": "📌 En la suma, cambiar los paréntesis no cambia el resultado si los números son los mismos."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q9",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Tienes tres números: 28, 12 y 60.\n\n¿Puedes sumarlos en el orden que quieras? ¿Qué descubres si haces primero 28 + 12 y luego le sumas 60?",
+      "opciones": [
+        {
+          "texto": "Sí, el resultado no cambia aunque sume en otro orden.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Estás usando la propiedad asociativa: puedes reagrupar la suma sin afectar el resultado.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "No, el orden sí importa si el número más grande va al final.",
+          "esCorrecta": false,
+          "justificacion": "Error común: el tamaño de los números no afecta la validez de la propiedad.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Solo funciona si los números son pares.",
+          "esCorrecta": false,
+          "justificacion": "No tiene relación con la propiedad. No depende del tipo de número.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Depende de si lo haces mentalmente o en papel.",
+          "esCorrecta": false,
+          "justificacion": "La propiedad matemática es independiente de la forma de cálculo.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 Muy bien. Has usado la propiedad asociativa para reagrupar sin cambiar el resultado.",
+      "feedbackIncorrecto": "📌 Recuerda: en una suma, puedes reagrupar los términos como quieras."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-EXPLORADOR-Q10",
+      "targetPath": "EXPLORADOR",
+      "enunciado": "Suma 20 + 30 + 50 de dos maneras distintas:\nPrimero haz (20 + 30) + 50, y luego 20 + (30 + 50).\n\n¿Notas alguna diferencia? ¿Qué puedes decir?",
+      "opciones": [
+        {
+          "texto": "No hay diferencia: las dos formas dan el mismo resultado.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Es la propiedad asociativa: puedes reagrupar sumas sin afectar el total.",
+          "pathWeight": {
+            "EXPLORADOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "Sí, porque cambia el número que aparece en medio.",
+          "esCorrecta": false,
+          "justificacion": "Confusión visual: el número del medio no afecta el total si se agrupa de otra forma.",
+          "pathWeight": {
+            "MINIMALISTA": 0.5
+          }
+        },
+        {
+          "texto": "Solo dan el mismo resultado si los números terminan en cero.",
+          "esCorrecta": false,
+          "justificacion": "Falso. La propiedad asociativa funciona con cualquier número.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.4
+          }
+        },
+        {
+          "texto": "Sí, porque el orden cambia lo que sumas primero y eso afecta todo.",
+          "esCorrecta": false,
+          "justificacion": "Mal razonamiento: agrupar en suma no cambia el resultado.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧭 Exacto. Has aplicado bien la propiedad asociativa.",
+      "feedbackIncorrecto": "📌 Aunque cambies la agrupación, el resultado en una suma sigue siendo el mismo."
+    }
+  ]
+}

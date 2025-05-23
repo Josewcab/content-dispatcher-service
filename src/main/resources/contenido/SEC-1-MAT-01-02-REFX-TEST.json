@@ -1,0 +1,443 @@
+{
+    "unidadId": "U1C2-NUM-1ESO-REFX-TEST",
+    "titulo": "Aproximación de números naturales",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 2,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q1",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Si 294 000 se redondea a 300 000 al aproximarlo a la centena de millar, ¿por qué 294 no se redondea a 300 cuando lo aproximamos a la centena?",
+            "opciones": [
+                {
+                    "texto": "Porque en un caso es redondeo a cientos de mil, y en otro a centenas simples. El orden cambia el umbral.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. El redondeo depende del lugar que estás evaluando, no del número total.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "EXPLORADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque 294 es más pequeño que 294 000.",
+                    "esCorrecta": false,
+                    "justificacion": "La magnitud no cambia la lógica del redondeo, solo el orden al que se aplica.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque el redondeo solo funciona igual si hay ceros en el número.",
+                    "esCorrecta": false,
+                    "justificacion": "No es verdad. El redondeo depende de la posición a la que se redondea, no de los ceros.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque 294 ya está redondeado.",
+                    "esCorrecta": false,
+                    "justificacion": "Incorrecto. El redondeo es una operación que se puede aplicar incluso a cifras 'exactas'.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🌀 Muy bien. El redondeo depende de la posición (orden) del número que estás evaluando.",
+            "feedbackIncorrecto": "Piensa: ¿qué cambia entre redondear a centenas simples y a centenas de mil?"
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q2",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Martina y Luis redondearon el número 3 249, pero obtuvieron resultados distintos.\nMartina redondeó a la centena y dijo 3 200. Luis redondeó a la unidad de millar y dijo 3 000.\n¿Qué nos enseña este caso sobre el redondeo?",
+            "opciones": [
+                {
+                    "texto": "Que el resultado cambia según el orden al que se redondea.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. El redondeo depende del lugar que elijas: unidades, decenas, centenas, millares...",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Que Luis se equivocó al redondear.",
+                    "esCorrecta": false,
+                    "justificacion": "No necesariamente. Él redondeó a un orden distinto, no cometió un error.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Que 3 200 y 3 000 son lo mismo.",
+                    "esCorrecta": false,
+                    "justificacion": "No lo son. Redondear cambia la precisión según el contexto.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Que no tiene sentido redondear dos veces el mismo número.",
+                    "esCorrecta": false,
+                    "justificacion": "Sí tiene sentido si se hace con diferentes propósitos o niveles de aproximación.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧠 ¡Exacto! El redondeo cambia dependiendo del orden que estás observando.",
+            "feedbackIncorrecto": "Piensa en qué parte del número se usa para redondear en cada caso."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q3",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Cuando redondeamos el número 7 894 a la centena, obtenemos 7 900. ¿Qué tipo de información estamos perdiendo al hacer esto?",
+            "opciones": [
+                {
+                    "texto": "Los detalles precisos de las decenas y unidades.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Al redondear, se pierde la precisión exacta de los dígitos menos significativos.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "El orden general del número.",
+                    "esCorrecta": false,
+                    "justificacion": "No se pierde el orden general. Sabemos que sigue siendo un número cercano a 8 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "El número original completo.",
+                    "esCorrecta": false,
+                    "justificacion": "No del todo. El número original se aproxima, pero no se borra por completo.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "La posibilidad de usarlo en operaciones.",
+                    "esCorrecta": false,
+                    "justificacion": "Redondear no impide operar con el número, solo cambia su precisión.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🔍 Correcto. El redondeo sacrifica detalle para ganar simplicidad.",
+            "feedbackIncorrecto": "Piensa qué parte del número deja de tenerse en cuenta cuando redondeas."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q4",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Un médico tiene que informar a un paciente que ha caminado 9 476 pasos en un día. ¿Qué redondeo sería más adecuado para motivar al paciente sin distorsionar demasiado el dato?",
+            "opciones": [
+                {
+                    "texto": "9 500 pasos",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Es un redondeo al medio centenar más cercano, que conserva precisión y resulta alentador.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "9 000 pasos",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado bajo. Puede desmotivar al paciente y no representa bien el esfuerzo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "10 000 pasos",
+                    "esCorrecta": false,
+                    "justificacion": "Exagera el logro. Aunque motivador, puede ser engañoso.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "9 476 pasos exactos",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado específico para comunicación verbal. Puede distraer o no ser significativo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🌀 ¡Exacto! A veces redondear también es comunicar con empatía y precisión.",
+            "feedbackIncorrecto": "Reflexiona: ¿qué cifra transmite bien el logro sin mentir ni parecer impersonal?"
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q5",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Un hospital tiene 1 973 mascarillas. El director comunica a su equipo que tienen 'alrededor de 2 000'. ¿Qué podría generar este redondeo?",
+            "opciones": [
+                {
+                    "texto": "Una percepción precisa, pero no exacta, que permite actuar sin alarma.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear da una imagen global útil en contexto, aunque no sea exacta.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Una falsa confianza que puede hacer que usen más mascarillas de las que tienen.",
+                    "esCorrecta": false,
+                    "justificacion": "Puede pasar, pero en este caso el redondeo fue bastante cercano y prudente.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Nada, porque 1 973 y 2 000 son casi lo mismo.",
+                    "esCorrecta": false,
+                    "justificacion": "Eso depende del contexto. En salud, cada unidad puede importar.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Que se pierda el control total del stock.",
+                    "esCorrecta": false,
+                    "justificacion": "Un redondeo no significa que se deje de contar. Se usa para comunicar, no para registrar.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧠 ¡Muy bien! El redondeo no siempre busca exactitud, sino comprensión operativa.",
+            "feedbackIncorrecto": "Piensa en qué tipo de comunicación se hace con el redondeo, y para qué sirve."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q6",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Una empresa presenta sus ganancias como 'más de 1 millón de euros', cuando en realidad ganó 1 023 200 €. ¿Qué puede provocar este tipo de redondeo?",
+            "opciones": [
+                {
+                    "texto": "Puede influir en la percepción pública y generar confianza, aunque la diferencia sea pequeña.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. La forma de redondear puede cambiar cómo se interpreta una cifra, especialmente en comunicación empresarial.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "No cambia nada porque sigue siendo más de 1 millón.",
+                    "esCorrecta": false,
+                    "justificacion": "Minimiza el impacto del lenguaje y su influencia, lo cual no es cierto en contextos económicos.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Demuestra que las cifras exactas no son necesarias.",
+                    "esCorrecta": false,
+                    "justificacion": "Las cifras exactas sí importan dependiendo del propósito. El redondeo es una elección, no una omisión.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Es engañoso, porque no se ganó más de 1 millón.",
+                    "esCorrecta": false,
+                    "justificacion": "En realidad sí se ganó más de 1 millón, pero se está usando un lenguaje que da una impresión mayor.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "💬 Muy bien. Redondear también implica decisiones sobre cómo influimos en la forma en que otros interpretan los datos.",
+            "feedbackIncorrecto": "Reflexiona: ¿cómo cambia nuestra impresión sobre una empresa cuando se dice 'más de un millón'?"
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q7",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "¿En cuál de estas situaciones no convendría redondear los números?",
+            "opciones": [
+                {
+                    "texto": "Al calcular la cantidad exacta de medicamento que debe recibir un paciente.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. En contextos médicos, la precisión puede ser vital y redondear puede ser peligroso.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Al estimar la cantidad de comida para una fiesta con muchas personas.",
+                    "esCorrecta": false,
+                    "justificacion": "Allí el redondeo puede ser útil para simplificar cálculos y sobredimensionar un poco.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Al anunciar el número de visitantes a un parque en un cartel público.",
+                    "esCorrecta": false,
+                    "justificacion": "Aquí el redondeo es común para facilitar la comunicación visual.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Al calcular el número de pelotas para una clase de educación física.",
+                    "esCorrecta": false,
+                    "justificacion": "Es un contexto donde el redondeo puede facilitar la preparación con un margen.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧠 Muy bien. En situaciones delicadas como la medicina, el redondeo puede ser inadecuado.",
+            "feedbackIncorrecto": "Recuerda que redondear es útil, pero no siempre es seguro ni apropiado."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q8",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Si un número como 849 está justo por debajo de 850, ¿es más justo redondearlo hacia arriba o hacia abajo cuando se quiere evitar errores por exceso?",
+            "opciones": [
+                {
+                    "texto": "Hacia abajo, porque así se evita sobreestimar el resultado.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. En casos donde un exceso puede ser problemático, redondear hacia abajo es más prudente.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "Hacia arriba, porque está cerca de 850 y se ve mejor.",
+                    "esCorrecta": false,
+                    "justificacion": "Ese enfoque es estético o emocional, pero no necesariamente justo en ciertos contextos.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Depende si se trata de ganar o perder dinero.",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque tiene sentido en economía, esta pregunta busca una lógica más general sobre redondeo prudente.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.4,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "No importa, ambos redondeos son válidos si se justifica.",
+                    "esCorrecta": false,
+                    "justificacion": "En contextos sensibles, la dirección del redondeo puede tener consecuencias importantes.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🌀 Correcto. A veces redondear hacia abajo es más responsable, especialmente si el exceso puede afectar el resultado.",
+            "feedbackIncorrecto": "Reflexiona sobre las consecuencias prácticas y éticas de redondear hacia un lado u otro."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q9",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "¿Por qué redondear un número a la unidad de millar podría ser más útil que redondearlo a la unidad exacta en un informe poblacional?",
+            "opciones": [
+                {
+                    "texto": "Porque ayuda a comunicar mejor los datos sin saturar con detalles que no cambian la idea general.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. El redondeo busca representar magnitudes, no detalles innecesarios en ciertos contextos.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque los números redondeados son más atractivos visualmente.",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque pueden ser más estéticos, lo importante en informes es la claridad conceptual.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque los números exactos solo sirven en exámenes.",
+                    "esCorrecta": false,
+                    "justificacion": "Incorrecto. La exactitud tiene valor en múltiples contextos, no solo en evaluación.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque el redondeo siempre es más confiable.",
+                    "esCorrecta": false,
+                    "justificacion": "No siempre. La confiabilidad depende del propósito de la comunicación.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧩 Muy bien. El redondeo puede ayudar a comunicar la esencia de una magnitud sin saturar con cifras irrelevantes.",
+            "feedbackIncorrecto": "Piensa: ¿cuál es el propósito de usar redondeo en informes públicos o grandes escalas?"
+        },
+        {
+            "preguntaId": "1ESO-redondeo-REFLEXIVO-Q10",
+            "targetPath": "REFLEXIVO",
+            "enunciado": "Si dos personas redondean el mismo número a distintos niveles (una a la decena y otra a la centena), ¿quién se equivoca?",
+            "opciones": [
+                {
+                    "texto": "Nadie se equivoca, porque cada uno tiene un propósito distinto.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. El redondeo depende del contexto y del objetivo de quien lo hace.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.9,
+                        "EXPLORADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "El que redondeó a la centena, porque pierde más precisión.",
+                    "esCorrecta": false,
+                    "justificacion": "Perder precisión no siempre es un error si el objetivo lo justifica.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "El que redondeó a la decena, porque eso no es redondear suficiente.",
+                    "esCorrecta": false,
+                    "justificacion": "No existe una única forma de redondear bien. Depende del uso que se le dé al dato.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Ambos se equivocan si no lo hacen igual.",
+                    "esCorrecta": false,
+                    "justificacion": "No necesariamente. La diversidad de redondeo puede reflejar distintos contextos válidos.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🌀 Excelente. Redondear no es una cuestión de error o acierto, sino de intención y contexto.",
+            "feedbackIncorrecto": "Reflexiona: ¿qué criterio usas tú para decidir cuánto redondear?"
+        }
+    ]
+}

@@ -1,0 +1,433 @@
+{
+  "unidadId": "U1C4-NUM-1ESO-REFX-TEST",
+  "titulo": "La división",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 5,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q1",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "🔎 Un bibliotecario reparte 108 libros en 9 estanterías. Más allá del cálculo, ¿qué representa este reparto en términos de organización del conocimiento?",
+  "opciones": [
+    {
+      "texto": "Que cada estantería tiene 12 libros para facilitar el acceso ordenado.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 108 ÷ 9 = 12 libros por estantería. Pero la clave está en reflexionar sobre cómo un reparto equitativo ayuda a estructurar la información de forma lógica.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Que cada libro se clasifica por autor para que sea más fácil leerlo.",
+      "esCorrecta": false,
+      "justificacion": "Aunque plausible, no responde a la lógica del reparto numérico ni al sentido de organización estructural.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que cada estantería tiene más libros para que luzca completa.",
+      "esCorrecta": false,
+      "justificacion": "Es una respuesta estética, no funcional ni reflexiva.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que el número total de libros no importa mientras estén todos guardados.",
+      "esCorrecta": false,
+      "justificacion": "Resta importancia al pensamiento ordenado, propio de perfiles menos analíticos.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📚 Muy bien. Pensaste no solo en el cálculo, sino en el sentido organizativo que hay detrás.",
+  "feedbackIncorrecto": "🧠 Reflexiona sobre lo que significa repartir en partes iguales y cómo eso estructura el entorno."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q2",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "⚖️ Una comunidad decide repartir 180 litros de agua entre 6 casas durante una sequía. ¿Qué valor simbólico o ético puede tener este reparto?",
+  "opciones": [
+    {
+      "texto": "Cada familia recibe 30 litros, lo que refleja equidad y responsabilidad colectiva.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 180 ÷ 6 = 30 litros por casa. El foco no está solo en el cálculo, sino en lo que representa: equidad, justicia distributiva y cuidado común.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Las casas grandes deberían recibir más litros que las pequeñas.",
+      "esCorrecta": false,
+      "justificacion": "Esa visión rompe el principio de equidad solidaria que se plantea en la pregunta.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.4
+      }
+    },
+    {
+      "texto": "Lo importante es que nadie se quede sin agua, aunque no se reparta por igual.",
+      "esCorrecta": false,
+      "justificacion": "Es una respuesta pragmática pero no analiza el valor del reparto igualitario.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    },
+    {
+      "texto": "Cada uno debe usar lo que quiera, sin importar cuántos litros le toquen.",
+      "esCorrecta": false,
+      "justificacion": "Refleja falta de reflexión sobre el contexto de escasez y la necesidad de orden.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "💧 Has comprendido el valor de repartir con justicia y conciencia.",
+  "feedbackIncorrecto": "🤔 Piensa en lo que significa dividir recursos limitados de forma igualitaria en una comunidad."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q3",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "⚖️ Una profesora tiene 150 fichas de repaso y decide repartirlas en 10 carpetas para que los estudiantes accedan a ellas por igual. ¿Qué principio matemático se está aplicando?",
+  "opciones": [
+    {
+      "texto": "El principio de equidad, que busca que todos tengan acceso al mismo contenido.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 150 ÷ 10 = 15 fichas por carpeta. Se aplica un criterio de reparto justo para garantizar igualdad de condiciones de estudio.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "El principio de abundancia: cuantos más fichas se usen, mejor aprenderán.",
+      "esCorrecta": false,
+      "justificacion": "Confunde cantidad con calidad o equidad. No responde al sentido del reparto.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "La proporcionalidad directa, ya que todos aprenden al mismo ritmo.",
+      "esCorrecta": false,
+      "justificacion": "La proporcionalidad no se aplica aquí. Es un reparto igualitario, no proporcional.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "La eficiencia del reparto para evitar que sobre material.",
+      "esCorrecta": false,
+      "justificacion": "Es una observación pragmática pero no toca el valor ético del reparto.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📂 Has identificado correctamente el principio de equidad aplicado en matemáticas.",
+  "feedbackIncorrecto": "🧠 Reflexiona sobre cómo las divisiones iguales representan justicia y acceso equitativo."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q4",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "🧠 Si tienes 96 folletos para informar a 8 barrios distintos y los repartes por igual, ¿qué podrías concluir sobre el valor del conocimiento compartido en una comunidad?",
+  "opciones": [
+    {
+      "texto": "Que repartir 12 folletos por barrio ayuda a crear acceso equitativo a la información.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 96 ÷ 8 = 12 folletos por barrio. Pero el foco está en cómo la división justa favorece la democracia informativa.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Que algunos barrios pueden quedarse sin folletos si no llegan temprano.",
+      "esCorrecta": false,
+      "justificacion": "Esto supone un reparto desigual, lo cual contradice la lógica del planteamiento.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.4
+      }
+    },
+    {
+      "texto": "Que es mejor dar más a los barrios con más habitantes.",
+      "esCorrecta": false,
+      "justificacion": "Introduce proporcionalidad, pero la pregunta propone igualdad informativa.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que lo importante es que no sobren folletos, aunque no se repartan por igual.",
+      "esCorrecta": false,
+      "justificacion": "Un enfoque funcional pero no reflexivo sobre equidad y acceso.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📬 Has entendido que la división justa fortalece el derecho colectivo al conocimiento.",
+  "feedbackIncorrecto": "🧭 Reflexiona sobre cómo repartir información puede fortalecer la equidad en una sociedad."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q5",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "🎓 En un taller educativo, 240 hojas deben repartirse equitativamente entre 12 grupos. ¿Qué reflexión puede extraerse sobre cómo se conecta la división con la igualdad de oportunidades?",
+  "opciones": [
+    {
+      "texto": "Que al recibir 20 hojas cada grupo, todos tienen las mismas herramientas para aprender.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 240 ÷ 12 = 20. Pero lo más importante es cómo este reparto permite igualdad de condiciones para que todos los grupos puedan trabajar con equidad.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Que los grupos pueden repartirse las hojas como quieran sin que importe el número.",
+      "esCorrecta": false,
+      "justificacion": "Desconoce la importancia de establecer una base justa. No responde a un enfoque reflexivo.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    },
+    {
+      "texto": "Que si un grupo no necesita hojas, se le pueden quitar para ahorrar.",
+      "esCorrecta": false,
+      "justificacion": "Es un enfoque utilitario, pero rompe con la lógica de igualdad de condiciones.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que los grupos con más estudiantes deberían recibir más hojas.",
+      "esCorrecta": false,
+      "justificacion": "Introduce un criterio proporcional pero alejado del principio de igualdad inicial de condiciones de partida.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🟰 Excelente reflexión: repartir por igual es ofrecer oportunidades justas a todos.",
+  "feedbackIncorrecto": "📘 Piensa en cómo un reparto equitativo establece una base común para el aprendizaje."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q6",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "🤝 Una ONG distribuye 168 mantas entre 12 refugios durante una ola de frío. ¿Qué puede enseñarnos esta acción más allá del cálculo matemático?",
+  "opciones": [
+    {
+      "texto": "Que cada refugio recibe 14 mantas, lo cual refleja un principio de cuidado y equidad.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 168 ÷ 12 = 14. Pero más allá del número, se trata de una acción que distribuye recursos vitales de forma justa y empática.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Que algunos refugios deberían recibir más mantas por si acaso.",
+      "esCorrecta": false,
+      "justificacion": "No respeta el principio de reparto equitativo ante una emergencia. Es más individualista.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que lo más importante es que se entreguen rápido, aunque no se repartan igual.",
+      "esCorrecta": false,
+      "justificacion": "Es una visión utilitaria que pierde de vista la reflexión ética del reparto.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    },
+    {
+      "texto": "Que no importa cuántas mantas recibe cada refugio, lo importante es la intención.",
+      "esCorrecta": false,
+      "justificacion": "Minimiza el efecto real del reparto justo. Las buenas intenciones no suplen una mala distribución.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🧣 Muy bien. Has visto el valor del reparto como reflejo de una sociedad justa y empática.",
+  "feedbackIncorrecto": "🌍 Piensa en cómo la división justa ayuda a enfrentar colectivamente situaciones difíciles."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q7",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "🏫 Un colegio tiene 216 libros para repartir de forma equitativa entre 12 aulas. ¿Qué idea importante sobre convivencia escolar se puede aprender de este reparto?",
+  "opciones": [
+    {
+      "texto": "Que al repartir 18 libros por aula se construye una base igual para el aprendizaje colectivo.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 216 ÷ 12 = 18 libros por aula. Más allá del cálculo, el reparto equitativo favorece la inclusión y evita desigualdades educativas.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Que lo importante es que al menos una aula tenga libros suficientes.",
+      "esCorrecta": false,
+      "justificacion": "Una visión centrada en lo individual y no en la justicia educativa común.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que los libros pueden ir rotando y no hace falta repartirlos igual.",
+      "esCorrecta": false,
+      "justificacion": "Plantea una solución práctica pero evita abordar el tema de igualdad inicial.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que mientras se usen los libros, no importa cuántos tenga cada clase.",
+      "esCorrecta": false,
+      "justificacion": "Minimiza el impacto real del acceso equitativo al material.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📖 Muy bien. Has comprendido cómo un reparto justo contribuye al aprendizaje colectivo.",
+  "feedbackIncorrecto": "🏫 Piensa en cómo la igualdad en los recursos escolares fortalece la convivencia y el respeto."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q8",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "👥 En una actividad de voluntariado, 180 tareas deben ser repartidas entre 9 grupos. ¿Qué mensaje de colaboración puede derivarse de una división justa?",
+  "opciones": [
+    {
+      "texto": "Cada grupo realiza 20 tareas, lo que representa equilibrio en el esfuerzo compartido.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 180 ÷ 9 = 20 tareas por grupo. Este tipo de división simboliza que la carga compartida crea justicia y sentido de equipo.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Es mejor que los grupos más rápidos hagan más tareas.",
+      "esCorrecta": false,
+      "justificacion": "Rompe el equilibrio y puede generar desigualdad o resentimiento.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.4
+      }
+    },
+    {
+      "texto": "Cada grupo puede repartirse las tareas como le parezca.",
+      "esCorrecta": false,
+      "justificacion": "Elimina el sentido estructurado del reparto inicial justo.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "Lo importante es que las tareas se terminen, sin importar el reparto.",
+      "esCorrecta": false,
+      "justificacion": "Subestima el valor pedagógico del reparto equitativo como experiencia de colaboración.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🤝 Has entendido que una división justa no solo distribuye tareas, también construye comunidad.",
+  "feedbackIncorrecto": "🧠 Piensa en cómo repartir tareas con justicia fortalece la colaboración y el respeto mutuo."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q9",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "🛠️ Un equipo tiene que realizar 252 tareas de mantenimiento en 12 días. Si reparten el trabajo de forma equitativa, ¿qué enseñanza deja esta planificación?",
+  "opciones": [
+    {
+      "texto": "Que hacer 21 tareas por día permite distribuir la carga y respetar los tiempos del grupo.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 252 ÷ 12 = 21. Más allá del cálculo, esta organización promueve equilibrio, respeto por el ritmo grupal y responsabilidad compartida.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Que se puede avanzar más si un solo día se hace todo el trabajo.",
+      "esCorrecta": false,
+      "justificacion": "Propuesta que ignora el valor del equilibrio y puede agotar al equipo. No es sostenible ni equitativa.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que repartir el trabajo no es necesario si se cumplen los objetivos.",
+      "esCorrecta": false,
+      "justificacion": "Desvaloriza la corresponsabilidad y el aprendizaje de la planificación.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    },
+    {
+      "texto": "Que si un día llueve, se puede dejar el doble para el siguiente sin problema.",
+      "esCorrecta": false,
+      "justificacion": "Muestra poca reflexión sobre la sostenibilidad del ritmo de trabajo.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📅 Has comprendido cómo una buena división refleja organización y respeto por el grupo.",
+  "feedbackIncorrecto": "🧠 Reflexiona sobre cómo dividir el trabajo puede mejorar no solo la eficiencia, sino también el bienestar colectivo."
+},
+{
+  "preguntaId": "1ESO-division-REFLEXIVO-Q10",
+  "targetPath": "REFLEXIVO",
+  "enunciado": "🌿 Un grupo ecológico planta 324 árboles en 18 zonas diferentes de una ciudad. ¿Qué reflexión ecológica y social puede derivarse de este reparto equitativo?",
+  "opciones": [
+    {
+      "texto": "Que plantar 18 árboles por zona permite mejorar el entorno de toda la ciudad por igual.",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 324 ÷ 18 = 18. Más allá del cálculo, este reparto refleja un compromiso con la mejora equitativa del ambiente urbano.",
+      "pathWeight": {
+        "REFLEXIVO": 0.9
+      }
+    },
+    {
+      "texto": "Que algunas zonas deberían recibir más árboles por su tamaño.",
+      "esCorrecta": false,
+      "justificacion": "Rompe la lógica del reparto equitativo que busca mejorar todas las zonas por igual.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "Que no es importante cuántos árboles se planten en cada lugar si se cumplen los objetivos globales.",
+      "esCorrecta": false,
+      "justificacion": "Desvaloriza el impacto justo en cada zona, ignorando el principio de equidad urbana.",
+      "pathWeight": {
+        "MINIMALISTA": 0.3
+      }
+    },
+    {
+      "texto": "Que los árboles deben plantarse donde haya más tráfico, no por zonas iguales.",
+      "esCorrecta": false,
+      "justificacion": "Refleja una visión estratégica pero no equitativa ni reflexiva sobre el equilibrio ambiental.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🌍 Muy bien. Has comprendido cómo una acción justa beneficia colectivamente al entorno.",
+  "feedbackIncorrecto": "🌱 Piensa en cómo el equilibrio en el cuidado ambiental refleja valores de justicia para todos los espacios."
+}
+
+
+  ]
+}

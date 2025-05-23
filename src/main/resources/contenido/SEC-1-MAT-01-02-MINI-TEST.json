@@ -1,0 +1,441 @@
+{
+    "unidadId": "U1C2-NUM-1ESO-MINI-TEST",
+    "titulo": "Aproximación de números naturales",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 2,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q1",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 2 386 a la centena más cercana.",
+            "opciones": [
+                {
+                    "texto": "2 400",
+                    "esCorrecta": true,
+                    "justificacion": "Regla simple: el 8 en las decenas es mayor que 5. Sube.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "2 300",
+                    "esCorrecta": false,
+                    "justificacion": "Incorrecto. 86 es mayor que 50, por lo tanto sube.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "2 380",
+                    "esCorrecta": false,
+                    "justificacion": "Error de concepto: eso sería truncar, no redondear.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "2 390",
+                    "esCorrecta": false,
+                    "justificacion": "No existe redondeo a la decena en esta pregunta.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Muy bien. Aplica la regla: decena 5 o más, sube.",
+            "feedbackIncorrecto": "Recuerda: si la decena es 5 o más, redondea hacia arriba."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q2",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 87 a la decena más cercana.",
+            "opciones": [
+                {
+                    "texto": "90",
+                    "esCorrecta": true,
+                    "justificacion": "El 7 en las unidades indica que se redondea hacia arriba.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "80",
+                    "esCorrecta": false,
+                    "justificacion": "87 está más cerca de 90. No se redondea hacia abajo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "85",
+                    "esCorrecta": false,
+                    "justificacion": "85 no es una decena redondeada. No es múltiplo de 10.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "100",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado alto. 87 no se aproxima a 100 en este contexto.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Exacto. Si la unidad es 5 o más, redondea hacia la siguiente decena.",
+            "feedbackIncorrecto": "📌 Regla: si la unidad es 5, 6, 7, 8 o 9, redondea hacia arriba."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q3",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 7 432 a la unidad de millar más cercana.",
+            "opciones": [
+                {
+                    "texto": "7 000",
+                    "esCorrecta": true,
+                    "justificacion": "El 432 está por debajo de 500, por eso redondea hacia abajo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "7 500",
+                    "esCorrecta": false,
+                    "justificacion": "Ese número no es una unidad de millar exacta.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "8 000",
+                    "esCorrecta": false,
+                    "justificacion": "Solo subiría a 8 000 si el valor fuera 7 500 o más.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "7 400",
+                    "esCorrecta": false,
+                    "justificacion": "No es una unidad de millar. Es parte del número original.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Bien. Si está por debajo de 500, baja a la unidad de millar anterior.",
+            "feedbackIncorrecto": "📌 Si la parte decimal está por debajo de 500, no sube."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q4",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 142 a la decena más cercana.",
+            "opciones": [
+                {
+                    "texto": "140",
+                    "esCorrecta": true,
+                    "justificacion": "El 2 en las unidades es menor que 5. Redondea hacia abajo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "150",
+                    "esCorrecta": false,
+                    "justificacion": "El número no llega a 145. No se redondea hacia arriba.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "100",
+                    "esCorrecta": false,
+                    "justificacion": "Error por confusión de escala. Se redondea a decenas, no centenas.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "130",
+                    "esCorrecta": false,
+                    "justificacion": "No es la decena más cercana. Está por debajo del número original.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Perfecto. Si la unidad es menor que 5, no se sube.",
+            "feedbackIncorrecto": "📌 Menos de 5 en la unidad, redondea hacia la decena inferior."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q5",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 15 721 a la unidad de millar más cercana.",
+            "opciones": [
+                {
+                    "texto": "16 000",
+                    "esCorrecta": true,
+                    "justificacion": "721 es mayor que 500. Por eso sube a 16 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "15 000",
+                    "esCorrecta": false,
+                    "justificacion": "Ese sería el resultado si el número fuera menor a 15 500.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "15 500",
+                    "esCorrecta": false,
+                    "justificacion": "No es unidad de millar. Es una cantidad intermedia.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "16 500",
+                    "esCorrecta": false,
+                    "justificacion": "Es un número mayor. No se ajusta a la unidad de millar más cercana.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Muy bien. Se redondea hacia el millar superior al pasar de 500.",
+            "feedbackIncorrecto": "📌 Recuerda: si la cifra es 500 o más, redondea hacia arriba."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q6",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 36 a la decena más cercana.",
+            "opciones": [
+                {
+                    "texto": "40",
+                    "esCorrecta": true,
+                    "justificacion": "6 es mayor que 5. Se redondea hacia la siguiente decena.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "30",
+                    "esCorrecta": false,
+                    "justificacion": "36 está más cerca de 40 que de 30.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "36",
+                    "esCorrecta": false,
+                    "justificacion": "Ese es el número original. No se ha redondeado.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "50",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado alto. 36 no se aproxima a 50.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Exacto. 5 o más en unidades, sube.",
+            "feedbackIncorrecto": "📌 Si la unidad es 5 o más, sube a la siguiente decena."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q7",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 12 499 a la unidad de millar más cercana.",
+            "opciones": [
+                {
+                    "texto": "12 000",
+                    "esCorrecta": true,
+                    "justificacion": "499 es menor que 500. Se redondea hacia abajo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "13 000",
+                    "esCorrecta": false,
+                    "justificacion": "No alcanza el umbral de 500 para subir.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "12 500",
+                    "esCorrecta": false,
+                    "justificacion": "No es una unidad de millar. Es un intermedio.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "12 400",
+                    "esCorrecta": false,
+                    "justificacion": "No se redondea a centenas en esta pregunta.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Bien. Menos de 500, se redondea hacia la unidad de millar inferior.",
+            "feedbackIncorrecto": "📌 499 no alcanza el umbral. El número se queda en el millar actual."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q8",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 1 248 a la centena más cercana.",
+            "opciones": [
+                {
+                    "texto": "1 200",
+                    "esCorrecta": true,
+                    "justificacion": "48 es menor que 50. Se redondea hacia abajo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "1 300",
+                    "esCorrecta": false,
+                    "justificacion": "No se alcanza el umbral para subir.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "1 250",
+                    "esCorrecta": false,
+                    "justificacion": "No es una centena. Es solo una cifra intermedia.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "1 100",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión de escala. 1 248 está más cerca de 1 200.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Correcto. Si las decenas son menores a 50, redondea hacia abajo.",
+            "feedbackIncorrecto": "📌 48 no alcanza para subir. El número se mantiene en la centena anterior."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q9",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 2 500 a la unidad de millar más cercana.",
+            "opciones": [
+                {
+                    "texto": "3 000",
+                    "esCorrecta": true,
+                    "justificacion": "500 es el umbral mínimo para redondear hacia arriba.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "2 000",
+                    "esCorrecta": false,
+                    "justificacion": "Está justo en el límite, pero ya alcanza para subir.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "2 500",
+                    "esCorrecta": false,
+                    "justificacion": "Ese es el número original, no está redondeado.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "2 400",
+                    "esCorrecta": false,
+                    "justificacion": "No es una unidad de millar. Es una cifra intermedia.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Justo. 500 o más sube a la unidad de millar siguiente.",
+            "feedbackIncorrecto": "📌 500 marca el cambio: ya permite subir al millar superior."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-MINIMALISTA-Q10",
+            "targetPath": "MINIMALISTA",
+            "enunciado": "Redondea 99 a la decena más cercana.",
+            "opciones": [
+                {
+                    "texto": "100",
+                    "esCorrecta": true,
+                    "justificacion": "9 en las unidades es mayor que 5. Sube a la siguiente decena.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.9,
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "90",
+                    "esCorrecta": false,
+                    "justificacion": "99 está mucho más cerca de 100 que de 90.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "95",
+                    "esCorrecta": false,
+                    "justificacion": "95 no es una decena redondeada. No es múltiplo de 10.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "110",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado alto. 99 no se acerca a 110.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✅ Muy bien. 5 o más en la unidad, se redondea hacia arriba.",
+            "feedbackIncorrecto": "📌 La unidad es 9, así que redondea a 100."
+        }
+    ]
+}

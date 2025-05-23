@@ -1,0 +1,21 @@
+server:
+  port: 8083
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types: application/json
+
+spring:
+  application:
+    name: content-dispatcher-es.amaru.dispacher.es.amaru.dispacher.service
+
+diccionario-file-name:  ruta-mapa.json
+
+initial-test:
+  path: contenido/test-path-001.json
+
+
+
+
+
+

@@ -1,0 +1,432 @@
+{
+    "unidadId": "U1C1-NUM-1ESO-MINI-TEST",
+    "titulo": "Sistemas de numeración",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 1,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q1",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "Redondea 6 482 al millar más cercano.",
+  "opciones": [
+    {
+      "texto": "6 000",
+      "esCorrecta": false,
+      "justificacion": "Redondeo incorrecto. El número termina en más de 500.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "7 000",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Si la cifra de las centenas es 5 o más, se redondea hacia arriba.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "6 500",
+      "esCorrecta": false,
+      "justificacion": "Confusión. Ese no es un redondeo al millar.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "6 100",
+      "esCorrecta": false,
+      "justificacion": "No es una cantidad redondeada al millar.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Muy bien. Redondeaste al millar aplicando la regla correcta.",
+  "feedbackIncorrecto": "Recuerda: si la cifra de las centenas es 5 o más, sube el millar."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q2",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "¿Cuál es el valor del 3 en el número 3 045?",
+  "opciones": [
+    {
+      "texto": "3 000",
+      "esCorrecta": true,
+      "justificacion": "Correcto. El 3 está en la posición de millares, así que vale 3 000.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "30",
+      "esCorrecta": false,
+      "justificacion": "Incorrecto. El 3 no está en las decenas.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "300",
+      "esCorrecta": false,
+      "justificacion": "Incorrecto. El 3 no está en las centenas.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "3",
+      "esCorrecta": false,
+      "justificacion": "Ese es su valor nominal, pero no su valor posicional.",
+      "pathWeight": {
+        "MINIMALISTA": 0.5
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Muy bien. El valor de una cifra depende de su posición.",
+  "feedbackIncorrecto": "Recuerda: la posición de una cifra determina cuántos ceros la acompañan."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q3",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "Calcula: 400 000 + 6 000 + 90 + 3",
+  "opciones": [
+    {
+      "texto": "406 093",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Sumaste cada parte según su valor posicional.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "406 903",
+      "esCorrecta": false,
+      "justificacion": "Confundiste el orden de las cifras. Revisa el valor de cada posición.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "460 093",
+      "esCorrecta": false,
+      "justificacion": "Intercambiaste las centenas de mil con las decenas de mil.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "406 039",
+      "esCorrecta": false,
+      "justificacion": "Error en la suma de las decenas o unidades. Repasa los pasos.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Muy bien. Sumaste con orden y precisión.",
+  "feedbackIncorrecto": "Suma cada bloque con cuidado. Sigue el orden: centenas de mil, miles, centenas, decenas, unidades."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q4",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "¿Qué número corresponde a esta descomposición?\n\n200 000 + 30 000 + 5 000 + 600 + 2",
+  "opciones": [
+    {
+      "texto": "235 602",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Sumaste correctamente cada valor posicional.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "253 602",
+      "esCorrecta": false,
+      "justificacion": "Confusión entre las decenas de mil y unidades de mil. Revisa los lugares.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "235 620",
+      "esCorrecta": false,
+      "justificacion": "Invertiste decenas y unidades. Revisa bien el orden.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "230 562",
+      "esCorrecta": false,
+      "justificacion": "Error en el bloque de miles. Cuidado con sumar rápido sin revisar.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Bien hecho. Has identificado el número con precisión.",
+  "feedbackIncorrecto": "Suma parte por parte y verifica bien cada orden de magnitud."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q5",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "Escribe el número: ochocientos mil veinte.",
+  "opciones": [
+    {
+      "texto": "800 020",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 'Ochocientos mil' es 800 000, y 'veinte' suma 20.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "800 200",
+      "esCorrecta": false,
+      "justificacion": "Incorrecto. Has añadido una centena que no aparece en el enunciado.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "802 000",
+      "esCorrecta": false,
+      "justificacion": "Confundiste el orden de magnitud de 'veinte'.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "800 002",
+      "esCorrecta": false,
+      "justificacion": "Has puesto 'dos' en lugar de 'veinte'. Revisa con calma.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Correcto. Interpretaste la lectura del número con precisión.",
+  "feedbackIncorrecto": "Ve palabra por palabra. 'Ochocientos mil' es 800 000 y 'veinte' es 20."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q6",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "¿Cuál de estas descomposiciones está mal?",
+  "opciones": [
+    {
+      "texto": "500 000 + 30 000 + 2 000 + 600 + 10 + 4 = 532 614",
+      "esCorrecta": false,
+      "justificacion": "Correcto. Esta descomposición está bien. Suma correctamente.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "700 000 + 40 000 + 6 000 + 900 + 20 + 1 = 746 921",
+      "esCorrecta": false,
+      "justificacion": "También es válida. Todos los términos suman el número propuesto.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "600 000 + 20 000 + 5 000 + 100 + 50 + 9 = 625 059",
+      "esCorrecta": false,
+      "justificacion": "Está bien construida. Cada parte representa su valor correctamente.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "400 000 + 30 000 + 2 000 + 800 + 90 + 7 = 438 098",
+      "esCorrecta": true,
+      "justificacion": "Correcto. La suma da 432 897, no 438 098. Hay un error.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Muy bien. Has detectado el error sumando mentalmente cada bloque.",
+  "feedbackIncorrecto": "Suma parte por parte cada término para comprobar si el total es correcto."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q7",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "Redondea 74 382 a la decena de millar más cercana.",
+  "opciones": [
+    {
+      "texto": "70 000",
+      "esCorrecta": false,
+      "justificacion": "Incorrecto. La cifra de millar (4 382) es más de 5 000, se redondea hacia arriba.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "80 000",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Si la cifra en la unidad de millar es 5 o más, se redondea hacia arriba.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "74 000",
+      "esCorrecta": false,
+      "justificacion": "Ese es un redondeo a la centena de millar, no a la decena de millar.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "75 000",
+      "esCorrecta": false,
+      "justificacion": "No se redondea en múltiplos de mil, sino de decenas de millar.",
+      "pathWeight": {
+        "MINIMALISTA": 0.5
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Exacto. Redondeaste al orden correcto: decenas de millar.",
+  "feedbackIncorrecto": "Redondea mirando la cifra de unidad de millar. Si es 5 o más, sube la decena de millar."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q8",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "¿Cuál es el número que se lee como: 'quinientos tres mil cuatro'?",
+  "opciones": [
+    {
+      "texto": "503 004",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 'Quinientos tres mil' es 503 000 y 'cuatro' añade 4.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "500 304",
+      "esCorrecta": false,
+      "justificacion": "Error en el orden de los cientos y unidades.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "530 004",
+      "esCorrecta": false,
+      "justificacion": "Confusión con las decenas de mil. 'Tres' no significa treinta.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "503 040",
+      "esCorrecta": false,
+      "justificacion": "Has confundido la unidad con una decena.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Muy bien. Has interpretado con claridad la escritura del número.",
+  "feedbackIncorrecto": "Recuerda: primero va la parte de mil y luego se suma la parte de unidades."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q9",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "¿Cuál de estos números es múltiplo exacto de mil?",
+  "opciones": [
+    {
+      "texto": "523 000",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Termina en tres ceros, por lo tanto es múltiplo de mil.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "523 100",
+      "esCorrecta": false,
+      "justificacion": "Termina en cien, no en mil. No es múltiplo exacto de mil.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "523 010",
+      "esCorrecta": false,
+      "justificacion": "No es múltiplo de mil. Termina en 10.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "523 001",
+      "esCorrecta": false,
+      "justificacion": "No termina en mil exactos. Solo los que terminan en tres ceros lo son.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Muy bien. Un número múltiplo de mil termina en tres ceros.",
+  "feedbackIncorrecto": "Recuerda: los múltiplos de mil terminan en tres ceros. Revisa los finales."
+},
+{
+  "preguntaId": "1ESO-numeracion-MINIMALISTA-Q10",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "Suma: 320 000 + 7 000 + 90. ¿Cuál es el resultado redondeado a la centena más cercana?",
+  "opciones": [
+    {
+      "texto": "327 100",
+      "esCorrecta": true,
+      "justificacion": "Correcto. La suma da 327 090, que redondeado a la centena más cercana es 327 100.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "327 000",
+      "esCorrecta": false,
+      "justificacion": "Redondeaste hacia abajo. 90 hace que suba la centena.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "327 090",
+      "esCorrecta": false,
+      "justificacion": "Ese es el resultado exacto, pero no redondeado a la centena.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    },
+    {
+      "texto": "328 000",
+      "esCorrecta": false,
+      "justificacion": "Demasiado alto. Redondeaste a la unidad de mil en vez de la centena.",
+      "pathWeight": {
+        "MINIMALISTA": 0.6
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Perfecto. Sumaste bien y aplicaste la regla de redondeo correctamente.",
+  "feedbackIncorrecto": "Suma primero. Luego mira la decena: si es 5 o más, sube la centena."
+}
+
+    ]
+}

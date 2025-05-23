@@ -1,0 +1,441 @@
+{
+  "unidadId": "U1C3-NUM-1ESO-MINI-TEST",
+  "titulo": "Suma, resta y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 3,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q1",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "🔢 Calcula: 426 + 375 =",
+      "opciones": [
+        {
+          "texto": "801",
+          "esCorrecta": true,
+          "justificacion": "Suma directa sin pasos extra. 426 + 375 = 801.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "CONSTRUCTOR": 0.3
+          }
+        },
+        {
+          "texto": "811",
+          "esCorrecta": false,
+          "justificacion": "Resultado incorrecto por fallo de acarreo.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "791",
+          "esCorrecta": false,
+          "justificacion": "Error al sumar decenas. Revisa paso a paso.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "805",
+          "esCorrecta": false,
+          "justificacion": "Suma parcial incompleta.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Correcto. Suma simple y directa.",
+      "feedbackIncorrecto": "❌ Repite la suma línea por línea. Sin saltos."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q2",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "➖ Resta: 902 - 468 =",
+      "opciones": [
+        {
+          "texto": "434",
+          "esCorrecta": true,
+          "justificacion": "Resta directa. 902 - 468 = 434.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "CONSTRUCTOR": 0.3
+          }
+        },
+        {
+          "texto": "444",
+          "esCorrecta": false,
+          "justificacion": "Te pasaste por 10. Revisa el acarreo.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "432",
+          "esCorrecta": false,
+          "justificacion": "Restaste bien centenas, pero fallaste en decenas.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "428",
+          "esCorrecta": false,
+          "justificacion": "Error frecuente al restar sin llevar correctamente.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. Resultado correcto y sin complicaciones.",
+      "feedbackIncorrecto": "❌ Revisa paso a paso. Empieza por las unidades, luego decenas y centenas."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q3",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "🔁 ¿Qué propiedad permite decir que 213 + 476 = 476 + 213?",
+      "opciones": [
+        {
+          "texto": "Propiedad conmutativa",
+          "esCorrecta": true,
+          "justificacion": "Correcto. El orden de los sumandos no altera la suma.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "Propiedad distributiva",
+          "esCorrecta": false,
+          "justificacion": "Esa se aplica con multiplicación, no con el cambio de orden en suma.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "Propiedad asociativa",
+          "esCorrecta": false,
+          "justificacion": "Asociativa cambia la agrupación, no el orden.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "Propiedad aditiva",
+          "esCorrecta": false,
+          "justificacion": "Este término no describe una propiedad formal del orden de los sumandos.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. La propiedad conmutativa permite cambiar el orden al sumar.",
+      "feedbackIncorrecto": "❌ Repasa las propiedades. La conmutativa es la del orden."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q4",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "🧮 ¿Qué propiedad se usa en esta igualdad?: (120 + 45) + 30 = 120 + (45 + 30)",
+      "opciones": [
+        {
+          "texto": "Propiedad asociativa",
+          "esCorrecta": true,
+          "justificacion": "Correcto. La propiedad asociativa permite cambiar la agrupación sin cambiar el resultado.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "Propiedad conmutativa",
+          "esCorrecta": false,
+          "justificacion": "Conmutativa cambia el orden, no la agrupación.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "Propiedad distributiva",
+          "esCorrecta": false,
+          "justificacion": "Esa se usa con multiplicación, no con agrupación en suma.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        },
+        {
+          "texto": "Propiedad neutra",
+          "esCorrecta": false,
+          "justificacion": "La propiedad del elemento neutro implica el 0, no la reagrupación.",
+          "pathWeight": {
+            "REFLEXIVO": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. Agrupar los sumandos de forma distinta es la propiedad asociativa.",
+      "feedbackIncorrecto": "❌ Revisa las propiedades: asociativa cambia agrupaciones, no el orden."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q5",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "➖ Calcula: 1 205 - 300 - 104 =",
+      "opciones": [
+        {
+          "texto": "801",
+          "esCorrecta": true,
+          "justificacion": "Resta en dos pasos: 1 205 - 300 = 905, y 905 - 104 = 801.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "CONSTRUCTOR": 0.3
+          }
+        },
+        {
+          "texto": "811",
+          "esCorrecta": false,
+          "justificacion": "Error al restar el segundo valor. Revisa 905 - 104.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "791",
+          "esCorrecta": false,
+          "justificacion": "Te pasaste al restar 300 o 104. Vuelve a comprobar.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "807",
+          "esCorrecta": false,
+          "justificacion": "Desfase leve. Probablemente por fallo en una cifra.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. Has aplicado la resta encadenada correctamente.",
+      "feedbackIncorrecto": "❌ Haz la primera resta, luego la segunda. Sin saltos."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q6",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "➕ ¿Qué número puedes sumar a 457 para que el resultado no cambie?",
+      "opciones": [
+        {
+          "texto": "0",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Cero es el elemento neutro de la suma: no altera el número.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "1",
+          "esCorrecta": false,
+          "justificacion": "Sumar 1 aumenta el número.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "10",
+          "esCorrecta": false,
+          "justificacion": "Sumar 10 lo cambia notablemente. No es neutro.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        },
+        {
+          "texto": "457",
+          "esCorrecta": false,
+          "justificacion": "Sumar el mismo número da el doble, no lo deja igual.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Cero es el número que no cambia nada al sumarlo.",
+      "feedbackIncorrecto": "❌ Recuerda: el 0 es el único que mantiene el número igual en una suma."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q7",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "📏 Calcula: 2 500 + 1 200 - 700 =",
+      "opciones": [
+        {
+          "texto": "3 000",
+          "esCorrecta": true,
+          "justificacion": "Suma y resta directa: 2 500 + 1 200 = 3 700, 3 700 - 700 = 3 000.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "CONSTRUCTOR": 0.3
+          }
+        },
+        {
+          "texto": "3 100",
+          "esCorrecta": false,
+          "justificacion": "Error al restar. Cuidado con los pasos.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "2 900",
+          "esCorrecta": false,
+          "justificacion": "Te faltó sumar bien antes de restar.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "2 800",
+          "esCorrecta": false,
+          "justificacion": "Error frecuente por salto de centenas.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Perfecto. Operaciones secuenciales bien aplicadas.",
+      "feedbackIncorrecto": "❌ Sigue el orden: suma primero, luego resta."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q8",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "➕ ¿Cuál es el resultado de 600 + 125?",
+      "opciones": [
+        {
+          "texto": "725",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Suma directa: 600 + 125 = 725.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "CONSTRUCTOR": 0.3
+          }
+        },
+        {
+          "texto": "715",
+          "esCorrecta": false,
+          "justificacion": "Fallaste por 10. Verifica la suma.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "735",
+          "esCorrecta": false,
+          "justificacion": "Te pasaste por 10. Cuidado con las unidades.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "720",
+          "esCorrecta": false,
+          "justificacion": "Error frecuente por sumar solo centenas y decenas.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Bien hecho. Suma rápida y sin complicaciones.",
+      "feedbackIncorrecto": "❌ Revisa cada cifra al sumar: centenas, decenas y unidades."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q9",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "♻️ ¿Qué operación es equivalente a hacer 500 - (200 + 50)?",
+      "opciones": [
+        {
+          "texto": "500 - 250",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Agrupar 200 + 50 da 250. La resta es directa.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "500 - 200 - 50",
+          "esCorrecta": false,
+          "justificacion": "Puede parecer igual, pero cambia si no se hace en orden.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "250 - 500",
+          "esCorrecta": false,
+          "justificacion": "Orden invertido. No es lo mismo.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "200 + 50 - 500",
+          "esCorrecta": false,
+          "justificacion": "Cambia completamente el resultado.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. Resolver dentro del paréntesis primero y luego restar.",
+      "feedbackIncorrecto": "❌ Recuerda: primero se agrupa, luego se hace la resta."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-MINIMALISTA-Q10",
+      "targetPath": "MINIMALISTA",
+      "enunciado": "🧮 Calcula: 1 000 + 500 - 250 =",
+      "opciones": [
+        {
+          "texto": "1 250",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 1 000 + 500 = 1 500, luego 1 500 - 250 = 1 250.",
+          "pathWeight": {
+            "MINIMALISTA": 0.9,
+            "CONSTRUCTOR": 0.3
+          }
+        },
+        {
+          "texto": "1 200",
+          "esCorrecta": false,
+          "justificacion": "Fallo al restar 250 desde 1 500.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "1 350",
+          "esCorrecta": false,
+          "justificacion": "Te pasaste. Revisa el resultado de la resta.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "1 150",
+          "esCorrecta": false,
+          "justificacion": "Error común en la suma inicial.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Resultado exacto. Muy bien calculado.",
+      "feedbackIncorrecto": "❌ Suma primero 1 000 + 500. Luego resta 250 con cuidado."
+    }
+  ]
+}

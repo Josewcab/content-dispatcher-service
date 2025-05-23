@@ -1,0 +1,431 @@
+  {
+    "unidadId": "U1C4-NUM-1ESO-MINI-TEST",
+    "titulo": "La división",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 5,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q1",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "📦 Tienes 240 caramelos y los quieres repartir en 6 bolsas por igual. ¿Cuántos caramelos van en cada bolsa?",
+        "opciones": [
+          {
+            "texto": "40 caramelos",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 240 ÷ 6 = 40. Es una división exacta y directa.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "30 caramelos",
+            "esCorrecta": false,
+            "justificacion": "30 × 6 = 180. Faltan caramelos. No es correcto.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "50 caramelos",
+            "esCorrecta": false,
+            "justificacion": "50 × 6 = 300. Te pasas de la cantidad que tienes.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "60 caramelos",
+            "esCorrecta": false,
+            "justificacion": "60 × 6 = 360. Demasiado alto para 240 caramelos.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "✅ Bien hecho. División rápida, clara y sin complicaciones.",
+        "feedbackIncorrecto": "❌ Revisa el total y cuántas partes necesitas. Ve al grano: divide 240 entre 6."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q2",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "✂️ 180 pegatinas se reparten en 9 sobres. ¿Cuántas pegatinas hay en cada sobre?",
+        "opciones": [
+          {
+            "texto": "20 pegatinas",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 180 ÷ 9 = 20. Cálculo limpio y directo.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "18 pegatinas",
+            "esCorrecta": false,
+            "justificacion": "18 × 9 = 162. Te faltan pegatinas.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "25 pegatinas",
+            "esCorrecta": false,
+            "justificacion": "25 × 9 = 225. Te pasas del total.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "22 pegatinas",
+            "esCorrecta": false,
+            "justificacion": "22 × 9 = 198. Más de lo que tienes.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "✔️ Perfecto. Vas al grano y aciertas sin complicarte.",
+        "feedbackIncorrecto": "✏️ No te líes. Divide el total entre las partes sin perder tiempo."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q3",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "📚 Una caja tiene 168 lápices. Si se reparten entre 4 estudiantes por igual, ¿cuántos lápices recibe cada uno?",
+        "opciones": [
+          {
+            "texto": "42 lápices",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 168 ÷ 4 = 42. División simple y clara.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "40 lápices",
+            "esCorrecta": false,
+            "justificacion": "40 × 4 = 160. Faltan 8 lápices. No es el total correcto.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "48 lápices",
+            "esCorrecta": false,
+            "justificacion": "48 × 4 = 192. Excede el total disponible.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "36 lápices",
+            "esCorrecta": false,
+            "justificacion": "36 × 4 = 144. No alcanza los 168 lápices de la caja.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "📐 Resultado directo y correcto. Sigue así.",
+        "feedbackIncorrecto": "🔍 Divide 168 entre 4 sin distracciones. Vas directo a la solución."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q4",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "🖊️ Si tienes 315 bolígrafos y los repartes en 9 cajas por igual, ¿cuántos bolígrafos hay en cada caja?",
+        "opciones": [
+          {
+            "texto": "35 bolígrafos",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 315 ÷ 9 = 35. Es un resultado limpio, sin decimales.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "30 bolígrafos",
+            "esCorrecta": false,
+            "justificacion": "30 × 9 = 270. Te faltan bolígrafos para completar el total.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "40 bolígrafos",
+            "esCorrecta": false,
+            "justificacion": "40 × 9 = 360. Excede la cantidad que tienes.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "32 bolígrafos",
+            "esCorrecta": false,
+            "justificacion": "32 × 9 = 288. No llegas a los 315.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🧮 Solución clara y exacta. Bien aplicado.",
+        "feedbackIncorrecto": "📉 Revisa cuántas veces cabe el divisor en el total. Hazlo sin rodeos."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q5",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "📦 Un pedido de 360 vasos se divide en 12 paquetes iguales. ¿Cuántos vasos hay en cada paquete?",
+        "opciones": [
+          {
+            "texto": "30 vasos",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 360 ÷ 12 = 30. Cálculo directo, sin pasos extra.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "25 vasos",
+            "esCorrecta": false,
+            "justificacion": "25 × 12 = 300. Faltan vasos.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "36 vasos",
+            "esCorrecta": false,
+            "justificacion": "36 × 12 = 432. Excede el total disponible.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "32 vasos",
+            "esCorrecta": false,
+            "justificacion": "32 × 12 = 384. También excede el número original.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "📊 Resultado justo y simple. Bien hecho.",
+        "feedbackIncorrecto": "🔎 Revisa cuántos paquetes hay y divide sin complicarte. Es directo."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q6",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "📘 Una librería reparte 270 libros en 9 estanterías. ¿Cuántos libros hay en cada estantería?",
+        "opciones": [
+          {
+            "texto": "30 libros",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 270 ÷ 9 = 30. Cálculo directo, sin vueltas.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "27 libros",
+            "esCorrecta": false,
+            "justificacion": "27 × 9 = 243. No alcanzas los 270 libros.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "25 libros",
+            "esCorrecta": false,
+            "justificacion": "25 × 9 = 225. Faltan muchos libros.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "33 libros",
+            "esCorrecta": false,
+            "justificacion": "33 × 9 = 297. Te pasas del total disponible.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "📚 Preciso. Así se hace una división simple y eficaz.",
+        "feedbackIncorrecto": "📏 Divide el total entre las estanterías. Directo al resultado sin distracciones."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q7",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "🧃 Se reparten 336 zumos en 8 refrigeradores. ¿Cuántos zumos hay en cada uno si el reparto es exacto?",
+        "opciones": [
+          {
+            "texto": "42 zumos",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 336 ÷ 8 = 42. Operación sencilla y directa.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "40 zumos",
+            "esCorrecta": false,
+            "justificacion": "40 × 8 = 320. Faltan 16 zumos.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "45 zumos",
+            "esCorrecta": false,
+            "justificacion": "45 × 8 = 360. Te pasas del total.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "36 zumos",
+            "esCorrecta": false,
+            "justificacion": "36 × 8 = 288. No alcanzas los 336.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🥤 Resultado exacto. Lo resolviste sin complicarte.",
+        "feedbackIncorrecto": "🔢 Haz la división exacta. Reparte bien y sin rodeos."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q8",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "🎒 Hay 432 cuadernos que deben repartirse en 12 aulas de forma equitativa. ¿Cuántos cuadernos recibe cada aula?",
+        "opciones": [
+          {
+            "texto": "36 cuadernos",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 432 ÷ 12 = 36. División directa, sin complicaciones.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "38 cuadernos",
+            "esCorrecta": false,
+            "justificacion": "38 × 12 = 456. Te pasas de la cantidad disponible.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "32 cuadernos",
+            "esCorrecta": false,
+            "justificacion": "32 × 12 = 384. No llegas al total de cuadernos.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "40 cuadernos",
+            "esCorrecta": false,
+            "justificacion": "40 × 12 = 480. Superas el total, resultado incorrecto.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "📘 Bien hecho. Resultado exacto y rápido.",
+        "feedbackIncorrecto": "✏️ Divide el total entre el número de aulas. Sin adornos ni rodeos."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q9",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "📦 Un almacén tiene 504 cajas y quiere distribuirlas en 7 camiones por igual. ¿Cuántas cajas lleva cada camión?",
+        "opciones": [
+          {
+            "texto": "72 cajas",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 504 ÷ 7 = 72. División clara y sin pasos innecesarios.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "70 cajas",
+            "esCorrecta": false,
+            "justificacion": "70 × 7 = 490. Faltan 14 cajas.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "75 cajas",
+            "esCorrecta": false,
+            "justificacion": "75 × 7 = 525. Te pasas del total disponible.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "68 cajas",
+            "esCorrecta": false,
+            "justificacion": "68 × 7 = 476. No alcanzas las 504 cajas.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🚚 Buen cálculo. Todo se reparte bien y sin errores.",
+        "feedbackIncorrecto": "🧮 Divide el total de cajas entre camiones. Sin adornos, solo el resultado justo."
+      },
+      {
+        "preguntaId": "1ESO-division-MINIMALISTA-Q10",
+        "targetPath": "MINIMALISTA",
+        "enunciado": "🎯 Se van a distribuir 288 puntos entre 6 jugadores. ¿Cuántos puntos recibe cada uno si el reparto es equitativo?",
+        "opciones": [
+          {
+            "texto": "48 puntos",
+            "esCorrecta": true,
+            "justificacion": "Correcto. 288 ÷ 6 = 48. División sin rodeos, resultado exacto.",
+            "pathWeight": {
+              "MINIMALISTA": 0.9
+            }
+          },
+          {
+            "texto": "45 puntos",
+            "esCorrecta": false,
+            "justificacion": "45 × 6 = 270. Faltan puntos para llegar al total.",
+            "pathWeight": {
+              "REFLEXIVO": 0.3
+            }
+          },
+          {
+            "texto": "50 puntos",
+            "esCorrecta": false,
+            "justificacion": "50 × 6 = 300. Excedes los puntos disponibles.",
+            "pathWeight": {
+              "EXPLORADOR": 0.3
+            }
+          },
+          {
+            "texto": "42 puntos",
+            "esCorrecta": false,
+            "justificacion": "42 × 6 = 252. No alcanza los 288 puntos.",
+            "pathWeight": {
+              "CONQUISTADOR": 0.3
+            }
+          }
+        ],
+        "tipo": "multipleChoice",
+        "feedbackCorrecto": "🎯 ¡Perfecto! División clara y precisa, sin vueltas.",
+        "feedbackIncorrecto": "📌 Revisa la operación. Divide el total entre los jugadores directamente."
+      }
+    ]
+  }

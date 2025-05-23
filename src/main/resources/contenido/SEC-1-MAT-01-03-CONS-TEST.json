@@ -1,0 +1,441 @@
+{
+  "unidadId": "U1C3-NUM-1ESO-CONS-TEST",
+  "titulo": "Suma, resta y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 3,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q1",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "Luis tenía 50 euros. Gastó 17 euros en libros y luego compró una mochila que costaba 25 euros. ¿Cuánto dinero le queda?",
+      "opciones": [
+        {
+          "texto": "8 euros",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Primero 50 - 17 = 33. Luego 33 - 25 = 8.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "42 euros",
+          "esCorrecta": false,
+          "justificacion": "Este resultado considera solo una resta, no ambas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "25 euros",
+          "esCorrecta": false,
+          "justificacion": "Parece haber confundido el costo de la mochila con el resultado final.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "33 euros",
+          "esCorrecta": false,
+          "justificacion": "Resultado intermedio tras comprar los libros. Faltó descontar la mochila.",
+          "pathWeight": {
+            "REFLEXIVO": 0.4
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. Restaste paso a paso hasta llegar al dinero restante.",
+      "feedbackIncorrecto": "📌 Recuerda restar primero el gasto en libros y luego el de la mochila."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q2",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "En una biblioteca había 136 libros. Se donaron 45 libros nuevos y luego se prestaron 38. ¿Cuántos libros hay ahora en la biblioteca?",
+      "opciones": [
+        {
+          "texto": "143 libros",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 136 + 45 = 181. Luego 181 - 38 = 143.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "173 libros",
+          "esCorrecta": false,
+          "justificacion": "Error de resta: solo se hizo la suma sin quitar los libros prestados.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "98 libros",
+          "esCorrecta": false,
+          "justificacion": "Parece un cálculo directo erróneo entre los tres valores.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "181 libros",
+          "esCorrecta": false,
+          "justificacion": "Resultado intermedio tras sumar los donados, sin restar los prestados.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Bien hecho. Aplicaste primero la suma y luego la resta de forma ordenada.",
+      "feedbackIncorrecto": "📌 Suma los libros donados y luego resta los que se prestaron."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q3",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "Una empresa de transporte tiene 24 furgonetas en su base. Esta semana llegaron 12 nuevas y 5 fueron enviadas a otra ciudad. ¿Cuántas furgonetas tiene ahora en la base?",
+      "opciones": [
+        {
+          "texto": "31 furgonetas",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 24 + 12 = 36. Luego 36 - 5 = 31.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "29 furgonetas",
+          "esCorrecta": false,
+          "justificacion": "Se olvidó de sumar las que llegaron antes de restar.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "36 furgonetas",
+          "esCorrecta": false,
+          "justificacion": "Solo se hizo la suma sin considerar la salida de 5 furgonetas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "19 furgonetas",
+          "esCorrecta": false,
+          "justificacion": "Parece un cálculo incorrecto con resta errónea.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Perfecto. Primero sumaste y luego restaste correctamente.",
+      "feedbackIncorrecto": "📌 No olvides hacer la suma antes de quitar las furgonetas enviadas."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q4",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "En un almacén hay 200 cajas. Se reciben 47 cajas nuevas y se envían 85 a diferentes tiendas. ¿Cuántas cajas quedan en el almacén?",
+      "opciones": [
+        {
+          "texto": "162 cajas",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 200 + 47 = 247. Luego 247 - 85 = 162.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "115 cajas",
+          "esCorrecta": false,
+          "justificacion": "Parece un error en la suma o la resta, probablemente restó mal desde el total inicial.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "253 cajas",
+          "esCorrecta": false,
+          "justificacion": "Solo se hizo la suma sin restar las cajas enviadas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "285 cajas",
+          "esCorrecta": false,
+          "justificacion": "Probablemente sumó todo en vez de restar las salidas.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. Aplicaste correctamente la suma y la resta en contexto.",
+      "feedbackIncorrecto": "📌 Suma primero las cajas que llegan y luego resta las que se enviaron."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q5",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "El padre de Ana tenía 250 euros. Le regaló 80 euros a su hija y usó 45 euros para pagar la luz. ¿Cuánto dinero le queda?",
+      "opciones": [
+        {
+          "texto": "125 euros",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 250 - 80 = 170. Luego 170 - 45 = 125.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "205 euros",
+          "esCorrecta": false,
+          "justificacion": "Olvidó restar uno de los dos gastos.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "80 euros",
+          "esCorrecta": false,
+          "justificacion": "Confusión entre el dinero regalado y el dinero restante.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "170 euros",
+          "esCorrecta": false,
+          "justificacion": "Resultado intermedio tras regalar el dinero, sin restar el gasto en luz.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Bien hecho. Aplicaste la resta en dos pasos lógicos.",
+      "feedbackIncorrecto": "📌 Primero resta el regalo y luego el pago de la luz para obtener el total restante."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q6",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "En un evento deportivo llegaron 320 personas al inicio. Luego salieron 75 y entraron 48 más. ¿Cuántas personas había finalmente?",
+      "opciones": [
+        {
+          "texto": "293 personas",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 320 - 75 = 245. Luego 245 + 48 = 293.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "373 personas",
+          "esCorrecta": false,
+          "justificacion": "Parece que solo se sumaron los nuevos sin restar los que salieron.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "245 personas",
+          "esCorrecta": false,
+          "justificacion": "Resultado intermedio tras restar los que se fueron. Faltó sumar los nuevos.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "352 personas",
+          "esCorrecta": false,
+          "justificacion": "Cálculo erróneo con suma directa e incompleta.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Excelente. Sumaste y restaste de forma lógica para encontrar la cantidad final.",
+      "feedbackIncorrecto": "📌 Resta primero los que se fueron y luego suma los que llegaron para calcular el total final."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q7",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "Una tienda tenía 185 botellas de agua. Vendió 63 y recibió un nuevo pedido de 95 botellas. ¿Cuántas botellas tiene ahora?",
+      "opciones": [
+        {
+          "texto": "217 botellas",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 185 - 63 = 122. Luego 122 + 95 = 217.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "248 botellas",
+          "esCorrecta": false,
+          "justificacion": "Parece que se sumaron las botellas nuevas sin restar las vendidas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "122 botellas",
+          "esCorrecta": false,
+          "justificacion": "Resultado intermedio tras restar las vendidas. Faltó sumar las nuevas.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "158 botellas",
+          "esCorrecta": false,
+          "justificacion": "Error de cálculo al sumar y restar los valores.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Perfecto. Primero restaste las ventas y luego sumaste el nuevo pedido.",
+      "feedbackIncorrecto": "📌 Recuerda: resta lo que se vendió y luego suma las nuevas botellas para obtener el total."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q8",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "En una clase hay 28 alumnos. Ese día faltaron 5 y llegaron 3 nuevos estudiantes. ¿Cuántos alumnos había presentes al final?",
+      "opciones": [
+        {
+          "texto": "26 alumnos",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 28 - 5 = 23. Luego 23 + 3 = 26.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.4
+          }
+        },
+        {
+          "texto": "31 alumnos",
+          "esCorrecta": false,
+          "justificacion": "Parece que se sumaron los nuevos sin restar los ausentes.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "23 alumnos",
+          "esCorrecta": false,
+          "justificacion": "Resultado intermedio tras restar los que faltaron. Faltó sumar los nuevos.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "30 alumnos",
+          "esCorrecta": false,
+          "justificacion": "Cálculo erróneo: suma sin tener en cuenta las ausencias.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. Calculaste correctamente la asistencia final.",
+      "feedbackIncorrecto": "📌 Resta primero los que faltaron y luego suma los que llegaron."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q9",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "Un autobús comenzó su ruta con 40 pasajeros. En la primera parada bajaron 12 personas y subieron 8 más. ¿Cuántos pasajeros había después de esa parada?",
+      "opciones": [
+        {
+          "texto": "36 pasajeros",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 40 - 12 = 28. Luego 28 + 8 = 36.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "48 pasajeros",
+          "esCorrecta": false,
+          "justificacion": "Error por sumar sin haber restado primero a los que bajaron.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "32 pasajeros",
+          "esCorrecta": false,
+          "justificacion": "Resultado intermedio si solo se resta o suma una vez.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "20 pasajeros",
+          "esCorrecta": false,
+          "justificacion": "Error de cálculo al restar o sumar en el orden incorrecto.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Correcto. Razonaste el cambio de pasajeros paso a paso.",
+      "feedbackIncorrecto": "📌 Resta primero los que bajaron y luego suma los que subieron para tener el total."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-CONSTRUCTOR-Q10",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "Marta tenía 300 euros. Su abuela le regaló 50 euros más y luego ella compró unos zapatos por 125 euros. ¿Cuánto dinero le queda?",
+      "opciones": [
+        {
+          "texto": "225 euros",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 300 + 50 = 350. Luego 350 - 125 = 225.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "175 euros",
+          "esCorrecta": false,
+          "justificacion": "Probable error de cálculo al restar directamente sin sumar el regalo.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "250 euros",
+          "esCorrecta": false,
+          "justificacion": "Parece que se omitió parte del cálculo correctamente.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "125 euros",
+          "esCorrecta": false,
+          "justificacion": "Confusión entre el precio de los zapatos y el resultado final.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Muy bien. Calculaste con lógica la suma y luego el gasto.",
+      "feedbackIncorrecto": "📌 Suma primero el regalo de la abuela y luego resta el gasto para conocer el dinero restante."
+    }
+  ]
+}

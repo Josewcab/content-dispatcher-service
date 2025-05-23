@@ -1,0 +1,406 @@
+{
+    "unidadId": "U1C2-NUM-1ESO-EXP-TEST",
+    "titulo": "Aproximación de números naturales",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 2,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q1",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Un anuncio dice que el precio de un piso es 138 290 €. ¿Cuál de estas formas de redondear te parece más útil para explicarlo a alguien que no recuerda el número exacto?",
+            "opciones": [
+                {
+                    "texto": "138 000 €",
+                    "esCorrecta": true,
+                    "justificacion": "Buena elección. Es cercana al valor real y fácil de recordar. Ideal para una conversación informal.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "140 000 €",
+                    "esCorrecta": false,
+                    "justificacion": "Algo exagerado. Puede servir para redondeo amplio, pero aleja el valor del real.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "138 300 €",
+                    "esCorrecta": false,
+                    "justificacion": "Muy exacto. No aporta simplicidad, que es lo que se busca al redondear en este caso.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "100 000 €",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado alejado del valor real. Sería engañoso o confuso.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.2,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✨ Exacto. A veces el redondeo es más útil si lo adaptamos al contexto.",
+            "feedbackIncorrecto": "Piensa en qué opción mantiene el sentido del precio sin ser demasiado precisa."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q2",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "El ayuntamiento ha dicho que se invertirán 149 637 € en un proyecto deportivo.\nSi no quieres dar una cifra exacta, ¿cuál de estas formas te parecería más adecuada para contarle esto a un amigo?",
+            "opciones": [
+                {
+                    "texto": "150 000 €",
+                    "esCorrecta": true,
+                    "justificacion": "Buena opción. Es una cifra redondeada fácil de comunicar y muy próxima al total real.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONSTRUCTOR": 0.5
+                    }
+                },
+                {
+                    "texto": "149 000 €",
+                    "esCorrecta": false,
+                    "justificacion": "Te quedas un poco corto. No refleja bien el total si la idea es simplificar sin distorsionar.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "100 000 €",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado alejado. Podría llevar a una mala interpretación de la inversión real.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "149 637 €",
+                    "esCorrecta": false,
+                    "justificacion": "Es el número exacto. Pero la pregunta es sobre cómo simplificarlo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✨ Exacto. Redondear bien puede ayudarnos a comunicar mejor sin perder el sentido.",
+            "feedbackIncorrecto": "Piensa en cuál opción mantiene la esencia del dato sin entrar en tantos detalles."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q3",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Has redondeado el número 828 502 a la centena de millar y te dio 800 000. ¿Qué número debería aparecer al redondearlo a la decena de millar?",
+            "opciones": [
+                {
+                    "texto": "830 000",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. La cifra de millar es 8 502, lo que empuja el redondeo a 830 000.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONSTRUCTOR": 0.5
+                    }
+                },
+                {
+                    "texto": "820 000",
+                    "esCorrecta": false,
+                    "justificacion": "Redondeaste hacia abajo cuando el número pedía subir.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "828 000",
+                    "esCorrecta": false,
+                    "justificacion": "Ese no es un múltiplo de decenas de millar. Fíjate en los ceros.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "EXPLORADOR": 0.2
+                    }
+                },
+                {
+                    "texto": "800 000",
+                    "esCorrecta": false,
+                    "justificacion": "Ese es el redondeo a las centenas de millar, no a las decenas.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧭 ¡Muy bien! Comprendiste el patrón y seguiste el razonamiento lógico del redondeo.",
+            "feedbackIncorrecto": "Revisa cómo cambian los números según el orden al que se redondea."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q4",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Observa estos tres redondeos del número 299 352 362:\n\n🔹 A la centena de millar → 299 300 000\n🔹 A la decena de millar → 299 350 000\n🔹 A la unidad de millar → 299 352 000\n\n¿Qué puedes deducir de cómo cambia el número según el orden del redondeo?",
+            "opciones": [
+                {
+                    "texto": "Cuanto más grande es el orden, más cambia el número.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Redondear a órdenes más grandes modifica más el número original.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "El redondeo no cambia si es a la decena o a la centena.",
+                    "esCorrecta": false,
+                    "justificacion": "Incorrecto. Cada orden tiene impacto diferente sobre el número final.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Redondear siempre baja el valor.",
+                    "esCorrecta": false,
+                    "justificacion": "Falso. El redondeo puede subir o bajar dependiendo de la cifra siguiente.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "Todos los redondeos son iguales si el número es grande.",
+                    "esCorrecta": false,
+                    "justificacion": "No es cierto. El orden del redondeo importa, aunque el número sea grande.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧠 Muy bien. Redondear a distintos órdenes cambia el número en diferente medida.",
+            "feedbackIncorrecto": "Piensa: ¿cómo cambia el número cuando se redondea a distintas posiciones?"
+        },
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q5",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Un número se redondea a 40 000 cuando se aproxima a los millares. ¿Cuál de estos podría ser ese número original?",
+            "opciones": [
+                {
+                    "texto": "39 876",
+                    "esCorrecta": false,
+                    "justificacion": "Está por debajo del punto medio (39 500), por lo tanto redondearía a 39 000.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "40 274",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Al redondear este número a los millares, se obtiene 40 000.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "41 200",
+                    "esCorrecta": false,
+                    "justificacion": "Este número redondearía a 41 000, no a 40 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "39 400",
+                    "esCorrecta": false,
+                    "justificacion": "Este redondea a 39 000, no a 40 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧭 ¡Buen ojo! Supiste estimar qué número encajaba con el redondeo.",
+            "feedbackIncorrecto": "Imagina una recta numérica: ¿qué números están más cerca de 40 000 al redondear a los millares?"
+        },
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q6",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Imagina que dos números diferentes se redondean ambos a 500 000. ¿Cuál de estas parejas de números podría ser?",
+            "opciones": [
+                {
+                    "texto": "496 700 y 503 200",
+                    "esCorrecta": true,
+                    "justificacion": "¡Bien! Ambos están dentro del rango que redondea a 500 000 (entre 495 000 y 504 999).",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "490 000 y 510 000",
+                    "esCorrecta": false,
+                    "justificacion": "Están demasiado lejos. Redondearían a 490 000 y 510 000 respectivamente.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "499 900 y 508 000",
+                    "esCorrecta": false,
+                    "justificacion": "Uno de ellos redondea a 500 000, pero el otro ya pasa a 510 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "501 000 y 509 000",
+                    "esCorrecta": false,
+                    "justificacion": "Ambos están en el rango de 500 000 a 510 000. Pero 509 000 se redondea a 510 000.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧭 ¡Eso es! Identificaste dos números que caen en el mismo intervalo de redondeo.",
+            "feedbackIncorrecto": "Busca dos números que estén cerca de 500 000, pero sin pasarse del siguiente umbral."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q7",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Un número tiene 7 cifras y empieza por 4. Al redondearlo a la centena de millar, da 4 500 000. ¿Cuál de estos números podría ser?",
+            "opciones": [
+                {
+                    "texto": "4 462 718",
+                    "esCorrecta": false,
+                    "justificacion": "Está por debajo de 4 450 000. Redondearía a 4 400 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "4 536 981",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Está cerca de 4 500 000 y dentro del intervalo que redondea a esa cifra.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "4 589 000",
+                    "esCorrecta": false,
+                    "justificacion": "Supera los 4 550 000. Redondearía a 4 600 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "4 450 000",
+                    "esCorrecta": false,
+                    "justificacion": "Es el límite inferior, pero no está lo bastante cerca para redondear a 4 500 000.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧭 ¡Bien deducido! Estimaste correctamente el rango de redondeo.",
+            "feedbackIncorrecto": "Recuerda: la centena de millar cambia cada 100 000. Busca valores entre 4 450 000 y 4 549 999."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q8",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Una encuesta indica que 73 748 personas apoyan una propuesta. Si se quiere publicar una infografía clara y visual en una red social, ¿qué redondeo es más útil?",
+            "opciones": [
+                {
+                    "texto": "74 000",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. Es un número redondeado a la centena más cercana y fácil de recordar.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "73 750",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado preciso. No es útil si se quiere comunicar algo con impacto visual.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "73 000",
+                    "esCorrecta": false,
+                    "justificacion": "Muy bajo. Redondea demasiado y pierde precisión innecesariamente.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "73 748",
+                    "esCorrecta": false,
+                    "justificacion": "Es el número exacto. No se ha aplicado ningún redondeo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "✨ Excelente. Elegiste el redondeo que equilibra claridad y aproximación.",
+            "feedbackIncorrecto": "Piensa en un número redondeado que sea claro y visualmente impactante para una infografía."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-EXPLORADOR-Q9",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Un estudiante dice que 154 768 redondeado a la centena de millar es 100 000. ¿Qué opinas?",
+            "opciones": [
+                {
+                    "texto": "Está equivocado. 154 768 está más cerca de 200 000.",
+                    "esCorrecta": false,
+                    "justificacion": "Incorrecto. El valor está entre 150 000 y 160 000, por lo que no llega a 200 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Está equivocado. 154 768 redondeado a la centena de millar es 200 000.",
+                    "esCorrecta": false,
+                    "justificacion": "Tampoco es correcto. La cifra siguiente (5) no justifica subir tanto.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Está equivocado. El redondeo correcto es 100 000 porque la centena de millar es 1.",
+                    "esCorrecta": false,
+                    "justificacion": "Falso. El redondeo depende también de la cifra que sigue, no solo de la primera cifra.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Está equivocado. El redondeo correcto es 200 000 si nos fijamos bien en las cifras.",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 154 768 redondeado a la centena de millar es 200 000, porque está por encima de 150 000.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧠 Muy bien. El redondeo se basa en el análisis de la cifra siguiente.",
+            "feedbackIncorrecto": "Recuerda revisar la cifra que está justo después de la que redondeas."
+        }
+    ]
+}

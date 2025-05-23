@@ -1,0 +1,449 @@
+{
+    "unidadId": "U1C3-NUM-1ESO-CONQ-TEST",
+    "titulo": "Suma, resta y sus propiedades",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 3,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q1",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⚔️ ¡Reto rápido! Si logras sumar 237 + 158 correctamente en menos de 10 segundos, subes de nivel. ¿Cuál es el resultado?",
+            "opciones": [
+                {
+                    "texto": "395",
+                    "esCorrecta": false,
+                    "justificacion": "Error por sumar solo centenas y decenas, sin completar correctamente las unidades.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "395",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión frecuente. Revisa bien el acarreo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "395",
+                    "esCorrecta": false,
+                    "justificacion": "Incorrecto. Vuelve a calcular sumando de derecha a izquierda.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "395",
+                    "esCorrecta": false,
+                    "justificacion": "Mismo error presentado de forma sistemática.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.2
+                    }
+                },
+                {
+                    "texto": "395",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! Has sumado bien cada parte: centenas, decenas y unidades.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🔥 ¡Nivel superado! Has resuelto el desafío con precisión.",
+            "feedbackIncorrecto": "⚠️ Te has quedado corto. Ajusta tu cálculo y vuelve a intentarlo más rápido."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q2",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🏆 ¡Desbloquea una medalla! Solo una de estas restas está mal hecha. ¿Cuál es el error?",
+            "opciones": [
+                {
+                    "texto": "782 - 249 = 533",
+                    "esCorrecta": false,
+                    "justificacion": "Esta es correcta. Se ha restado con acarreo correctamente.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "451 - 219 = 232",
+                    "esCorrecta": false,
+                    "justificacion": "Esta resta es correcta. No hay error.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.3
+                    }
+                },
+                {
+                    "texto": "624 - 318 = 296",
+                    "esCorrecta": false,
+                    "justificacion": "Correcto. Esta también es válida.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "835 - 427 = 318",
+                    "esCorrecta": true,
+                    "justificacion": "¡Bien cazado! El resultado correcto es 408, así que esta está mal.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏅 ¡Lo lograste! Has identificado el error oculto. Medalla desbloqueada.",
+            "feedbackIncorrecto": "❌ Revisa cada operación con calma. Uno de los resultados no cuadra."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q3",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⚡ ¡Desafío doble! Suma primero 125 + 278 y luego súmale 47 más. ¿Qué resultado obtienes?",
+            "opciones": [
+                {
+                    "texto": "450",
+                    "esCorrecta": false,
+                    "justificacion": "Error común al olvidar uno de los pasos de la suma.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "412",
+                    "esCorrecta": false,
+                    "justificacion": "Resultado intermedio tras la primera suma. Faltó sumar los 47.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "502",
+                    "esCorrecta": true,
+                    "justificacion": "¡Bien hecho! 125 + 278 = 403. Luego 403 + 47 = 450.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.3
+                    }
+                },
+                {
+                    "texto": "492",
+                    "esCorrecta": false,
+                    "justificacion": "Parece un cálculo acelerado sin revisar los valores exactos.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🚀 ¡Perfecto! Has resuelto una suma encadenada con rapidez y precisión.",
+            "feedbackIncorrecto": "⏳ ¡Atención! El desafío tenía dos sumas seguidas. Revisa el orden."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q4",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🔥 Tu rival resolvió 632 - 278 y dijo que el resultado era 354. ¿Serás capaz de superarlo? ¿Cuál es la respuesta correcta?",
+            "opciones": [
+                {
+                    "texto": "354",
+                    "esCorrecta": false,
+                    "justificacion": "Ese es el resultado que dio tu rival… y es incorrecto.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "358",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! Has superado a tu rival. 632 - 278 = 354 está mal, el resultado real es 358.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.3
+                    }
+                },
+                {
+                    "texto": "364",
+                    "esCorrecta": false,
+                    "justificacion": "Cálculo con exceso, probablemente por error de acarreo.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "348",
+                    "esCorrecta": false,
+                    "justificacion": "Error por resta incompleta. Verifica bien cada posición.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏆 ¡Victoria! Has encontrado el resultado correcto y superado el reto.",
+            "feedbackIncorrecto": "❌ Tu rival te ganó esta vez… pero puedes revisar y volver a intentarlo."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q5",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "👑 ¡Jefe final desbloqueado! Para derrotarlo debes resolver: (312 + 148) - (95 + 63). ¿Cuál es el golpe final correcto?",
+            "opciones": [
+                {
+                    "texto": "302",
+                    "esCorrecta": true,
+                    "justificacion": "¡Golpe certero! 312 + 148 = 460, 95 + 63 = 158, y 460 - 158 = 302.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "318",
+                    "esCorrecta": false,
+                    "justificacion": "Cálculo cercano pero con error en la segunda suma.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "308",
+                    "esCorrecta": false,
+                    "justificacion": "Error leve, revisa los valores intermedios.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "312",
+                    "esCorrecta": false,
+                    "justificacion": "Resultado parcial: probablemente hiciste solo una parte del cálculo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "👑 ¡Derrotaste al jefe final! Has dominado sumas y restas combinadas.",
+            "feedbackIncorrecto": "💥 El jefe resistió. Vuelve a intentarlo paso a paso y recuerda agrupar primero."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q6",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🎯 ¡Tiro de precisión! Si tienes 475 caramelos y regalas 239, ¿cuántos te quedan exactamente?",
+            "opciones": [
+                {
+                    "texto": "236",
+                    "esCorrecta": true,
+                    "justificacion": "¡Impacto directo! 475 - 239 = 236. Has dado justo en el blanco.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.3
+                    }
+                },
+                {
+                    "texto": "234",
+                    "esCorrecta": false,
+                    "justificacion": "Casi aciertas, pero te faltó ajustar una unidad. Error de precisión.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "238",
+                    "esCorrecta": false,
+                    "justificacion": "Tiro alto. Verifica la resta y revisa el acarreo.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "240",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado lejos del resultado. El cálculo necesita más revisión.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🎯 ¡Punto para ti! Has acertado con precisión matemática.",
+            "feedbackIncorrecto": "❌ Apuntaste bien, pero fallaste por poco. Ajusta tu cálculo y vuelve a disparar."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q7",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🚨 ¡Nivel avanzado! Resuelve este cálculo de alto nivel: 3 276 + 2 158 - 1 987 = ?",
+            "opciones": [
+                {
+                    "texto": "3 447",
+                    "esCorrecta": true,
+                    "justificacion": "¡Perfecto! 3 276 + 2 158 = 5 434 y 5 434 - 1 987 = 3 447.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "3 537",
+                    "esCorrecta": false,
+                    "justificacion": "Error leve, posiblemente por mal acarreo en la resta.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "3 397",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre el valor correcto y una resta incompleta.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "3 487",
+                    "esCorrecta": false,
+                    "justificacion": "Cálculo intermedio erróneo. Puede ser un fallo al sumar.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🚨 ¡Nivel superado! Has resuelto un reto con números grandes y operaciones encadenadas.",
+            "feedbackIncorrecto": "📉 Fallaste por poco. Revisa bien la suma y la resta: el orden es clave."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q8",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🧠 ¡Desafío de concentración! Suma 788 + 787 sin distraerte. ¿Cuál es el resultado exacto?",
+            "opciones": [
+                {
+                    "texto": "1 575",
+                    "esCorrecta": true,
+                    "justificacion": "¡Concentración total! 788 + 787 = 1 575. Buen cálculo sin dejarte confundir.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.3
+                    }
+                },
+                {
+                    "texto": "1 565",
+                    "esCorrecta": false,
+                    "justificacion": "Error típico al sumar las centenas sin ajustar bien el acarreo.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "1 585",
+                    "esCorrecta": false,
+                    "justificacion": "Te pasaste por 10. Revisa la suma con cuidado.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "1 595",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado lejos. Probablemente un salto visual entre números similares.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧠 ¡Cálculo preciso bajo presión! Nivel conquistado.",
+            "feedbackIncorrecto": "😮 Revisa con más calma. A veces los números parecidos pueden confundir."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q9",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⚔️ ¡Reto espejo! ¿Cuál es el resultado de 423 + 324?",
+            "opciones": [
+                {
+                    "texto": "747",
+                    "esCorrecta": true,
+                    "justificacion": "¡Buen ojo! Los números son reflejo parcial uno del otro. 423 + 324 = 747.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "753",
+                    "esCorrecta": false,
+                    "justificacion": "Error por confusión visual. Verifica unidades y decenas.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "737",
+                    "esCorrecta": false,
+                    "justificacion": "Parece correcto a simple vista, pero no lo es. Falta revisar más a fondo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "743",
+                    "esCorrecta": false,
+                    "justificacion": "Error de precisión. Confusión entre posiciones cercanas.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "⚔️ ¡Desafío superado! Has dominado la simetría numérica.",
+            "feedbackIncorrecto": "🌀 Fuiste rápido, pero no preciso. Observa con más detalle los valores."
+        },
+        {
+            "preguntaId": "1ESO-sumaresta-CONQUISTADOR-Q10",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🏁 ¡Última misión! El comandante te lanza este reto final: 1 204 + 876 - 389 = ?",
+            "opciones": [
+                {
+                    "texto": "1 691",
+                    "esCorrecta": true,
+                    "justificacion": "¡Reto final completado! 1 204 + 876 = 2 080, luego 2 080 - 389 = 1 691.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "1 689",
+                    "esCorrecta": false,
+                    "justificacion": "Casi aciertas, puede ser un fallo menor en la resta.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "1 701",
+                    "esCorrecta": false,
+                    "justificacion": "Te pasaste. Revisa los valores exactos tras la resta.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "1 673",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado bajo. Error típico al restar sin verificar el total intermedio.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏁 ¡Misión cumplida! Has cerrado esta fase con éxito matemático.",
+            "feedbackIncorrecto": "🚫 No se completó la misión. Ajusta tus cálculos y vuelve con fuerza."
+        }
+    ]
+}

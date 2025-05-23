@@ -1,0 +1,441 @@
+{
+  "unidadId": "U1C4-NUM-1ESO-REFX-TEST",
+  "titulo": "La multiplicación y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 4,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q1",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🧠 ¿Qué representa realmente la multiplicación 6 × 4?",
+      "opciones": [
+        {
+          "texto": "Cuatro grupos con 6 objetos cada uno.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. Ese es el modelo 4 × 6, no 6 × 4.",
+          "pathWeight": {
+            "REFLEXIVO": 0.6
+          }
+        },
+        {
+          "texto": "La suma 4 + 4 + 4 + 4 + 4 + 4",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 6 × 4 representa sumar 4, seis veces.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "La diferencia entre dos grupos de 4",
+          "esCorrecta": false,
+          "justificacion": "Confunde multiplicación con resta.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        },
+        {
+          "texto": "El resultado de dividir 24 entre 4",
+          "esCorrecta": false,
+          "justificacion": "Eso sería una división. No es lo que representa esta multiplicación.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 Muy bien. Has comprendido la esencia de la multiplicación como suma repetida.",
+      "feedbackIncorrecto": "💡 Recuerda que 6 × 4 significa sumar seis veces el número 4."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q2",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🔄 ¿Cuál de estas afirmaciones sobre la multiplicación es siempre verdadera?",
+      "opciones": [
+        {
+          "texto": "Multiplicar siempre aumenta el número.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. Multiplicar por números menores que 1 puede reducir el número.",
+          "pathWeight": {
+            "REFLEXIVO": 0.7
+          }
+        },
+        {
+          "texto": "Multiplicar es lo mismo que sumar muchas veces un número.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Esta es la definición básica de la multiplicación con números naturales.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "Multiplicar por cero da como resultado el mismo número.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. Cualquier número multiplicado por cero da cero.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "Multiplicar por 10 siempre da un número impar.",
+          "esCorrecta": false,
+          "justificacion": "Falso. Multiplicar por 10 da números terminados en 0, que son pares.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Correcto. Comprendiste el principio de la multiplicación como suma repetida.",
+      "feedbackIncorrecto": "💡 Reflexiona: ¿qué ocurre realmente cuando multiplicas por cero o por fracciones?"
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q3",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🔄 ¿Por qué 7 × 5 es igual a 5 × 7?",
+      "opciones": [
+        {
+          "texto": "Porque cambiar el orden en la multiplicación no altera el resultado.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. La multiplicación es conmutativa: el orden de los factores no cambia el producto.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "CONSTRUCTOR": 0.3
+          }
+        },
+        {
+          "texto": "Porque 7 es múltiplo de 5.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. 7 no es múltiplo de 5. Esta no es la razón de la igualdad.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Porque los dos números son impares.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. Ser impares no implica igualdad en productos cruzados.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        },
+        {
+          "texto": "Porque 5 es más pequeño que 7.",
+          "esCorrecta": false,
+          "justificacion": "El tamaño relativo de los números no influye en la propiedad conmutativa.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🔁 ¡Muy bien! Has comprendido la propiedad conmutativa de la multiplicación.",
+      "feedbackIncorrecto": "💡 Reflexiona: ¿qué ocurre si intercambias el orden en una multiplicación?"
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q4",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🧐 Si una fábrica tiene 45 máquinas y un día ninguna funciona, ¿cuántos productos fabrica ese día?",
+      "opciones": [
+        {
+          "texto": "0",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 45 × 0 = 0. Si ninguna máquina funciona, no se produce nada.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "CONSTRUCTOR": 0.4
+          }
+        },
+        {
+          "texto": "45",
+          "esCorrecta": false,
+          "justificacion": "Error: confusión con la cantidad de máquinas, pero sin actividad no hay producción.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        },
+        {
+          "texto": "90",
+          "esCorrecta": false,
+          "justificacion": "No hay ninguna base para este resultado. No hay producción si no hay operación.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "1",
+          "esCorrecta": false,
+          "justificacion": "Confunde multiplicación con mínimo posible. Si se multiplica por 0, siempre es 0.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✔️ Has entendido que multiplicar por cero siempre da cero, incluso en contextos reales.",
+      "feedbackIncorrecto": "💡 Reflexiona: si nada funciona, ¿es posible que haya algún resultado de producción?"
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q5",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🤔 ¿En qué situación es más útil usar la multiplicación en lugar de la suma?",
+      "opciones": [
+        {
+          "texto": "Cuando tengo que sumar 25 veces el número 12.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. La multiplicación es más eficiente que hacer sumas repetidas.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "Cuando tengo que sumar 12 y 25 una sola vez.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. Aquí la suma simple es más directa que la multiplicación.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "Cuando quiero comparar si 25 es mayor que 12.",
+          "esCorrecta": false,
+          "justificacion": "Eso no requiere multiplicación ni suma, sino comparación directa.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        },
+        {
+          "texto": "Cuando divido un número en partes iguales.",
+          "esCorrecta": false,
+          "justificacion": "Eso corresponde a una división, no a una multiplicación.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Exacto. La multiplicación simplifica el trabajo cuando hay sumas repetidas.",
+      "feedbackIncorrecto": "💡 Reflexiona: ¿qué herramienta es más útil cuando repites muchas veces un número?"
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q6",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "📈 Observa el patrón: 3 × 2 = 6, 3 × 4 = 12, 3 × 6 = 18. ¿Qué puedes concluir?",
+      "opciones": [
+        {
+          "texto": "El resultado siempre es el doble del número 3.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. El doble de 3 es 6, pero eso solo sirve en el primer caso.",
+          "pathWeight": {
+            "MINIMALISTA": 0.2
+          }
+        },
+        {
+          "texto": "El número que se multiplica por 3 es siempre par.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. En este patrón, todos los factores del 3 son números pares.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "El resultado siempre termina en 8.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. Solo el último producto termina en 8.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "El número multiplicado siempre es un múltiplo de 5.",
+          "esCorrecta": false,
+          "justificacion": "Ninguno de los factores del patrón es múltiplo de 5.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🔎 Muy bien. Has detectado el patrón de los factores pares.",
+      "feedbackIncorrecto": "💡 Analiza los números con calma: ¿qué tienen en común los factores?"
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q7",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🧮 ¿Por qué puede ser útil pensar en 12 × 6 como (10 × 6) + (2 × 6)?",
+      "opciones": [
+        {
+          "texto": "Porque así se entiende cómo se distribuye la multiplicación entre partes más simples.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. La propiedad distributiva permite descomponer para facilitar el cálculo y comprender mejor la operación.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "CONSTRUCTOR": 0.4
+          }
+        },
+        {
+          "texto": "Porque es más rápido que multiplicar 12 × 6 directamente.",
+          "esCorrecta": false,
+          "justificacion": "No necesariamente es más rápido, sino más comprensible.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "Porque 10 y 2 son números consecutivos.",
+          "esCorrecta": false,
+          "justificacion": "La elección de 10 y 2 se debe a la facilidad del cálculo, no a su consecutividad.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Porque es obligatorio usar siempre la distributiva.",
+          "esCorrecta": false,
+          "justificacion": "No es obligatorio, es una estrategia útil para entender y resolver.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧮 ¡Exacto! Has comprendido el sentido profundo de la descomposición multiplicativa.",
+      "feedbackIncorrecto": "💡 Piensa cómo esta estrategia puede ayudarte a descomponer números grandes en partes más manejables."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q8",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🔍 Pedro dice que como 6 × 7 = 42, entonces 6 × 8 debe ser 43. ¿Qué error está cometiendo?",
+      "opciones": [
+        {
+          "texto": "Está sumando 1 al producto anterior sin hacer la multiplicación real.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. El error de Pedro es asumir que los resultados de multiplicaciones aumentan de uno en uno.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Ha confundido la multiplicación con la suma.",
+          "esCorrecta": false,
+          "justificacion": "Aunque hay confusión, el problema no es tratarlo como una suma sino asumir un patrón incorrecto.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "No ha recordado que 6 × 7 es igual a 49.",
+          "esCorrecta": false,
+          "justificacion": "Este error no es el que Pedro cometió: su cálculo de 6 × 7 es correcto.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.2
+          }
+        },
+        {
+          "texto": "Pensó que multiplicar por 8 es igual que restar 1 al resultado anterior.",
+          "esCorrecta": false,
+          "justificacion": "Esta afirmación no se ajusta al razonamiento de Pedro.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧠 Muy bien. Has identificado el error en el razonamiento de Pedro.",
+      "feedbackIncorrecto": "💡 Piensa si multiplicar por un número mayor siempre implica solo sumar uno al resultado anterior."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q9",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🧩 ¿Qué tienen en común los resultados de multiplicar cualquier número por 1 y por 0?",
+      "opciones": [
+        {
+          "texto": "Ambos resultados son iguales al número inicial.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. Solo multiplicar por 1 mantiene el número. Multiplicar por 0 da 0.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "Uno mantiene el valor, el otro lo elimina completamente.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Multiplicar por 1 conserva el valor, mientras que por 0 lo anula.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Ambos siempre dan como resultado 1.",
+          "esCorrecta": false,
+          "justificacion": "Falso. Solo 1 × 1 da 1. Cualquier número × 0 da 0.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Multiplicar por 1 da cero y multiplicar por 0 da uno.",
+          "esCorrecta": false,
+          "justificacion": "Esta afirmación invierte completamente el efecto real de las operaciones.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧩 Exacto. Multiplicar por 1 conserva, mientras que por 0 anula.",
+      "feedbackIncorrecto": "💡 Piensa en el efecto que tienen 1 y 0 cuando multiplicas cualquier número por ellos."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-REFLEXIVO-Q10",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "🔗 ¿Qué idea ayuda a entender por qué 4 × 25 = 100?",
+      "opciones": [
+        {
+          "texto": "Porque 25 es un cuarto de 100.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Cuatro veces 25 completan el 100. Ayuda a ver la relación inversa con la división.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "CONSTRUCTOR": 0.4
+          }
+        },
+        {
+          "texto": "Porque 100 es impar y 25 también.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. 100 no es impar, y esa relación no tiene sentido lógico en la multiplicación.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Porque todos los múltiplos de 25 terminan en 5.",
+          "esCorrecta": false,
+          "justificacion": "Muchos múltiplos de 25 terminan en 0 también. La afirmación es parcial.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Porque 4 y 25 son múltiplos de 2.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. 25 no es múltiplo de 2, es impar.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🔗 Muy bien. Has relacionado multiplicación con fracciones y partes del todo.",
+      "feedbackIncorrecto": "💡 Piensa en cuántas veces cabe el 25 dentro del 100 para entender esta multiplicación."
+    }
+  ]
+}

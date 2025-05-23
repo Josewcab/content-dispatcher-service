@@ -1,0 +1,431 @@
+{
+    "unidadId": "U1C4-NUM-1ESO-CONS-TEST",
+    "titulo": "La división",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 5,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q1",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🏗️ Un albañil tiene 120 ladrillos y necesita hacer 6 muros iguales. ¿Cuántos ladrillos debe usar para cada muro si los reparte de forma equitativa?",
+            "opciones": [
+                {
+                    "texto": "20",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 120 ÷ 6 = 20 ladrillos por muro. Esto permite construir todos los muros con la misma cantidad.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "60",
+                    "esCorrecta": false,
+                    "justificacion": "Probablemente hiciste una resta o duplicaste sin razón. No permite equilibrio entre muros.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "12",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre números. 12 × 6 es solo 72 ladrillos.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                },
+                {
+                    "texto": "10",
+                    "esCorrecta": false,
+                    "justificacion": "Subestimación. 10 × 6 = 60, usarías solo la mitad del material disponible.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏗️ ¡Perfecto! Así cada muro será igual y aprovecharás bien el material.",
+            "feedbackIncorrecto": "🧱 Divide la cantidad total de ladrillos entre los muros que necesitas construir."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q2",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🔧 En una obra hay 96 clavos y se quiere repartirlos en 8 cajas iguales. ¿Cuántos clavos debe llevar cada caja?",
+            "opciones": [
+                {
+                    "texto": "12",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 96 ÷ 8 = 12 clavos por caja, repartidos de forma funcional para organizar el trabajo.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "8",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre divisor y cociente. 8 es el número de cajas, no de clavos por caja.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "16",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestimación. 8 × 16 = 128 clavos, más de los que hay disponibles.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "10",
+                    "esCorrecta": false,
+                    "justificacion": "Estimación rápida pero incorrecta. 8 × 10 = 80 clavos, sobran 16.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🔧 ¡Buen trabajo! Has hecho un reparto funcional de las herramientas.",
+            "feedbackIncorrecto": "📦 Divide 96 clavos en 8 cajas para distribuirlos de forma equilibrada."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q3",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🏭 Una fábrica produce 144 piezas y quiere empaquetarlas en cajas de 12. ¿Cuántas cajas se llenarán por completo?",
+            "opciones": [
+                {
+                    "texto": "12",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 144 ÷ 12 = 12 cajas llenas. Es una distribución eficiente.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "10",
+                    "esCorrecta": false,
+                    "justificacion": "Subestimación. 12 × 10 = 120, sobran piezas.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                },
+                {
+                    "texto": "11",
+                    "esCorrecta": false,
+                    "justificacion": "Cercano, pero 12 × 11 = 132. No es el número exacto.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "13",
+                    "esCorrecta": false,
+                    "justificacion": "Excedido. 12 × 13 = 156, sobrepasa la producción.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏭 ¡Exacto! Empaquetar 144 piezas en cajas de 12 genera 12 cajas llenas.",
+            "feedbackIncorrecto": "📦 Usa la división para calcular cuántas cajas completas se pueden llenar con 144 piezas."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q4",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🎨 Un pintor tiene 84 litros de pintura y debe pintar 7 habitaciones. ¿Cuántos litros usará en cada habitación si quiere repartir la pintura de manera uniforme?",
+            "opciones": [
+                {
+                    "texto": "12",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 84 ÷ 7 = 12 litros por habitación. Así se reparte el material de forma equilibrada.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "7",
+                    "esCorrecta": false,
+                    "justificacion": "Es el número de habitaciones, no la cantidad de pintura por habitación.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "10",
+                    "esCorrecta": false,
+                    "justificacion": "Estimación redondeada. 10 × 7 = 70, no cubre todo el material.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                },
+                {
+                    "texto": "14",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestimación. 14 × 7 = 98, más de lo que se tiene.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🎨 ¡Bien hecho! Cada habitación recibirá la misma cantidad de pintura.",
+            "feedbackIncorrecto": "📐 Divide los litros entre las habitaciones para repartir de forma eficiente."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q5",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🌱 Una jardinera tiene 180 semillas y quiere plantarlas en 15 macetas con igual cantidad. ¿Cuántas semillas debe colocar en cada maceta?",
+            "opciones": [
+                {
+                    "texto": "12",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 180 ÷ 15 = 12 semillas por maceta. Así crecen de forma uniforme.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "15",
+                    "esCorrecta": false,
+                    "justificacion": "Es el número de macetas, no el de semillas por maceta.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "10",
+                    "esCorrecta": false,
+                    "justificacion": "10 × 15 = 150, sobran 30 semillas. No es distribución exacta.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                },
+                {
+                    "texto": "9",
+                    "esCorrecta": false,
+                    "justificacion": "9 × 15 = 135. Insuficiente para usar todas las semillas.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🌱 ¡Perfecto! Con 12 semillas en cada maceta tendrás una siembra equilibrada.",
+            "feedbackIncorrecto": "🪴 Reparte las 180 semillas en 15 macetas dividiendo de forma funcional."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q6",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🧱 Un obrero tiene 150 kg de cemento y debe repartirlo en 10 sacos iguales. ¿Cuántos kg llevará cada saco?",
+            "opciones": [
+                {
+                    "texto": "15",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 150 ÷ 10 = 15 kg por saco. Reparto funcional para el trabajo.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "10",
+                    "esCorrecta": false,
+                    "justificacion": "10 × 10 = 100, no distribuye todo el cemento.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                },
+                {
+                    "texto": "12",
+                    "esCorrecta": false,
+                    "justificacion": "12 × 10 = 120, se queda corto. No es eficiente.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "20",
+                    "esCorrecta": false,
+                    "justificacion": "20 × 10 = 200, excede el total disponible.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧱 ¡Muy bien! Cada saco tendrá 15 kg de cemento, todo repartido.",
+            "feedbackIncorrecto": "📏 Divide los 150 kg entre los 10 sacos para que todos tengan lo mismo."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q7",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🪚 Un carpintero tiene 132 clavos y necesita repartirlos en 11 cajones de herramientas para 11 aprendices. ¿Cuántos clavos le tocarán a cada uno si se distribuyen por igual?",
+            "opciones": [
+                {
+                    "texto": "12",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 132 ÷ 11 = 12 clavos por cajón, distribución funcional para el trabajo.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "11",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre número de cajones y número de clavos por cajón.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "13",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestimación. 13 × 11 = 143, más de los clavos disponibles.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "10",
+                    "esCorrecta": false,
+                    "justificacion": "Subestimación. 10 × 11 = 110, quedan clavos sin repartir.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🪚 ¡Muy bien! Todos los cajones quedan con la misma cantidad de clavos.",
+            "feedbackIncorrecto": "📦 Divide los 132 clavos entre los 11 aprendices para repartir de forma equitativa."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q8",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🏗️ Una obra necesita 72 horas de trabajo y se divide en 6 turnos iguales entre trabajadores. ¿Cuántas horas debe durar cada turno para completar la obra?",
+            "opciones": [
+                {
+                    "texto": "12",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 72 ÷ 6 = 12 horas por turno. Así se organiza el trabajo de forma funcional.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "10",
+                    "esCorrecta": false,
+                    "justificacion": "10 × 6 = 60, no cubre todas las horas necesarias.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                },
+                {
+                    "texto": "14",
+                    "esCorrecta": false,
+                    "justificacion": "14 × 6 = 84, sobrepasa el total de horas necesarias.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "6",
+                    "esCorrecta": false,
+                    "justificacion": "6 × 6 = 36, apenas cubre la mitad del tiempo requerido.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🔩 ¡Genial! Dividir el trabajo en turnos iguales facilita la organización.",
+            "feedbackIncorrecto": "📊 Divide las horas totales de trabajo entre los turnos para saber cuántas debe durar cada uno."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q9",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🚚 Un camión transporta 210 bloques de concreto que deben distribuirse en 7 puntos de descarga. ¿Cuántos bloques deben dejarse en cada punto para que el reparto sea equitativo?",
+            "opciones": [
+                {
+                    "texto": "30",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 210 ÷ 7 = 30 bloques por punto. Así el reparto es equilibrado y funcional.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "28",
+                    "esCorrecta": false,
+                    "justificacion": "28 × 7 = 196, faltan bloques por repartir.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "25",
+                    "esCorrecta": false,
+                    "justificacion": "25 × 7 = 175, subestimación del reparto.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                },
+                {
+                    "texto": "35",
+                    "esCorrecta": false,
+                    "justificacion": "35 × 7 = 245, más bloques de los que realmente hay.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🚛 ¡Perfecto! Así el reparto es equitativo en cada punto de descarga.",
+            "feedbackIncorrecto": "📦 Divide los bloques totales entre los puntos para saber cuántos dejar en cada uno."
+        },
+        {
+            "preguntaId": "1ESO-division-CONSTRUCTOR-Q10",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "🍽️ Una cocina prepara 180 raciones de comida para distribuir entre 9 comedores escolares. ¿Cuántas raciones recibirá cada comedor si se reparten por igual?",
+            "opciones": [
+                {
+                    "texto": "20",
+                    "esCorrecta": true,
+                    "justificacion": "Correcto. 180 ÷ 9 = 20 raciones por comedor. Es una distribución funcional y equitativa.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9
+                    }
+                },
+                {
+                    "texto": "18",
+                    "esCorrecta": false,
+                    "justificacion": "18 × 9 = 162, no cubre todas las raciones disponibles.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "22",
+                    "esCorrecta": false,
+                    "justificacion": "22 × 9 = 198, excede la cantidad preparada.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "15",
+                    "esCorrecta": false,
+                    "justificacion": "15 × 9 = 135, sobran muchas raciones.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🍽️ ¡Excelente! Así cada comedor recibe las raciones necesarias de forma justa.",
+            "feedbackIncorrecto": "🔢 Divide las raciones totales entre los comedores para saber cuántas le corresponden a cada uno."
+        }
+    ]
+}

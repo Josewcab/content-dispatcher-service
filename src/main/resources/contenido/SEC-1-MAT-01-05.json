@@ -1,0 +1,46 @@
+{
+    "unidadId": "U1C3-NUM-1ESO",
+    "titulo": "La división",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "unidad": 1,
+    "capitulo": 5,
+    "descripcion": "Comprende cómo dividir, interpretar el resto y aplicar la división a situaciones de la vida real.",
+    "paths": [
+        {
+            "path": "EXPLORADOR",
+            "titulo": "Dividir para entender el mundo",
+            "contenidoMarkdown": "# Dividir para entender el mundo\n\n## 🌍 Introducción\n\nDividir es algo que haces más de lo que crees: repartir tareas, compartir comida, organizar turnos.\n\nEn matemáticas, dividir es explorar cómo se distribuye algo en partes iguales.\n\n---\n\n## 🔎 ¿Qué significa dividir?\n\n- Dividir es repartir una cantidad en grupos iguales.\n- También es saber cuántas veces cabe un número dentro de otro.\n\nEjemplo: 12 ÷ 3 = 4 → puedes hacer 4 grupos de 3 con 12 objetos.\n\n---\n\n## 🧠 Términos clave\n\n- Dividendo: número que se reparte (ej: 12)\n- Divisor: en cuántas partes se divide (ej: 3)\n- Cociente: resultado (ej: 4)\n- Resto: lo que sobra, si no se reparte todo\n\n---\n\n## 🧭 Tipos de división\n\n- Exacta: el resto es 0 → 20 ÷ 5 = 4\n- Entera: sobra algo → 23 ÷ 5 = 4 y sobran 3\n\n> 🔍 *Explora*: ¿En qué situaciones de tu día hay restos? ¿Cómo decides qué hacer con lo que sobra?\n\n---\n\n## 🔄 Relación con la multiplicación\n\nSi sabes que 4 × 5 = 20, entonces 20 ÷ 5 = 4\n\nMultiplicación y división se ayudan mutuamente. Una deshace lo que la otra hace.\n\n---\n\n## 🧩 Actividad exploratoria\n\n1. Busca una situación donde necesites dividir (organizar equipos, repartir monedas, etc).\n2. Explica si tu división es exacta o no.\n3. Representa la operación con un dibujo o esquema.\n",
+            "evaluacionSugerida": "Comprende el sentido de dividir. Distingue entre división exacta y entera. Conecta división con situaciones reales. Relaciona división y multiplicación de forma significativa.",
+            "tono": "Explorador, visual y aplicado. Motiva desde la observación y el descubrimiento de patrones en lo cotidiano."
+        },
+        {
+            "path": "CONSTRUCTOR",
+            "titulo": "Divide con propósito",
+            "contenidoMarkdown": "# Divide con propósito\n\n## 🔧 Introducción\n\nDividir sirve para repartir, distribuir recursos o calcular cuántas veces algo se repite.\n\nSi sabes dividir, puedes resolver desde presupuestos hasta distribuciones de trabajo.\n\n---\n\n## 🛠️ Cómo funciona la división\n\nEjemplo: 24 ÷ 6 = 4\n→ 24 caramelos repartidos en 6 bolsas = 4 caramelos por bolsa\n\n### Términos\n- Dividendo: lo que se reparte → 24\n- Divisor: en cuántas partes → 6\n- Cociente: cuánto toca a cada parte → 4\n- Resto: lo que sobra (si no es exacto)\n\n---\n\n## ⚙️ Tipos de división\n\n- Exacta: el reparto es justo, sin sobras → 20 ÷ 4 = 5\n- Entera: queda algo sin repartir → 23 ÷ 4 = 5 y sobran 3\n\n> Usa el resto para ajustar decisiones: ¿compro una caja más?, ¿ajusto el precio?, ¿guardo el sobrante?\n\n---\n\n## 🧪 Actividad práctica\n\n### Parte A: Reparto de material\nTienes 90 folios y 6 grupos. ¿Cuántos folios por grupo? ¿Sobra alguno?\n\n### Parte B: Planificación real\nVas a imprimir 145 invitaciones y cada hoja contiene 4. ¿Cuántas hojas necesitas? ¿Sobran espacios?\n\n---\n\n## 🧱 Diseña tu caso\n\n1. Inventa una situación real (reparto de botellas, turnos, libros).\n2. Representa la división con todos sus elementos.\n3. Indica si es exacta o entera y cómo resolverías el posible resto.\n",
+            "evaluacionSugerida": "Aplica la división a contextos útiles. Usa correctamente cada término. Distingue entre división exacta y entera. Resuelve problemas reales con sentido práctico.",
+            "tono": "Práctico, funcional y centrado en resolver con claridad. Refuerza la división como herramienta para tomar decisiones concretas."
+        },
+        {
+            "path": "REFLEXIVO",
+            "titulo": "Dividir también es comprender",
+            "contenidoMarkdown": "# Dividir también es comprender\n\n## 🌌 Introducción\n\nDividir no es solo repartir. Es observar, comparar, ajustar.\nNos ayuda a entender cómo se organiza lo que tenemos.\n\nA veces, dividir también nos enseña qué falta, qué sobra, y cómo equilibrar.\n\n---\n\n## 🤔 ¿Qué estás haciendo al dividir?\n\nEjemplo: 18 ÷ 6 = 3\n→ Estás separando 18 cosas en 6 grupos.\n\nEso también puede significar: distribuir tareas, repartir emociones, equilibrar tiempos.\n\n---\n\n## 🧠 Términos importantes\n\n- Dividendo: lo que tienes\n- Divisor: en cuántas partes\n- Cociente: cuánto toca a cada uno\n- Resto: lo que no encaja\n\n> ¿Alguna vez has sentido que algo “no encaja” del todo? Eso también es un resto.\n\n---\n\n## 📘 División exacta vs. entera\n\n- Exacta: todo se reparte justo.\n- Entera: queda algo fuera.\n\nAmbas son reales, y ambas son parte de la vida. A veces todo cuadra, otras veces hay que decidir qué hacer con lo que sobra.\n\n---\n\n## 🔄 Multiplicar para revisar\n\nMultiplicar te permite comprobar la división.\nSi 24 ÷ 6 = 4, entonces 4 × 6 = 24\n\n¿Hay algo que tú hayas dividido, y después reconstruido para comprobar?\n\n---\n\n## ✍️ Actividad personal\n\n1. Piensa en un momento donde tuviste que repartir algo (tiempo, atención, recursos).\n2. ¿Fue una división exacta? ¿O te sobró algo?\n3. ¿Cómo decidiste qué hacer con el “resto”? ¿Volviste a ajustar?\n4. Escribe brevemente lo que aprendiste de esa situación.\n",
+            "evaluacionSugerida": "Comprende la división como estructura de equilibrio. Distingue entre reparto justo e incompleto. Relaciona la división con experiencias personales o decisiones reales.",
+            "tono": "Reflexivo, simbólico y personal. Ayuda a ver las matemáticas como una forma de comprender cómo se organiza la realidad."
+        },
+        {
+            "path": "CONQUISTADOR",
+            "titulo": "Domina la división con precisión",
+            "contenidoMarkdown": "# Domina la división con precisión\n\n## 🏁 Entrena tu cálculo estratégico\n\nDividir es clave en toda misión con recursos limitados.\nSi quieres repartir, medir, calcular lo que falta o comprobar decisiones, necesitas dominar la división.\n\nPrepárate para conquistar esta operación paso a paso.\n\n---\n\n## 🎯 Regla general\n\nDivisión = repartir en partes iguales.\n\nEjemplo: 30 ÷ 6 = 5\n→ 30 elementos, 6 grupos, 5 por grupo.\n\n---\n\n## 🧠 Términos de batalla\n\n- Dividendo: lo que tienes (ej: 30)\n- Divisor: en cuántos grupos lo divides (ej: 6)\n- Cociente: lo que toca a cada grupo (ej: 5)\n- Resto: lo que queda sin usar (si no es exacto)\n\n---\n\n## 🧪 Tipos de división\n\n- Exacta: no sobra nada → 24 ÷ 6 = 4\n- Entera: queda resto → 25 ÷ 6 = 4 y sobran 1\n\n> ⚔️ Un resto mal gestionado puede fallar tu estrategia.\n\n---\n\n## 🎮 Modo entrenamiento por niveles\n\n### Nivel 1: División directa\nResuelve:\n- 36 ÷ 6 = ___\n- 56 ÷ 7 = ___\n\n### Nivel 2: División con resto\n- 53 ÷ 8 = ___ y sobra ___\n- 97 ÷ 10 = ___ y sobra ___\n\n### Nivel 3: Multiplicación inversa\n- Comprueba: si 7 × 4 = 28, ¿entonces 28 ÷ 7 = ___?\n- ¿Qué otras divisiones puedes comprobar al revés?\n\n---\n\n## 🏅 Reto final\n\nInventa una misión de reparto: comida para soldados, distribución de mochilas, agua en un desierto.\nUsa una división exacta y otra entera.\nExplica qué harías con el resto.\n\nCompleta el reto y obtén el título de \"Comandante de distribución táctica\".\n",
+            "evaluacionSugerida": "Resuelve divisiones exactas y enteras con agilidad. Usa términos correctamente. Comprueba resultados con la multiplicación. Aplica la división en escenarios imaginativos con estrategia.",
+            "tono": "Competitivo, progresivo y estratégico. Usa el lenguaje del reto y el logro para motivar el dominio de la división."
+        },
+        {
+            "path": "MINIMALISTA",
+            "titulo": "División: rápido y claro",
+            "contenidoMarkdown": "# División: rápido y claro\n\n## 🧠 Qué es dividir\n\n- Repartir en partes iguales.\n- Saber cuántas veces cabe un número en otro.\n\nEjemplo: 18 ÷ 6 = 3\n\n---\n\n## 🔧 Términos clave\n\n- Dividendo: lo que se reparte\n- Divisor: en cuántas partes\n- Cociente: resultado\n- Resto: lo que sobra (si hay)\n\n---\n\n## 📊 Tipos de división\n\n- Exacta: sin resto → 24 ÷ 6 = 4\n- Entera: con resto → 25 ÷ 6 = 4 y sobran 1\n\n---\n\n## 🔁 Revisión con multiplicación\n\nEjemplo: 7 × 5 = 35\n→ 35 ÷ 7 = 5\n\n---\n\n## ✅ Practica breve\n\n1. 32 ÷ 4 = ___\n2. 45 ÷ 6 = ___ y sobran ___\n3. ¿Qué número multiplicado por 9 da 81?\n",
+            "evaluacionSugerida": "Identifica y usa los términos clave. Distingue entre división exacta y con resto. Comprueba operaciones con la multiplicación.",
+            "tono": "Directo, claro, sin rodeos. Centrado en lo esencial para calcular con seguridad y sin confusión."
+        }
+    ]
+}

@@ -1,0 +1,441 @@
+{
+    "unidadId": "U1C2-NUM-1ESO-CONQ-TEST",
+    "titulo": "Aproximación de números naturales",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 2,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q1",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⚔️ ¡Reto relámpago! Si solo tienes 5 segundos para redondear 48 736 a la unidad de millar más cercana, ¿qué número eliges?",
+            "opciones": [
+                {
+                    "texto": "49 000",
+                    "esCorrecta": true,
+                    "justificacion": "¡Bien hecho! 736 es más de 500, así que el número se redondea hacia arriba.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "48 000",
+                    "esCorrecta": false,
+                    "justificacion": "¡Casi! Pero recuerda: si los cientos son 500 o más, redondeas hacia arriba.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "48 700",
+                    "esCorrecta": false,
+                    "justificacion": "Esto es una truncación, no un redondeo. ¿Caíste en la trampa?",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "50 000",
+                    "esCorrecta": false,
+                    "justificacion": "¡Demasiado lejos! Este valor solo sería válido si el número estuviera más cerca de 50 000.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🔥 ¡Perfecto! Rápido, preciso y al punto. Has ganado este round.",
+            "feedbackIncorrecto": "⏱️ ¡Ups! Revisa la regla: si hay 500 o más, se sube al siguiente millar."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q2",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🏆 Nivel 2 – ¡Cuidado con la distracción!\nRedondea 62 499 a la unidad de millar. ¿Cuál es la respuesta correcta?",
+            "opciones": [
+                {
+                    "texto": "62 000",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! El 499 no alcanza los 500 necesarios para subir al siguiente millar.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "63 000",
+                    "esCorrecta": false,
+                    "justificacion": "¡Te apuraste! Faltó muy poco para llegar a 63 000, pero no se redondea si no supera 500.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "62 499",
+                    "esCorrecta": false,
+                    "justificacion": "Esa es la cifra original, pero no está redondeada.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "62 500",
+                    "esCorrecta": false,
+                    "justificacion": "¡Trampa! Ese es el umbral de redondeo, no el resultado.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🥇 ¡Excelente control! No te dejaste engañar por la cercanía a 63 000.",
+            "feedbackIncorrecto": "👀 ¡Atento! Si el número no llega a 500 en la posición que redondeas, no sube."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q3",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⚔️ ¡Batalla de redondeos! ¿Cuál de estos números redondeado a la centena da como resultado 5 300?",
+            "opciones": [
+                {
+                    "texto": "5 249",
+                    "esCorrecta": false,
+                    "justificacion": "Redondea a 5 200. No llega a la mitad de centena para subir.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "5 251",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque está cerca, sigue más cerca de 5 200 que de 5 300.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "5 276",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! Está más cerca de 5 300 que de 5 200. La victoria es tuya.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "5 350",
+                    "esCorrecta": false,
+                    "justificacion": "Redondea a 5 400, no a 5 300. ¡Cuidado con pasarte!",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏆 ¡Victoria conquistada! Has elegido el número que cae justo en el rango correcto.",
+            "feedbackIncorrecto": "📉 Casi... recuerda: para redondear a la centena, los valores cercanos a 50 suben al siguiente nivel."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q4",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🚀 Nivel 4: ¡Evita el error y gana tiempo!\n¿Cuál de estos números redondeado a la decena más cercana da 380?",
+            "opciones": [
+                {
+                    "texto": "375",
+                    "esCorrecta": true,
+                    "justificacion": "¡Perfecto! 5 o más en las unidades lleva el redondeo a la siguiente decena.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "384",
+                    "esCorrecta": false,
+                    "justificacion": "Está más cerca de 380, sí… ¡pero redondea a 380 sólo si las unidades son < 5!",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "373",
+                    "esCorrecta": false,
+                    "justificacion": "Redondea a 370, porque las unidades son menores que 5.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "385",
+                    "esCorrecta": false,
+                    "justificacion": "¡Cuidado! Este sube a 390. Es un clásico error por apresurarse.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "⚡ ¡Bien hecho! Avanzas al siguiente nivel sin errores.",
+            "feedbackIncorrecto": "🕹️ Revisa la regla: con 5 o más, subes a la decena siguiente. Menos de 5, te quedas."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q5",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🧠 Nivel 5: ¡Cazador de precisión!\nSolo uno de estos números se redondea a 1 500 cuando lo aproximamos a la centena. ¿Cuál es el correcto?",
+            "opciones": [
+                {
+                    "texto": "1 460",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado lejos: se redondea a 1 500 solo si el número es 1 450 o más.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "1 549",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! 49 es menos de 50, así que redondea a 1 500.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "1 551",
+                    "esCorrecta": false,
+                    "justificacion": "¡Ups! Ya pasaste el umbral de 50. Este redondea a 1 600.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "1 501",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque está cerca, redondear depende de la decena, no de la unidad.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🎯 ¡Disparo certero! Acertaste justo en el límite sin pasarte.",
+            "feedbackIncorrecto": "📏 Revisa qué valor marca la frontera entre subir o bajar de centena."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q6",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🔍 Nivel 6: ¡No te distraigas con los ceros!\n¿Cuál de estos números redondeado a la unidad de millar da como resultado 40 000?",
+            "opciones": [
+                {
+                    "texto": "39 501",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! Está justo por encima del umbral de 500, por lo que sube a 40 000.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "40 499",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque empieza con 40, todavía redondea a 40 000. ¡Pero ojo! No es un error de interpretación del orden.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "39 499",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado bajo. 499 no llega al umbral para redondear hacia 40 000.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "40 501",
+                    "esCorrecta": false,
+                    "justificacion": "Este sube a 41 000 al redondear a la unidad de millar. ¡Atento al orden!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🧠 ¡Buena puntería! Venciste la trampa de los ceros.",
+            "feedbackIncorrecto": "👁️ Cuidado: a veces un número parece más alto solo por cómo empieza, pero hay que mirar las cifras clave."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q7",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🎯 Nivel 7: ¡Redondeo doble combo!\nPrimero redondea 8 763 a la centena más cercana, luego redondea ese resultado a la unidad de millar. ¿Cuál es el resultado final?",
+            "opciones": [
+                {
+                    "texto": "9 000",
+                    "esCorrecta": true,
+                    "justificacion": "¡Perfecto! Primero redondeas 8 763 a 8 800, luego eso sube a 9 000.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "8 700",
+                    "esCorrecta": false,
+                    "justificacion": "Incorrecto. 8 763 se redondea a 8 800, no baja.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "8 800",
+                    "esCorrecta": false,
+                    "justificacion": "Este es solo el primer paso. Falta redondear de nuevo a la unidad de millar.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "8 000",
+                    "esCorrecta": false,
+                    "justificacion": "¡No tan rápido! Este resultado ignora ambos redondeos correctamente aplicados.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏅 ¡Combo logrado! Has dominado el redondeo en cadena.",
+            "feedbackIncorrecto": "🔁 ¡Repasa! El primer redondeo cambia el número, y el segundo lo eleva aún más."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q8",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "💣 Nivel 8: ¡Cuidado con la trampa! Un compañero dice que 64 999 redondeado a la unidad de millar da 64 000. ¿Tiene razón?",
+            "opciones": [
+                {
+                    "texto": "No, porque 999 hace que suba a 65 000.",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! El número está justo en el borde y debe redondearse hacia arriba.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "Sí, porque 64 999 empieza por 64.",
+                    "esCorrecta": false,
+                    "justificacion": "Trampa semántica. Lo que cuenta es el dígito que sigue en la posición que se redondea.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Sí, porque aún no llega a 65 000.",
+                    "esCorrecta": false,
+                    "justificacion": "Error común: el redondeo sí alcanza el valor superior si pasa los 500.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Depende si lo haces mentalmente o con calculadora.",
+                    "esCorrecta": false,
+                    "justificacion": "No influye la herramienta. El criterio de redondeo es el mismo en ambos casos.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "💥 ¡Evitas la trampa! Sabes que 999 siempre sube al siguiente nivel.",
+            "feedbackIncorrecto": "⚠️ Fíjate bien: 999 está por encima del umbral de 500. ¡Es un caso clásico!"
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q9",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⏳ Nivel 9: ¡Contrarreloj! Tienes 10 segundos para elegir: ¿Cuál de estos números redondeado a la decena da 1 460?",
+            "opciones": [
+                {
+                    "texto": "1 454",
+                    "esCorrecta": false,
+                    "justificacion": "Redondea a 1 450, no alcanza el umbral para subir a 1 460.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "1 465",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! El 5 hace que suba a la siguiente decena: 1 460.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "1 469",
+                    "esCorrecta": false,
+                    "justificacion": "Este redondea a 1 470, no a 1 460. ¡Demasiado alto!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "1 444",
+                    "esCorrecta": false,
+                    "justificacion": "Está muy por debajo. Redondea a 1 440.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "⏱️ ¡Rápido y preciso! 1 465 sube a 1 460 al redondear a la decena.",
+            "feedbackIncorrecto": "🧠 Recuerda: si la unidad es 5 o más, el número sube a la próxima decena."
+        },
+        {
+            "preguntaId": "1ESO-redondeo-CONQUISTADOR-Q10",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🏁 Nivel Final: ¡Gánate la medalla! Tienes dos números: 3 482 y 6 519. Si los sumas y redondeas el resultado a la centena más cercana, ¿qué obtienes?",
+            "opciones": [
+                {
+                    "texto": "10 000",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado alto. La suma es menor que 10 000.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "9 900",
+                    "esCorrecta": false,
+                    "justificacion": "Cerca, pero no es el resultado correcto de redondear la suma.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "10 100",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestimado. Suma los números antes de redondear.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "10 000",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! 3 482 + 6 519 = 10 001, que redondeado a la centena más cercana es 10 000.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🥇 ¡Medalla conquistada! Has superado todos los niveles de redondeo como un verdadero campeón.",
+            "feedbackIncorrecto": "📉 Revisa: primero suma los números, luego aplica la regla del redondeo. ¡Puedes lograrlo!"
+        }
+    ]
+}

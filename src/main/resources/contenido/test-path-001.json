@@ -1,0 +1,671 @@
+{
+    "testId": "TEST-PATH-INIT-001",
+    "version": "1.0",
+    "titulo": "Test de Perfil Cognitivo Inicial",
+    "descripcion": "Este test ayuda a identificar el estilo de aprendizaje predominante del alumno antes de comenzar las lecciones. No se centra en conocimientos académicos, sino en cómo el alumno percibe, decide y actúa frente al aprendizaje.",
+    "numeroPreguntas": 15,
+    "fechaCreacion": "2025-05-13",
+    "autor": "Sistema Adaptativo EduSoft",
+    "preguntas": [
+        {
+            "preguntaId": "TEST-PATH-INIT-Q1",
+            "enunciado": "Estás a punto de empezar una actividad nueva en clase. ¿Qué haces primero?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Exploro por mi cuenta para ver de qué trata",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil EXPLORADOR.",
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Busco entender cómo se relaciona con lo que ya sé",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil REFLEXIVO.",
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Pregunto para qué sirve o cómo se aplica",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONSTRUCTOR.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Intento hacerlo rápido y ganar ventaja",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONQUISTADOR.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Pido que me lo expliquen de forma clara y breve",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil MINIMALISTA.",
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q2",
+            "enunciado": "Tienes que aprender algo completamente nuevo. ¿Qué prefieres?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Descubrirlo jugando o experimentando",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil EXPLORADOR.",
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Leer y pensar sobre ello en profundidad",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil REFLEXIVO.",
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Ver cómo se usa en un caso real",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONSTRUCTOR.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Aprender lo esencial para resolverlo bien y rápido",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONQUISTADOR.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Que alguien me lo explique con un resumen claro",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil MINIMALISTA.",
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q3",
+            "enunciado": "Te dan un problema difícil sin instrucciones. ¿Cómo reaccionas?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Empiezo a probar cosas hasta ver qué funciona",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil EXPLORADOR.",
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Me detengo a analizar lo que sé y lo que me falta",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil REFLEXIVO.",
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Pienso en cómo se resolvería en la vida real",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONSTRUCTOR.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Me lanzo a resolverlo con rapidez, me gustan los desafíos",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONQUISTADOR.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Me molesta, preferiría que me explicaran bien primero",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil MINIMALISTA.",
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q4",
+            "enunciado": "En un proyecto grupal, ¿qué papel sueles asumir?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "El que propone ideas diferentes y hace conexiones",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil EXPLORADOR.",
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "El que escucha y da sentido a lo que se está haciendo",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil REFLEXIVO.",
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "El que baja las ideas a cosas concretas o útiles",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONSTRUCTOR.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "El que organiza, motiva y lidera al grupo",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONQUISTADOR.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "El que sigue las instrucciones y evita complicaciones",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil MINIMALISTA.",
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q5",
+            "enunciado": "Al estudiar en casa, te sientes más cómodo si...",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Tienes libertad para elegir cómo estudiar",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil EXPLORADOR.",
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Puedes escribir tus ideas o reflexionar solo",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil REFLEXIVO.",
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Ves cómo eso que estudias sirve para algo",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONSTRUCTOR.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Tienes metas claras y un tiempo límite",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil CONQUISTADOR.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Sabes exactamente qué hacer, paso a paso",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con el perfil MINIMALISTA.",
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q6",
+            "enunciado": "Cuando no entiendes algo en clase, ¿qué haces?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Busco otro ejemplo o intento relacionarlo con otra cosa",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con EXPLORADOR",
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Me detengo a pensar en qué me bloquea",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con REFLEXIVO",
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Pido que me lo expliquen con un caso real",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con CONSTRUCTOR",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Intento resolverlo como sea para no quedarme atrás",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con CONQUISTADOR",
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Pido una explicación clara y concreta",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja afinidad con MINIMALISTA",
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q7",
+            "enunciado": "Vas a visitar un museo por primera vez. ¿Qué te emociona más?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Explorar salas nuevas y descubrir cosas inesperadas",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Entender la historia detrás de cada objeto",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Ver cómo se usaban los objetos en la vida real",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Completar todas las salas antes que los demás",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Ver un resumen con lo más importante",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q8",
+            "enunciado": "Te dan una lista de tareas. ¿Cómo decides por cuál empezar?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Por la que me parezca más interesante o rara",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Por la que me ayude a entender mejor las otras",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Por la que tenga más utilidad inmediata",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Por la más difícil, así avanzo más rápido",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Por la más corta o clara",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q9",
+            "enunciado": "Si tienes que preparar una presentación, ¿qué parte disfrutas más?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Buscar cosas nuevas que sorprendan",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Organizar las ideas con lógica y profundidad",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Mostrar cómo se aplica lo que aprendiste",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Presentarla y ver si impacta en los demás",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Dejarla lista con lo mínimo pero correcto",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q10",
+            "enunciado": "Cuando logras resolver un reto difícil, ¿qué sientes?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Emoción por haberlo descubierto yo solo",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Satisfacción por entenderlo a fondo",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Alegría por ver que tiene una utilidad",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Orgullo por haberlo logrado primero",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Alivio por haber terminado bien",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q11",
+            "enunciado": "Tienes que organizar tu semana. ¿Cómo lo haces?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Dejo espacio para explorar o improvisar",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Pienso cómo equilibrar lo urgente y lo importante",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Pongo primero lo que tiene más impacto real",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Me marco objetivos diarios y voy por ellos",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Sigo un esquema claro de lo que hay que hacer",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q12",
+            "enunciado": "Tu profesor te da un tema libre para investigar. ¿Qué haces?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Elijo algo que me intrigue o nunca haya explorado",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Escojo un tema que me haga pensar y profundizar",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Busco un tema que se relacione con la vida real",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Elijo algo que me permita destacar",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Busco algo fácil de investigar y exponer",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q13",
+            "enunciado": "Cuando trabajas con otros, ¿qué te molesta más?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Que no te dejen experimentar",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Que no te escuchen o no piensen antes de actuar",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Que hagan cosas sin saber para qué",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Que no se esfuercen o no quieran ganar",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Que compliquen las cosas innecesariamente",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q14",
+            "enunciado": "Tienes que aprender algo aburrido. ¿Qué estrategia usas?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Intento hacerlo divertido o buscar conexiones",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Me convenzo de que es parte del proceso y lo analizo",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Trato de ver para qué sirve realmente",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Me propongo terminarlo rápido y bien",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Lo reduzco a lo esencial para avanzar",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "preguntaId": "TEST-PATH-INIT-Q15",
+            "enunciado": "Si pudieras elegir cómo aprender algo nuevo, ¿cómo lo harías?",
+            "tipo": "multipleChoice",
+            "opciones": [
+                {
+                    "texto": "Descubriéndolo con experimentos o juegos",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "EXPLORADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Reflexionando, leyendo y haciendo conexiones",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "REFLEXIVO": 1.0
+                    }
+                },
+                {
+                    "texto": "Aplicándolo en la práctica directamente",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONSTRUCTOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Compitiendo con otros o poniéndome un reto",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "CONQUISTADOR": 1.0
+                    }
+                },
+                {
+                    "texto": "Con un esquema claro y ejemplos concretos",
+                    "esCorrecta": true,
+                    "pathWeight": {
+                        "MINIMALISTA": 1.0
+                    }
+                }
+            ]
+        }
+    ]
+}

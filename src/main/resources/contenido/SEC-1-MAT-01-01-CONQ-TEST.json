@@ -1,0 +1,453 @@
+{
+    "unidadId": "U1C1-NUM-1ESO-CONQ-TEST",
+    "titulo": "Sistemas de numeración",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 1,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q1",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🕒 ¡Desafío relámpago! Resuelve lo más rápido que puedas:\n\n¿Cuál es el resultado de sumar: 100 000 + 3 000 + 20 + 5?",
+            "opciones": [
+                {
+                    "texto": "103 025",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! Resolviste un reto rápido de descomposición con agilidad mental. ¡Suma un logro más!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "130 025",
+                    "esCorrecta": false,
+                    "justificacion": "Intercambiaste el orden de las cifras. Mantente atento al valor posicional. ¡Sigue intentándolo!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "103 205",
+                    "esCorrecta": false,
+                    "justificacion": "Invertiste la posición de las centenas y decenas. Error típico bajo presión. ¡No te rindas!",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "102 305",
+                    "esCorrecta": false,
+                    "justificacion": "Quizás te apresuraste en sumar. Calcula con calma… ¡y luego acelera!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🔥 ¡Victoria conquistada! Has demostrado velocidad y precisión. ¡Sigue subiendo de nivel!",
+            "feedbackIncorrecto": "❗ Fallaste por poco. Intenta nuevamente con concentración total y mejora tu marca."
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q2",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🏆 ¡Desafío de precisión! Tienes que tomar una decisión rápida:\n\nSi el número de producción es 274 825, ¿a cuántos millones se redondea?",
+            "opciones": [
+                {
+                    "texto": "275 000 000",
+                    "esCorrecta": true,
+                    "justificacion": "¡Bien hecho! Dominaste el redondeo en el nivel de los millones. Has dado en el blanco.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.5
+                    }
+                },
+                {
+                    "texto": "270 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "Redondeaste hacia abajo incorrectamente. ¡Cuidado con las centenas de mil!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "280 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "Te pasaste. Redondeaste más de lo debido. ¡Ve ajustando tu puntería!",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "274 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "Redondeo incompleto. No superaste el umbral de 500 000. ¡Repasa tu estrategia!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏅 ¡Exacto! Redondeaste con precisión milimétrica. ¡Nivel conquistado!",
+            "feedbackIncorrecto": "🧠 Reajusta tus cálculos y vuelve a intentarlo. ¡Cada intento te hace más fuerte!"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q3",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⚡ ¡Batalla numérica! ¿Cuál de estos números es el más grande?",
+            "opciones": [
+                {
+                    "texto": "903 050",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! Has vencido este reto de comparación. ¡Avanzas al siguiente nivel!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "900 500",
+                    "esCorrecta": false,
+                    "justificacion": "Casi lo logras. Este número es grande, pero no el mayor. ¡No te rindas!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "903 005",
+                    "esCorrecta": false,
+                    "justificacion": "Buen intento, pero te faltaron algunos detalles. Sigue perfeccionando tu ojo matemático.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "890 999",
+                    "esCorrecta": false,
+                    "justificacion": "Estás cerca, pero este número no lidera el ranking. ¡Apunta más alto!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🚀 ¡Número conquistado! Has demostrado rapidez y visión estratégica.",
+            "feedbackIncorrecto": "🔍 Revisa bien cada cifra. ¡Tú puedes encontrar al verdadero campeón numérico!"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q4",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🎯 ¡Caza el error! ¿Cuál de estas formas de escribir el número 203 057 es incorrecta?",
+            "opciones": [
+                {
+                    "texto": "2 centenas de mil, 0 decenas de mil, 3 unidades de mil, 0 centenas, 5 decenas, 7 unidades.",
+                    "esCorrecta": false,
+                    "justificacion": "Esta descomposición es correcta. ¡Buen ojo si la reconociste!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "200 000 + 3 000 + 50 + 7",
+                    "esCorrecta": false,
+                    "justificacion": "Descomposición perfectamente válida. ¡Nivel superado si la identificaste como correcta!",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.4,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "20 000 + 30 000 + 50 + 7",
+                    "esCorrecta": true,
+                    "justificacion": "¡Correcto! Esta suma está mal construida: no representa bien el valor total de 203 057.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "203 000 + 57",
+                    "esCorrecta": false,
+                    "justificacion": "Otra forma correcta de descomponer. ¡Bien visto si la dejaste pasar!",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "CONQUISTADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🎉 ¡Tiro certero! Has detectado el error oculto con precisión quirúrgica.",
+            "feedbackIncorrecto": "🔎 No era la que pensabas… Revisa cómo se construyen correctamente los valores posicionales."
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q5",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🏁 ¡Clasificación exprés! Ordena mentalmente estos números y elige el MAYOR:\n\n203 570 – 203 507 – 230 057 – 200 375",
+            "opciones": [
+                {
+                    "texto": "230 057",
+                    "esCorrecta": true,
+                    "justificacion": "¡Bien hecho! Este número lidera el ranking. Has dominado el orden mental ascendente.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "REFLEXIVO": 0.3
+                    }
+                },
+                {
+                    "texto": "203 570",
+                    "esCorrecta": false,
+                    "justificacion": "Estuviste cerca, pero hay uno más arriba en el ranking. ¡No te detengas!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "203 507",
+                    "esCorrecta": false,
+                    "justificacion": "Este quedó más abajo en la lista. ¡Sigue escalando!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "200 375",
+                    "esCorrecta": false,
+                    "justificacion": "Número más bajo del grupo. Pero cada intento suma experiencia. ¡Sigue compitiendo!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🥇 ¡Número campeón! Has ganado esta ronda de velocidad mental.",
+            "feedbackIncorrecto": "📊 Intenta ordenar los números mentalmente de mayor a menor. ¡Elige al rey del ranking!"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q6",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🎮 ¡Reto visual! Observa bien este número: 507 000\n\n¿Cuál es el valor posicional del 5?",
+            "opciones": [
+                {
+                    "texto": "500 000",
+                    "esCorrecta": true,
+                    "justificacion": "¡Perfecto! Has identificado el valor del 5 como cinco centenas de mil. ¡Punto para ti!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "5 000",
+                    "esCorrecta": false,
+                    "justificacion": "Ups… confusión de orden. El 5 no está en las unidades de mil. ¡Reintenta!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "50 000",
+                    "esCorrecta": false,
+                    "justificacion": "Estás cerca, pero revisa cuántos ceros hay a la derecha del 5. ¡Tú puedes!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "5",
+                    "esCorrecta": false,
+                    "justificacion": "Ese es su valor nominal, no posicional. ¡Vuelve al campo de batalla!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🎯 ¡Disparo directo al valor posicional! ¡Eres un maestro del sistema decimal!",
+            "feedbackIncorrecto": "👀 Fíjate cuántas posiciones a la derecha hay del 5. ¿En qué orden de magnitud estás?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q7",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⚔️ ¡Duelo matemático! Tienes 10 segundos (imaginarios) para responder:\n\n¿Cuánto es 1 000 000 + 200 000 + 3 000 + 50 + 9?",
+            "opciones": [
+                {
+                    "texto": "1 203 059",
+                    "esCorrecta": true,
+                    "justificacion": "¡Victoria total! Has sumado cada parte correctamente. ¡Conquista lograda!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "1 230 059",
+                    "esCorrecta": false,
+                    "justificacion": "Error de orden: parece que intercambiaste centenas y decenas de mil. ¡Concéntrate más!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "1 203 509",
+                    "esCorrecta": false,
+                    "justificacion": "Te equivocaste en el valor de la centena. Aún puedes recuperarte en el próximo duelo.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "1 200 359",
+                    "esCorrecta": false,
+                    "justificacion": "¡Ups! Te saltaste una parte de la suma. Repasa el desglose y regresa al ataque.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🏆 ¡Desafío conquistado! Has sumado como un estratega experto.",
+            "feedbackIncorrecto": "💡 Reúne tus fuerzas, analiza cada cifra y lánzate de nuevo. ¡Cada intento te mejora!"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q8",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🔥 ¡Reto crítico de redondeo! Una empresa factura 1 498 000 soles.\n\nSi quiere presentar una cifra simple al público, ¿a cuántos millones debería redondear?",
+            "opciones": [
+                {
+                    "texto": "1 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "Demasiado bajo. Este redondeo no refleja el verdadero tamaño. ¡Sube tu mira!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "1 400 000",
+                    "esCorrecta": false,
+                    "justificacion": "No es un redondeo a millones. Piensa en cifras redondas grandes.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "1 500 000",
+                    "esCorrecta": true,
+                    "justificacion": "¡Exacto! Supera el umbral de 1 450 000, así que redondea hacia arriba. ¡Redondeo conquistado!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "2 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "Te fuiste muy lejos. Este redondeo exagera la cifra real. ¡Recalibra tu estrategia!",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "💥 ¡Redondeo perfecto! Has dominado el umbral entre precisión y presentación.",
+            "feedbackIncorrecto": "📈 Revisa qué cifra de redondeo a millones está más cerca de 1 498 000. ¡Tú puedes!"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q9",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "⏱️ ¡Reto exprés! Si ya tienes 845 000 soles, ¿cuánto falta para llegar exactamente a 1 000 000?",
+            "opciones": [
+                {
+                    "texto": "155 000",
+                    "esCorrecta": true,
+                    "justificacion": "¡Respuesta fulminante! Has completado mentalmente la ruta al millón. ¡Sigue así!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "145 000",
+                    "esCorrecta": false,
+                    "justificacion": "Cerca, pero revisa tu suma o resta. ¡Refina tu puntería!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "165 000",
+                    "esCorrecta": false,
+                    "justificacion": "Te pasaste por poco. ¡Cada cifra cuenta!",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "135 000",
+                    "esCorrecta": false,
+                    "justificacion": "Estás algo lejos. Ajusta tu cálculo mental y vuelve al ataque.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "💸 ¡Conseguiste el monto exacto! Tu cálculo fue rápido y certero. ¡Mereces la medalla dorada!",
+            "feedbackIncorrecto": "🧠 Vuelve a pensar: ¿cuánto falta desde 845 000 hasta 1 000 000? ¡Puedes lograrlo!"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONQUISTADOR-Q10",
+            "targetPath": "CONQUISTADOR",
+            "enunciado": "🏅 ¡Misión final! El estadio puede albergar a 69 860 personas.\n\n¿Cuántas personas deberías anunciar (aproximadamente) si quieres redondear al millar más cercano?",
+            "opciones": [
+                {
+                    "texto": "69 900",
+                    "esCorrecta": true,
+                    "justificacion": "¡Reto superado! Redondeaste con precisión al millar más próximo. ¡Has completado la misión!",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "70 000",
+                    "esCorrecta": false,
+                    "justificacion": "Redondeaste al orden superior. Esta vez debías ir al millar más cercano. ¡Afina el objetivo!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "69 000",
+                    "esCorrecta": false,
+                    "justificacion": "Redondeaste hacia abajo. Pero el 860 empuja hacia arriba. ¡Revisa tu estrategia!",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "69 850",
+                    "esCorrecta": false,
+                    "justificacion": "Este número no es un múltiplo de mil. ¡No cumple con el tipo de redondeo pedido!",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "🎉 ¡Misión completada! Eres un maestro del redondeo numérico.",
+            "feedbackIncorrecto": "🎯 Revisa si el número termina en más o menos de 500. ¡La próxima, lo conquistas!"
+        }
+    ]
+}

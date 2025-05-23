@@ -1,0 +1,432 @@
+{
+  "unidadId": "U1C4-NUM-1ESO-MINI-TEST",
+  "titulo": "La multiplicación y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 4,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q1",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "🧮 ¿Cuánto es 6 × 7?",
+  "opciones": [
+    {
+      "texto": "42",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Es una multiplicación básica: 6 × 7 = 42.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "36",
+      "esCorrecta": false,
+      "justificacion": "Ese es 6 × 6. Revisa bien la tabla.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "48",
+      "esCorrecta": false,
+      "justificacion": "Es el resultado de 6 × 8. Has adelantado un número.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "40",
+      "esCorrecta": false,
+      "justificacion": "Cálculo erróneo. No corresponde a esta multiplicación.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Bien. Este tipo de cálculo debe ser automático.",
+  "feedbackIncorrecto": "🧮 Repasa la tabla del 6. Memorizarla te hará avanzar más rápido."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q2",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "📏 ¿Cuánto es 40 × 10?",
+  "opciones": [
+    {
+      "texto": "400",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Solo añade un cero al final: 40 × 10 = 400.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "410",
+      "esCorrecta": false,
+      "justificacion": "Confusión común. No se suman los números, se multiplican.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "140",
+      "esCorrecta": false,
+      "justificacion": "Error de cálculo o mezcla con 10 + 40 o 10 × 14.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "40",
+      "esCorrecta": false,
+      "justificacion": "Parece que olvidaste multiplicar. 40 × 10 no es 40.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📏 Perfecto. Multiplicar por 10 es solo añadir un cero.",
+  "feedbackIncorrecto": "✏️ Multiplicar por 10 es como mover una cifra: 40 → 400."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q3",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "📌 ¿Qué número resulta de multiplicar cualquier número por 0?",
+  "opciones": [
+    {
+      "texto": "0",
+      "esCorrecta": true,
+      "justificacion": "Regla básica: cualquier número multiplicado por 0 da como resultado 0.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "1",
+      "esCorrecta": false,
+      "justificacion": "Confusión común con la multiplicación por 1.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "El mismo número",
+      "esCorrecta": false,
+      "justificacion": "Eso ocurre al multiplicar por 1, no por 0.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "No se puede calcular",
+      "esCorrecta": false,
+      "justificacion": "Sí se puede calcular. Es una operación bien definida.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.2
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📌 Muy bien. Multiplicar por 0 siempre da 0.",
+  "feedbackIncorrecto": "✏️ Regla clara: todo número multiplicado por 0 es 0. Memorízala."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q4",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "📎 ¿Qué ocurre al multiplicar cualquier número por 1?",
+  "opciones": [
+    {
+      "texto": "El número no cambia",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Multiplicar por 1 deja el número igual. Es una regla básica.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "El número se convierte en 1",
+      "esCorrecta": false,
+      "justificacion": "Confusión. Solo ocurre si el número original es 1.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "El número se duplica",
+      "esCorrecta": false,
+      "justificacion": "Eso pasa al multiplicar por 2, no por 1.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "El número se divide por 1",
+      "esCorrecta": false,
+      "justificacion": "Multiplicar no es dividir. Esta afirmación no es válida.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📎 Bien hecho. Multiplicar por 1 no cambia el número.",
+  "feedbackIncorrecto": "✏️ Regla directa: cualquier número por 1 se mantiene igual. Memorízala."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q5",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "➕ ¿Cuál es el resultado de sumar 5 veces el número 6?",
+  "opciones": [
+    {
+      "texto": "30",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 6 + 6 + 6 + 6 + 6 = 30. Es lo mismo que 5 × 6.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "36",
+      "esCorrecta": false,
+      "justificacion": "Ese es 6 × 6, no 5 veces 6.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "25",
+      "esCorrecta": false,
+      "justificacion": "Parece que sumaste 5 + 6 o hiciste una estimación rápida.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "35",
+      "esCorrecta": false,
+      "justificacion": "Confusión con 5 × 7. Revisa bien la tabla del 6.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "✔️ Correcto. Sumar 5 veces 6 es igual a multiplicar 5 × 6.",
+  "feedbackIncorrecto": "🧮 Recuerda: repetir una suma es lo mismo que multiplicar."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q6",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "🧠 ¿Qué técnica puedes usar para calcular rápidamente 49 × 2?",
+  "opciones": [
+    {
+      "texto": "Hacer 50 × 2 y restar 2",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Es una forma rápida: 50 × 2 = 100; 100 - 2 = 98.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "Hacer 49 + 49",
+      "esCorrecta": false,
+      "justificacion": "Es válido, pero más lento que usar redondeo.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "Sumar 50 dos veces",
+      "esCorrecta": false,
+      "justificacion": "Eso daría 100. No es exacto.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    },
+    {
+      "texto": "Dividir 49 entre 2 y luego multiplicar por 4",
+      "esCorrecta": false,
+      "justificacion": "Complica innecesariamente. No es práctico aquí.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🧠 ¡Bien! Redondear y corregir es una técnica eficiente.",
+  "feedbackIncorrecto": "✏️ Puedes usar un número redondo y luego ajustar."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q7",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "📌 ¿Qué operación representa mejor 8 grupos de 4 elementos?",
+  "opciones": [
+    {
+      "texto": "8 × 4",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 8 grupos de 4 se expresan como 8 × 4.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "4 + 8",
+      "esCorrecta": false,
+      "justificacion": "Eso da la suma directa, no los grupos repetidos.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "8 ÷ 4",
+      "esCorrecta": false,
+      "justificacion": "Eso representa división, no multiplicación.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "8 × 8",
+      "esCorrecta": false,
+      "justificacion": "Es una multiplicación diferente, no representa 8 grupos de 4.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📌 Exacto. 8 grupos de 4 se escriben como 8 × 4.",
+  "feedbackIncorrecto": "✏️ Multiplicación representa una suma repetida de grupos iguales."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q8",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "🔄 ¿Qué propiedad permite decir que 3 × 7 = 7 × 3?",
+  "opciones": [
+    {
+      "texto": "Conmutativa",
+      "esCorrecta": true,
+      "justificacion": "Correcto. El orden de los factores no altera el producto.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "Asociativa",
+      "esCorrecta": false,
+      "justificacion": "Esa propiedad se refiere a agrupar factores, no al orden.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "Distributiva",
+      "esCorrecta": false,
+      "justificacion": "Se refiere a multiplicar sobre sumas, no al cambio de orden.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "Propiedad del cero",
+      "esCorrecta": false,
+      "justificacion": "No aplica aquí. Esa propiedad dice que todo número por 0 es 0.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🔄 Exacto. El orden no importa en la multiplicación: es la propiedad conmutativa.",
+  "feedbackIncorrecto": "📘 Repasa las propiedades de la multiplicación. Esta es la conmutativa."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q9",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "📐 ¿Cuánto es 20 × 5?",
+  "opciones": [
+    {
+      "texto": "100",
+      "esCorrecta": true,
+      "justificacion": "Correcto. 2 × 5 = 10 y se añade un cero: 20 × 5 = 100.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "25",
+      "esCorrecta": false,
+      "justificacion": "Error común al sumar en lugar de multiplicar.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "105",
+      "esCorrecta": false,
+      "justificacion": "No es un número derivado de 20 × 5. Revisa la tabla.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "200",
+      "esCorrecta": false,
+      "justificacion": "Parece que doblaste el resultado correcto. Cuidado con la estimación.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "📐 Bien hecho. Multiplicar por decenas es directo: multiplica y añade el cero.",
+  "feedbackIncorrecto": "✏️ Multiplica los números sin ceros, luego añádelo al final: 2 × 5 = 10 → 100."
+},
+{
+  "preguntaId": "1ESO-multiplicacion-MINIMALISTA-Q10",
+  "targetPath": "MINIMALISTA",
+  "enunciado": "🔢 ¿Cuánto es 3 × 100?",
+  "opciones": [
+    {
+      "texto": "300",
+      "esCorrecta": true,
+      "justificacion": "Correcto. Multiplicar por 100 es añadir dos ceros: 3 → 300.",
+      "pathWeight": {
+        "MINIMALISTA": 0.9
+      }
+    },
+    {
+      "texto": "130",
+      "esCorrecta": false,
+      "justificacion": "Confusión. Revisa el valor posicional de los ceros.",
+      "pathWeight": {
+        "EXPLORADOR": 0.3
+      }
+    },
+    {
+      "texto": "103",
+      "esCorrecta": false,
+      "justificacion": "No es una suma. Es multiplicación directa.",
+      "pathWeight": {
+        "REFLEXIVO": 0.3
+      }
+    },
+    {
+      "texto": "301",
+      "esCorrecta": false,
+      "justificacion": "Parece una mezcla entre 300 y 1. No corresponde a 3 × 100.",
+      "pathWeight": {
+        "CONQUISTADOR": 0.3
+      }
+    }
+  ],
+  "tipo": "multipleChoice",
+  "feedbackCorrecto": "🔢 Muy bien. Multiplicar por 100 es añadir dos ceros al número.",
+  "feedbackIncorrecto": "📘 Multiplica como si no hubiera ceros, y añádelos al final: 3 × 1 = 3 → 300."
+}
+
+
+  ]}

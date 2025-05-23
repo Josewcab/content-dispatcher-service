@@ -1,0 +1,502 @@
+{
+    "unidadId": "U1C1-NUM-1ESO-EXP-TEST",
+    "titulo": "Sistemas de numeración",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 1,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q1",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Observa la descomposición: 2 000 000 + 300 000 + 7 000 + 30 + 7. ¿Qué tipo de sistema numérico crees que usa esta forma de escribir los números?",
+            "opciones": [
+                {
+                    "texto": "Un sistema posicional donde el valor depende del lugar que ocupa la cifra.",
+                    "esCorrecta": true,
+                    "justificacion": "Permite descubrir que el valor de cada cifra cambia según su posición. Refleja pensamiento inductivo y explorador.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "Un sistema romano donde cada símbolo representa una cantidad fija.",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre sistemas aditivos y posicionales. Típico de razonamiento superficial.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Un sistema en el que se suman números aleatorios sin un orden fijo.",
+                    "esCorrecta": false,
+                    "justificacion": "Refleja falta de percepción de estructura. Error impulsivo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "Un sistema egipcio que representa cantidades mediante símbolos repetidos.",
+                    "esCorrecta": false,
+                    "justificacion": "Conecta con otro tema del contenido, pero no se ajusta a la estructura posicional. Error por asociación incompleta.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "CONSTRUCTOR": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Bien visto! El sistema decimal usa la posición de cada cifra para indicar su valor.",
+            "feedbackIncorrecto": "Intenta fijarte si hay un patrón en cómo están ordenados los números. ¿Qué pasaría si cambiamos el orden?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q2",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "En un sistema aditivo, estos símbolos representan cantidades:\n🟢 = 1, ▬ = 5, 🔺 = 10, 🟦 = 100.\nSi un número se escribe como 🟦🟦🔺🔺🔺🟢🟢🟢, ¿qué valor podría tener?",
+            "opciones": [
+                {
+                    "texto": "223",
+                    "esCorrecta": false,
+                    "justificacion": "Suma incorrecta o error al identificar el valor de cada símbolo. Indica razonamiento apresurado.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "233",
+                    "esCorrecta": true,
+                    "justificacion": "Descubre que el sistema es aditivo y que cada símbolo se suma según su valor. Perfecto para un perfil explorador que busca patrones.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONSTRUCTOR": 0.5
+                    }
+                },
+                {
+                    "texto": "321",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión con la posición o interpretación multiplicativa. Error típico al no comprender la lógica aditiva.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "210",
+                    "esCorrecta": false,
+                    "justificacion": "Omisión de algunos símbolos o mal cálculo parcial. Representa razonamiento incompleto.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Sumar los valores de cada símbolo te lleva a descubrir el total en este sistema aditivo.",
+            "feedbackIncorrecto": "Intenta observar con atención qué cantidad representa cada símbolo. ¿Qué pasaría si sumas todos paso a paso?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q3",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Imagina que el número 507 000 está formado por bloques de valor. ¿Qué representa el 0 en el lugar de las centenas?",
+            "opciones": [
+                {
+                    "texto": "Que no hay bloques de centenas en ese número, pero mantiene el orden de los demás.",
+                    "esCorrecta": true,
+                    "justificacion": "Un alumno explorador puede ver que el 0 no representa cantidad, pero sí ubicación. Valora el rol estructural del 0.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "Que el número es menor porque tiene ceros.",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre valor absoluto y estructural. Error impulsivo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Que debe reemplazarse por un 1 para que el número sea completo.",
+                    "esCorrecta": false,
+                    "justificacion": "Error por sobrecorrección. Razonamiento forzado sin comprensión posicional.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Que el número 507 000 está mal escrito.",
+                    "esCorrecta": false,
+                    "justificacion": "Rechazo del símbolo por desconocimiento de su función estructural. Error superficial.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5,
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Aunque el 0 no tiene valor numérico por sí mismo, sí mantiene la estructura posicional.",
+            "feedbackIncorrecto": "Piensa en el 0 como un marcador de posición: no suma, pero sí indica dónde está cada cifra."
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q4",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Si a un número como 37 le agregas un cero al final, ¿qué patrón observas al comparar el nuevo número con el original?",
+            "opciones": [
+                {
+                    "texto": "Se multiplica por 10, porque cada cifra cambia de posición y gana un valor diez veces mayor.",
+                    "esCorrecta": true,
+                    "justificacion": "Perfecta para exploradores: requiere detectar un patrón en el cambio de valor posicional, no solo memorizar la regla.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "El número aumenta en uno.",
+                    "esCorrecta": false,
+                    "justificacion": "Error impulsivo. Confunde la escritura con suma directa.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Se convierte en un número completamente diferente sin relación.",
+                    "esCorrecta": false,
+                    "justificacion": "No ve la estructura posicional. Error superficial de razonamiento desconectado.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4,
+                        "EXPLORADOR": 0.2
+                    }
+                },
+                {
+                    "texto": "Depende de si el número termina en impar o par.",
+                    "esCorrecta": false,
+                    "justificacion": "Malentendido sobre la propiedad posicional. Error por asociación irrelevante.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! Al agregar un cero, cada cifra se desplaza y su valor se multiplica por 10.",
+            "feedbackIncorrecto": "Observa cómo cambia el valor total al agregar un 0. ¿Qué le pasa a cada cifra individual?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q5",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Si la cifra 5 en un número representa 50 000 unidades, ¿dónde está ubicada y por qué crees que su posición es importante?",
+            "opciones": [
+                {
+                    "texto": "Está en el lugar de las decenas de millar, lo que le da un valor de 50 000.",
+                    "esCorrecta": true,
+                    "justificacion": "El alumno debe identificar la jerarquía posicional y conectar el valor con la estructura decimal. Estilo de razonamiento explorador y curioso.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONSTRUCTOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Está en el lugar de las centenas de millar, porque 5 siempre representa 50 000.",
+                    "esCorrecta": false,
+                    "justificacion": "Error común por generalización incorrecta del valor del número.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Su posición no importa, lo que cuenta es que haya un 5.",
+                    "esCorrecta": false,
+                    "justificacion": "Ignora la lógica posicional del sistema decimal. Error impulsivo o simbólico.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Está en el lugar de los millones, porque 5 seguido de ceros suena grande.",
+                    "esCorrecta": false,
+                    "justificacion": "Razonamiento superficial basado en intuiciones más que en estructura.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! En el sistema decimal, la posición de cada cifra define su valor real.",
+            "feedbackIncorrecto": "Observa bien cuántas cifras hay después del 5: eso determina su posición y por tanto su valor."
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q5",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Si la cifra 5 en un número representa 50 000 unidades, ¿dónde está ubicada y por qué crees que su posición es importante?",
+            "opciones": [
+                {
+                    "texto": "Está en el lugar de las decenas de millar, lo que le da un valor de 50 000.",
+                    "esCorrecta": true,
+                    "justificacion": "El alumno debe identificar la jerarquía posicional y conectar el valor con la estructura decimal. Estilo de razonamiento explorador y curioso.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONSTRUCTOR": 0.5
+                    }
+                },
+                {
+                    "texto": "Está en el lugar de las centenas de millar, porque 5 siempre representa 50 000.",
+                    "esCorrecta": false,
+                    "justificacion": "Error común por generalización incorrecta del valor del número.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Su posición no importa, lo que cuenta es que haya un 5.",
+                    "esCorrecta": false,
+                    "justificacion": "Ignora la lógica posicional del sistema decimal. Error impulsivo o simbólico.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Está en el lugar de los millones, porque 5 seguido de ceros suena grande.",
+                    "esCorrecta": false,
+                    "justificacion": "Razonamiento superficial basado en intuiciones más que en estructura.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! En el sistema decimal, la posición de cada cifra define su valor real.",
+            "feedbackIncorrecto": "Observa bien cuántas cifras hay después del 5: eso determina su posición y por tanto su valor."
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q6",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Observa este patrón de números: 1 000 – 10 000 – 100 000 – 1 000 000. ¿Qué crees que ocurre en cada paso?",
+            "opciones": [
+                {
+                    "texto": "Cada número es diez veces mayor que el anterior.",
+                    "esCorrecta": true,
+                    "justificacion": "El alumno explorador detecta la progresión exponencial y deduce la relación sin memorizarla.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "A cada número se le agregan ceros porque sí.",
+                    "esCorrecta": false,
+                    "justificacion": "Ignora el patrón lógico. Error típico de razonamiento minimalista o memorístico.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Cada número aumenta 9 000 unidades más que el anterior.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde progresión multiplicativa con suma aritmética. Error estructural.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Es solo una coincidencia de ceros sin relación matemática real.",
+                    "esCorrecta": false,
+                    "justificacion": "Desconexión con el concepto de sistema decimal. Razonamiento superficial.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Has detectado el patrón: cada número es 10 veces mayor que el anterior.",
+            "feedbackIncorrecto": "Observa cuántos ceros tiene cada número. ¿Cómo cambia de uno al siguiente?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q7",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Imagina que un número está formado por bloques de valor. Si ves 300 000 + 20 000 + 400 + 6, ¿qué puedes deducir sobre cómo funciona este sistema de numeración?",
+            "opciones": [
+                {
+                    "texto": "Cada cifra representa una cantidad distinta según el lugar en el que aparece.",
+                    "esCorrecta": true,
+                    "justificacion": "El razonamiento explorador permite detectar patrones de descomposición y atribuir valor estructural a las posiciones.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "CONSTRUCTOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Solo las cifras grandes como 300 000 y 20 000 tienen valor.",
+                    "esCorrecta": false,
+                    "justificacion": "Error por jerarquía intuitiva, típico de razonamiento superficial.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "El número representa una suma de cifras sin un orden importante.",
+                    "esCorrecta": false,
+                    "justificacion": "Ignora el papel posicional de las cifras, razonamiento errático o simbólico.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Las cifras pueden intercambiarse sin afectar el resultado.",
+                    "esCorrecta": false,
+                    "justificacion": "Malentendido crítico sobre el sistema decimal. Error incompatible con razonamiento estructurado.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.3,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Correcto! El lugar de cada cifra define su valor en el sistema decimal.",
+            "feedbackIncorrecto": "Piensa si cambiar de lugar el 6 y el 300 000 cambiaría también el valor del número."
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q8",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Tienes estas dos descomposiciones:\n\nA) 100 000 + 30 000 + 400\nB) 130 000 + 400\n\n¿A qué conclusión puedes llegar comparando ambas?",
+            "opciones": [
+                {
+                    "texto": "Representan el mismo número, solo están expresadas de forma diferente.",
+                    "esCorrecta": true,
+                    "justificacion": "Requiere descubrir equivalencias ocultas. Estilo propio del explorador: buscar conexiones y patrones.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "La opción A es mayor porque tiene más cifras sumadas.",
+                    "esCorrecta": false,
+                    "justificacion": "Error por interpretación superficial: más términos no significa mayor valor.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "La opción B es más pequeña porque usa menos ceros.",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre forma escrita y valor. Razonamiento simbólico mal aplicado.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Ambas son distintas porque no siguen el mismo orden de unidades.",
+                    "esCorrecta": false,
+                    "justificacion": "Interpreta la posición como estructura obligatoria, sin ver equivalencia. Error estructural rígido.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.4,
+                        "REFLEXIVO": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! Aunque están escritas de forma distinta, ambas representan 130 400.",
+            "feedbackIncorrecto": "Revisa si la suma de cada expresión da el mismo resultado, aunque estén organizadas de otra manera."
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q9",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "En el número 302 500, ¿qué crees que indica el 0 entre el 3 y el 2?",
+            "opciones": [
+                {
+                    "texto": "Que no hay decenas de millar, pero se conserva su lugar para no alterar el valor de las otras cifras.",
+                    "esCorrecta": true,
+                    "justificacion": "Refleja comprensión del 0 como marcador estructural. Requiere observar el sistema y deducir la función del espacio vacío.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "Que el número está mal escrito y debería eliminarse ese cero.",
+                    "esCorrecta": false,
+                    "justificacion": "No reconoce el papel del 0 como marcador posicional. Error impulsivo.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Que el 0 multiplica las otras cifras y reduce el número.",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión entre la función de 0 en operaciones y su función estructural. Error simbólico.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "Que es parte de una cifra secreta que se activa si hay otro 0 más adelante.",
+                    "esCorrecta": false,
+                    "justificacion": "Razonamiento errático o lúdico sin base matemática. Fantasía en vez de deducción.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "MINIMALISTA": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! El 0 en esa posición mantiene el orden de las demás cifras y es fundamental para el valor final.",
+            "feedbackIncorrecto": "Piensa qué pasaría si eliminas ese 0. ¿Las cifras se moverían de lugar? ¿Cambiaría el valor del número?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-EXPLORADOR-Q10",
+            "targetPath": "EXPLORADOR",
+            "enunciado": "Un alumno escribió el número 204 060 como:\n\n200 000 + 4 000 + 60\n\n¿Qué pasaría si cambiara el orden de estos bloques al escribirlo como 4 000 + 60 + 200 000?",
+            "opciones": [
+                {
+                    "texto": "El número cambia completamente, porque cada bloque depende de su posición para definir el total.",
+                    "esCorrecta": true,
+                    "justificacion": "Permite deducir que en el sistema decimal el orden de los bloques no es solo estético, sino estructural. Ideal para un explorador que investiga implicancias.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "No pasa nada, el número sigue siendo el mismo porque las cantidades son iguales.",
+                    "esCorrecta": false,
+                    "justificacion": "Error superficial: confunde magnitudes individuales con su efecto conjunto en orden.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "El número se vuelve más fácil de leer si empieza por los bloques pequeños.",
+                    "esCorrecta": false,
+                    "justificacion": "Argumento externo a la estructura matemática, enfoque errático o estético.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "Cambia solo si usamos fracciones o números negativos.",
+                    "esCorrecta": false,
+                    "justificacion": "Error fuera de contexto. Mezcla conceptos sin relación.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Eso es! El orden sí importa: cambiar la secuencia de bloques altera el número que representan.",
+            "feedbackIncorrecto": "Reflexiona: si escribes primero 4 000 en lugar de 200 000, ¿cuál será ahora la cifra más importante del número?"
+        }
+    ]
+}

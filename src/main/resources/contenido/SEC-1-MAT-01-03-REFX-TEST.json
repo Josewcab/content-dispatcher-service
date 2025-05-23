@@ -1,0 +1,441 @@
+{
+  "unidadId": "U1C3-NUM-1ESO-REFX-TEST",
+  "titulo": "Suma, resta y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 3,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q1",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "Cuando sumas dos números, ¿qué representa realmente el signo + en una situación real o mental?",
+      "opciones": [
+        {
+          "texto": "Una acción de juntar o agregar cantidades.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. El signo + representa la idea de juntar dos o más cantidades en una sola.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Un número que crece por sí solo.",
+          "esCorrecta": false,
+          "justificacion": "Confusión común: los números no crecen sin una operación activa.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.4
+          }
+        },
+        {
+          "texto": "Un símbolo que indica que vamos a mirar el número más grande.",
+          "esCorrecta": false,
+          "justificacion": "El signo + no indica comparación, sino operación.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Una señal para empezar a contar.",
+          "esCorrecta": false,
+          "justificacion": "Aunque contar es parte del proceso, el signo + no es una señal de inicio sino de combinación.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Exactamente. La suma representa unir cantidades, una idea clave en matemáticas y en la vida diaria.",
+      "feedbackIncorrecto": "📌 Piensa en lo que haces cuando sumas: estás uniendo cosas. Esa es la clave del signo +."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q2",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "Cuando restas un número a otro, ¿qué estás haciendo en realidad?",
+      "opciones": [
+        {
+          "texto": "Estás comparando cuánto le falta a uno para llegar al otro.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. La resta no solo quita, también mide la diferencia entre dos cantidades.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Estás haciendo que el número se repita menos veces.",
+          "esCorrecta": false,
+          "justificacion": "Confusión con la multiplicación o división.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Estás sumando al revés.",
+          "esCorrecta": false,
+          "justificacion": "Aunque puede entenderse así en algunos contextos, no explica el sentido profundo de la resta.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Estás buscando un número escondido entre otros dos.",
+          "esCorrecta": false,
+          "justificacion": "Una metáfora curiosa pero imprecisa para definir la resta.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Exacto. La resta puede entenderse como una comparación o como un cálculo de diferencia.",
+      "feedbackIncorrecto": "📌 Piensa en qué significa restar: no solo quitar, también comparar cuánto hay entre dos cantidades."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q3",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "¿Por qué crees que en la suma (6 + 7) + 3 y 6 + (7 + 3) se obtiene el mismo resultado?",
+      "opciones": [
+        {
+          "texto": "Porque en la suma el modo de agrupar no cambia la cantidad total.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Es la propiedad asociativa: puedes agrupar de distintas formas sin cambiar el total.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "Porque los paréntesis solo sirven para confundir.",
+          "esCorrecta": false,
+          "justificacion": "Respuesta irónica o impulsiva que no reflexiona sobre el uso del paréntesis.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Porque los números pequeños siempre se pueden sumar como sea.",
+          "esCorrecta": false,
+          "justificacion": "No es el tamaño, sino la propiedad matemática lo que permite esta igualdad.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Porque los signos no cambian, entonces da igual cómo se usen.",
+          "esCorrecta": false,
+          "justificacion": "No basta con que los signos no cambien: importa cómo se agrupan los números.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Muy bien. Has identificado la propiedad asociativa, que permite reagrupar en la suma sin alterar el resultado.",
+      "feedbackIncorrecto": "📌 Reflexiona: no es el número ni el signo, es la forma en que agrupamos lo que permite que la suma siga dando igual."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q4",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "¿Por qué crees que 45 + 27 y 27 + 45 dan el mismo resultado aunque se haya cambiado el orden de los números?",
+      "opciones": [
+        {
+          "texto": "Porque el orden en que sumas no altera la cantidad total.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Esto es gracias a la propiedad conmutativa de la suma.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "Porque son los mismos números, así que el resultado siempre será igual.",
+          "esCorrecta": false,
+          "justificacion": "Una respuesta superficial que no reconoce la propiedad que lo justifica.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Porque la suma empieza siempre por el número mayor.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. No hay una regla que obligue a empezar por el número mayor.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Porque el orden de los dígitos no cambia si los sumas por separado.",
+          "esCorrecta": false,
+          "justificacion": "Confusión entre valor posicional y propiedad de la operación.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Bien pensado. Has comprendido la propiedad conmutativa: cambiar el orden no cambia el resultado.",
+      "feedbackIncorrecto": "📌 Reflexiona: lo importante aquí no es solo que sean los mismos números, sino cómo funciona la operación."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q5",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "¿Para qué crees que sirve conocer propiedades como la conmutativa o la asociativa al hacer operaciones?",
+      "opciones": [
+        {
+          "texto": "Para entender mejor cómo funcionan las operaciones y resolver de forma más flexible.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Las propiedades ayudan a reorganizar operaciones y a desarrollar pensamiento matemático profundo.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "CONSTRUCTOR": 0.4
+          }
+        },
+        {
+          "texto": "Para recordar los pasos exactos sin equivocarme.",
+          "esCorrecta": false,
+          "justificacion": "Eso tiene más que ver con reglas mecánicas, no con el sentido profundo de las propiedades.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Para poder hacer sumas más rápido en clase.",
+          "esCorrecta": false,
+          "justificacion": "Velocidad no es el objetivo principal de estas propiedades, sino la comprensión.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Para aprobar el examen aunque no entienda por qué.",
+          "esCorrecta": false,
+          "justificacion": "Refleja una actitud pasiva y poco reflexiva ante el aprendizaje.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Exacto. Comprender las propiedades te permite pensar mejor y adaptarte en cada operación.",
+      "feedbackIncorrecto": "📌 Piensa en las propiedades como herramientas que te ayudan a entender el 'por qué' de los cálculos, no solo a hacerlos más rápido."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q6",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "Un alumno suma 348 + 56 y escribe como resultado 394. ¿Qué reflexión podrías hacer sobre su error?",
+      "opciones": [
+        {
+          "texto": "Probablemente no tuvo en cuenta cómo se lleva una decena al sumar las unidades.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. El error revela un fallo en el proceso de acarreo, clave para entender cómo se estructuran las sumas.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "CONSTRUCTOR": 0.4
+          }
+        },
+        {
+          "texto": "Es porque sumó empezando por la cifra más grande.",
+          "esCorrecta": false,
+          "justificacion": "El orden de los sumandos no es el problema aquí; es el manejo del acarreo.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "El número 394 también puede ser válido si lo interpretamos como estimación.",
+          "esCorrecta": false,
+          "justificacion": "No es una estimación, es un error de cálculo exacto.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "No hay forma de saberlo sin ver cómo lo resolvió.",
+          "esCorrecta": false,
+          "justificacion": "Aunque no tengamos el procedimiento escrito, el resultado da pistas claras sobre el tipo de error.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Excelente análisis. Has detectado que el acarreo es esencial en sumas con múltiples cifras.",
+      "feedbackIncorrecto": "📌 Reflexiona: un fallo en el acarreo puede alterar completamente el resultado aunque parezca una suma simple."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q7",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "¿En qué se parece y en qué se diferencia restar y comparar dos cantidades?",
+      "opciones": [
+        {
+          "texto": "Ambas buscan conocer la diferencia, pero restar implica una operación exacta y comparar no.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Comparar es una acción general; restar es una operación numérica precisa.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Restar es comparar al revés.",
+          "esCorrecta": false,
+          "justificacion": "Una simplificación inexacta: comparar no tiene dirección ni signo como la resta.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Comparar es más difícil porque no se puede hacer con números.",
+          "esCorrecta": false,
+          "justificacion": "Comparar sí puede hacerse con números, solo que no siempre implica restar.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "No se parecen en nada, una es para matemáticos y la otra para personas normales.",
+          "esCorrecta": false,
+          "justificacion": "Una respuesta irónica o despectiva que ignora el sentido educativo de ambas ideas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Muy bien. Has comprendido que restar y comparar están conectadas, pero no son lo mismo.",
+      "feedbackIncorrecto": "📌 Reflexiona: restar es una forma precisa de comparar, pero comparar puede hacerse también sin calcular."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q8",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "Si tienes 3 manzanas y luego te dan 5 más, o si primero te dan 5 y luego 3, ¿qué sentido tiene decir que da lo mismo el orden?",
+      "opciones": [
+        {
+          "texto": "Significa que la cantidad final no depende del orden en que recibes las cosas.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Esta idea está en la base de la propiedad conmutativa: el orden no altera el total.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "Depende, porque si te dan primero menos parece peor.",
+          "esCorrecta": false,
+          "justificacion": "Respuesta emocional o perceptiva que no afecta el total objetivo.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "No es igual, porque el primero que recibes siempre lo valoras más.",
+          "esCorrecta": false,
+          "justificacion": "Aunque puede ser verdad en psicología, matemáticamente el orden no altera la suma.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "Solo si las manzanas son iguales.",
+          "esCorrecta": false,
+          "justificacion": "La propiedad conmutativa no depende de la calidad del objeto, sino de la cantidad.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Muy bien. Comprendiste que en matemáticas, el orden de la suma no cambia el total.",
+      "feedbackIncorrecto": "📌 Piensa en esto: no importa si primero recibes una parte o la otra, el total que tienes es el mismo."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q9",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "Un alumno dice que restar es siempre perder. ¿Estás de acuerdo? ¿Por qué?",
+      "opciones": [
+        {
+          "texto": "No siempre, porque a veces restar también sirve para descubrir o ajustar cantidades.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. La resta no solo implica pérdida, también puede representar comparación, ajuste o equilibrio.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "Sí, porque restar siempre quita algo.",
+          "esCorrecta": false,
+          "justificacion": "Visión limitada. No todas las restas significan pérdida real.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Depende si el número que restas es mayor o menor.",
+          "esCorrecta": false,
+          "justificacion": "Confunde la operación con el resultado numérico sin comprender su sentido.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Sí, porque después de restar siempre tienes menos.",
+          "esCorrecta": false,
+          "justificacion": "No siempre. A veces restar sirve para ajustar, no necesariamente para reducir.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Excelente. Has entendido que restar también puede representar equilibrio, comparación o ajuste, no solo pérdida.",
+      "feedbackIncorrecto": "📌 Reflexiona: restar no siempre es perder, puede ser comparar, organizar o ajustar algo."
+    },
+    {
+      "preguntaId": "1ESO-sumaresta-REFLEXIVO-Q10",
+      "targetPath": "REFLEXIVO",
+      "enunciado": "Al resolver 120 - (45 + 15), ¿por qué crees que es importante hacer primero lo que está entre paréntesis?",
+      "opciones": [
+        {
+          "texto": "Porque los paréntesis indican una prioridad lógica: agrupar ideas antes de actuar sobre ellas.",
+          "esCorrecta": true,
+          "justificacion": "Correcto. Los paréntesis no solo marcan orden, también reflejan la estructura del razonamiento.",
+          "pathWeight": {
+            "REFLEXIVO": 0.9,
+            "EXPLORADOR": 0.4
+          }
+        },
+        {
+          "texto": "Porque lo dice la regla de los signos.",
+          "esCorrecta": false,
+          "justificacion": "Confusión con reglas de multiplicación o negativos, no se aplica aquí.",
+          "pathWeight": {
+            "MINIMALISTA": 0.4
+          }
+        },
+        {
+          "texto": "Porque si no, podríamos terminar sumando todo.",
+          "esCorrecta": false,
+          "justificacion": "Incorrecto. No se trata de sumar todo, sino de seguir el orden lógico.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "Porque es más fácil así.",
+          "esCorrecta": false,
+          "justificacion": "Una razón pragmática, pero superficial. No aborda la lógica del procedimiento.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🌀 Muy bien. Entender el sentido del paréntesis te ayuda a pensar con orden y precisión.",
+      "feedbackIncorrecto": "📌 Piensa en los paréntesis como una forma de organizar primero las ideas antes de actuar sobre ellas."
+    }
+  ]
+}

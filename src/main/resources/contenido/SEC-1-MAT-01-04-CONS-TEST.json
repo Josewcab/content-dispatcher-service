@@ -1,0 +1,441 @@
+{
+  "unidadId": "U1C4-NUM-1ESO-CONS-TEST",
+  "titulo": "La multiplicación y sus propiedades",
+  "bloqueCurricular": "sentido_numerico",
+  "nivel": "1ESO",
+  "Unidad": 1,
+  "capitulo": 4,
+  "tipoEvaluacion": "Calibrador",
+  "preguntas": [
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q1",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "🎭 En un teatro hay 25 filas con 18 sillas cada una. ¿Cuántas sillas hay en total?",
+      "opciones": [
+        {
+          "texto": "450",
+          "esCorrecta": false,
+          "justificacion": "Resultado de 25 × 18 es 450 solo si hubo error al calcular mentalmente.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "400",
+          "esCorrecta": false,
+          "justificacion": "Subestimación. Tal vez usaste 20 × 20.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "425",
+          "esCorrecta": false,
+          "justificacion": "Cálculo aproximado, pero no exacto. Revisa la multiplicación.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        },
+        {
+          "texto": "450",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 25 × 18 = 450. Número total de sillas en el teatro.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Bien hecho. Has aplicado la multiplicación a un problema real.",
+      "feedbackIncorrecto": "❌ Multiplica el número de filas por el número de sillas por fila para obtener el total."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q2",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "🛒 En una tienda, cada cuaderno cuesta 3 €. Si compras 12 cuadernos, ¿cuánto gastarás?",
+      "opciones": [
+        {
+          "texto": "36 €",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 12 cuadernos × 3 € cada uno = 36 €.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "30 €",
+          "esCorrecta": false,
+          "justificacion": "Error común por redondear o simplificar.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "40 €",
+          "esCorrecta": false,
+          "justificacion": "Sobreestimación. 12 × 3 no llega a 40.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "24 €",
+          "esCorrecta": false,
+          "justificacion": "Parece multiplicación de 8 × 3. No es el número correcto de cuadernos.",
+          "pathWeight": {
+            "EXPLORADOR": 0.2
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🛒 Correcto. Has aplicado la multiplicación al precio total.",
+      "feedbackIncorrecto": "💡 Multiplica la cantidad de cuadernos por el precio unitario."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q3",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "🥤 Si en una caja caben 6 botellas y hay 14 cajas en el almacén, ¿cuántas botellas hay en total?",
+      "opciones": [
+        {
+          "texto": "84",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 14 × 6 = 84 botellas en total.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "76",
+          "esCorrecta": false,
+          "justificacion": "Subestimación. Tal vez restaste en lugar de multiplicar correctamente.",
+          "pathWeight": {
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "90",
+          "esCorrecta": false,
+          "justificacion": "Parece una estimación con 15 × 6. Verifica el número de cajas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "64",
+          "esCorrecta": false,
+          "justificacion": "Error de cálculo. Revisa la multiplicación.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "✅ Correcto. Multiplicaste el contenido de cada caja por el número de cajas.",
+      "feedbackIncorrecto": "💡 Multiplica el número de cajas por la cantidad de botellas que hay en cada una."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q4",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "📚 Si cada clase dura 45 minutos y tienes 6 clases al día, ¿cuántos minutos pasas en clase al día?",
+      "opciones": [
+        {
+          "texto": "270",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 45 × 6 = 270 minutos de clase por día.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "240",
+          "esCorrecta": false,
+          "justificacion": "Parece un cálculo usando 40 minutos por clase. Verifica la duración real.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "300",
+          "esCorrecta": false,
+          "justificacion": "Supera el resultado real. Revisa si usaste 50 minutos por clase.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "225",
+          "esCorrecta": false,
+          "justificacion": "Parece cálculo con 5 clases en lugar de 6.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🕒 ¡Exacto! Has multiplicado correctamente duración por cantidad de clases.",
+      "feedbackIncorrecto": "💡 Multiplica la duración de una clase por el número de clases que tienes al día."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q5",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "🚿 Si cada ducha consume 60 litros de agua y en casa se toman 4 duchas al día, ¿cuántos litros se usan al día?",
+      "opciones": [
+        {
+          "texto": "240",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 60 × 4 = 240 litros consumidos en total.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "120",
+          "esCorrecta": false,
+          "justificacion": "Equivale a 2 duchas, no a 4. Verifica la multiplicación.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "300",
+          "esCorrecta": false,
+          "justificacion": "Sobreestimación, quizás usando 5 duchas o más litros por ducha.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "180",
+          "esCorrecta": false,
+          "justificacion": "Parece cálculo intermedio o error con 3 duchas.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🚿 Muy bien. Has multiplicado el consumo por el número de duchas.",
+      "feedbackIncorrecto": "💧 Multiplica la cantidad de litros por ducha por el número total de duchas."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q6",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "🧱 Un albañil necesita 120 ladrillos para construir un muro. Si quiere construir 5 muros iguales, ¿cuántos ladrillos necesita?",
+      "opciones": [
+        {
+          "texto": "600",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 120 × 5 = 600 ladrillos para los 5 muros.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "500",
+          "esCorrecta": false,
+          "justificacion": "Parece un cálculo con 100 ladrillos por muro. Revisa los datos reales.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "720",
+          "esCorrecta": false,
+          "justificacion": "Probablemente sobrestimaste usando 6 muros o más ladrillos por muro.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "480",
+          "esCorrecta": false,
+          "justificacion": "Cálculo con solo 4 muros. Verifica el número total.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🧱 ¡Bien! Has aplicado la multiplicación correctamente al problema.",
+      "feedbackIncorrecto": "💡 Multiplica la cantidad de ladrillos por muro por el número de muros."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q7",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "🚌 Un autobús recorre 95 kilómetros cada día. ¿Cuántos kilómetros recorrerá en una semana (7 días)?",
+      "opciones": [
+        {
+          "texto": "665",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 95 × 7 = 665 km recorridos en una semana.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "675",
+          "esCorrecta": false,
+          "justificacion": "Error de cálculo frecuente al sumar 10 de más.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        },
+        {
+          "texto": "630",
+          "esCorrecta": false,
+          "justificacion": "Tal vez redondeaste a 90 × 7. Verifica el número exacto.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "700",
+          "esCorrecta": false,
+          "justificacion": "Este sería el resultado de 100 × 7. Estimación sin precisión.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🚌 Correcto. Has aplicado la multiplicación a una situación de viaje semanal.",
+      "feedbackIncorrecto": "💡 Multiplica la distancia diaria por el número de días de la semana."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q8",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "💼 Si una persona trabaja 8 horas al día durante 22 días en un mes, ¿cuántas horas trabaja ese mes?",
+      "opciones": [
+        {
+          "texto": "176",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 8 × 22 = 176 horas trabajadas en el mes.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "160",
+          "esCorrecta": false,
+          "justificacion": "Error por usar 20 días en lugar de 22.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "180",
+          "esCorrecta": false,
+          "justificacion": "Sobreestimación común al usar un número redondo. Revisa el cálculo exacto.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "200",
+          "esCorrecta": false,
+          "justificacion": "Resultado de 25 días de trabajo. No corresponde al problema.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🕘 ¡Correcto! Has calculado correctamente las horas laborales del mes.",
+      "feedbackIncorrecto": "💡 Multiplica las horas diarias por el número total de días trabajados."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q9",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "🏭 En una fábrica se producen 125 piezas por hora. ¿Cuántas se fabrican en 8 horas de trabajo continuo?",
+      "opciones": [
+        {
+          "texto": "1 000",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 125 × 8 = 1 000 piezas producidas en 8 horas.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "900",
+          "esCorrecta": false,
+          "justificacion": "Subestimación. Equivale a 125 × 7.5.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "1 200",
+          "esCorrecta": false,
+          "justificacion": "Parece cálculo con 150 × 8. Confirma los datos reales.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "1 100",
+          "esCorrecta": false,
+          "justificacion": "Es un número cercano pero incorrecto. Verifica la multiplicación exacta.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "🏭 Bien hecho. Has aplicado la multiplicación a una situación de producción.",
+      "feedbackIncorrecto": "💡 Multiplica la cantidad producida por hora por la duración del turno."
+    },
+    {
+      "preguntaId": "1ESO-multiplicacion-CONSTRUCTOR-Q10",
+      "targetPath": "CONSTRUCTOR",
+      "enunciado": "⛽ Un coche consume 7 litros de gasolina cada 100 km. ¿Cuántos litros necesita para recorrer 500 km?",
+      "opciones": [
+        {
+          "texto": "35",
+          "esCorrecta": true,
+          "justificacion": "Correcto. 7 litros cada 100 km significa 7 × 5 = 35 litros para 500 km.",
+          "pathWeight": {
+            "CONSTRUCTOR": 0.9,
+            "REFLEXIVO": 0.3
+          }
+        },
+        {
+          "texto": "25",
+          "esCorrecta": false,
+          "justificacion": "Parece que se usó 5 litros por cada 100 km. Verifica el consumo real.",
+          "pathWeight": {
+            "MINIMALISTA": 0.3
+          }
+        },
+        {
+          "texto": "40",
+          "esCorrecta": false,
+          "justificacion": "Sobreestimación. Equivale a 8 litros por cada 100 km.",
+          "pathWeight": {
+            "CONQUISTADOR": 0.3
+          }
+        },
+        {
+          "texto": "50",
+          "esCorrecta": false,
+          "justificacion": "Resultado incorrecto. Podrías haber multiplicado mal sin ajustar la proporción.",
+          "pathWeight": {
+            "EXPLORADOR": 0.3
+          }
+        }
+      ],
+      "tipo": "multipleChoice",
+      "feedbackCorrecto": "⛽ ¡Correcto! Has aplicado proporcionalidad a una situación real.",
+      "feedbackIncorrecto": "💡 Piensa cuántas veces cabe 100 km en 500 km, y multiplica por el consumo cada 100."
+    }
+  ]
+}

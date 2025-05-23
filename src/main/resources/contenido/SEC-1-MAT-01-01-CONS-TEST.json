@@ -1,0 +1,459 @@
+{
+    "unidadId": "U1C1-NUM-1ESO-CON-TEST",
+    "titulo": "Sistemas de numeración",
+    "bloqueCurricular": "sentido_numerico",
+    "nivel": "1ESO",
+    "Unidad": 1,
+    "capitulo": 1,
+    "tipoEvaluacion": "Calibrador",
+    "preguntas": [
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q1",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una empresa gasta cada mes:\n- 2 millones en sueldos\n- 300 mil en alquiler\n- 7 mil en servicios\n- 30 en papelería\n- 7 en café\n\n¿Cuál es el gasto total mensual y cómo se puede expresar?",
+            "opciones": [
+                {
+                    "texto": "2 307 037, usando descomposición por orden de magnitud.",
+                    "esCorrecta": true,
+                    "justificacion": "Aplica directamente una descomposición numérica a una situación de la vida real. El perfil constructor valora esta aplicación funcional.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "2 370 037, porque el alquiler es de 700 mil.",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde el valor real de una cifra con su posición. Error de lectura poco precisa.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "2 307 077, sumando mal el valor de papelería y café.",
+                    "esCorrecta": false,
+                    "justificacion": "Error común de cálculo final en una aplicación funcional. Puede reflejar impulso por terminar rápido.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "2 300 737, restando servicios sin darse cuenta.",
+                    "esCorrecta": false,
+                    "justificacion": "Error por omisión de un bloque de valor. Razonamiento incompleto.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! Has sumado los bloques con lógica funcional, como lo haría una empresa para llevar sus cuentas.",
+            "feedbackIncorrecto": "Intenta sumar cada cantidad con calma. ¿Qué pasaría si se omitiera uno de los gastos?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q2",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una fábrica empaqueta tornillos en cajas de diferentes tamaños:\n\n- Cajas grandes de 100 000\n- Medianas de 10 000\n- Pequeñas de 1 000\n- Bolsas de 100 y 10\n\nSi en total tiene 234 510 tornillos, ¿cuál podría ser una buena forma de distribuirlos?",
+            "opciones": [
+                {
+                    "texto": "2 cajas grandes, 3 medianas, 4 pequeñas, 5 bolsas de 100 y 1 bolsa de 10.",
+                    "esCorrecta": true,
+                    "justificacion": "Este tipo de descomposición aplicada a un caso real de logística y almacenamiento encaja perfectamente con el razonamiento práctico del perfil constructor.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "2 cajas grandes, 3 medianas, 4 pequeñas, 50 bolsas de 10.",
+                    "esCorrecta": false,
+                    "justificacion": "Distribuye incorrectamente la parte final del número. Error por mal cálculo funcional.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "1 caja grande, 13 medianas, 4 pequeñas, 5 bolsas de 100 y 1 bolsa de 10.",
+                    "esCorrecta": false,
+                    "justificacion": "Acierta en el total pero no usa la lógica más eficiente de empaquetado. Error constructivo subóptimo.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4,
+                        "EXPLORADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "Solo 234 510 bolsas de 1 tornillo cada una.",
+                    "esCorrecta": false,
+                    "justificacion": "Solución válida pero ineficiente. Refleja literalismo sin pensamiento funcional.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6,
+                        "EXPLORADOR": 0.3
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Has descompuesto el número de forma lógica y funcional para facilitar el almacenamiento.",
+            "feedbackIncorrecto": "Intenta agrupar primero en bloques grandes. ¿Qué tipo de caja reduce más el número de unidades que quedan sueltas?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q3",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Un técnico revisa el contador de energía de una fábrica y lee: 4 000 000 + 60 000 + 500 + 9. ¿Cuál es el consumo total registrado y por qué es importante saberlo con exactitud?",
+            "opciones": [
+                {
+                    "texto": "4 060 509, porque conocer el consumo exacto permite calcular el coste real en la factura eléctrica.",
+                    "esCorrecta": true,
+                    "justificacion": "Aplica descomposición numérica a un caso funcional real: lectura de contadores. Perfecto para el perfil constructor.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "4 605 009, ya que los ceros entre cifras no afectan la suma.",
+                    "esCorrecta": false,
+                    "justificacion": "Error común de mal interpretación posicional. Razonamiento simbólico equivocado.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "EXPLORADOR": 0.3
+                    }
+                },
+                {
+                    "texto": "4 600 509, porque los 60 000 y los 500 deben agruparse.",
+                    "esCorrecta": false,
+                    "justificacion": "Agrupación incorrecta que confunde jerarquías. Error funcional por simplificación.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "4 000 609, pensando que el 60 000 y el 500 son errores de lectura.",
+                    "esCorrecta": false,
+                    "justificacion": "Omisión de bloques importantes. Refleja lectura incompleta o negligente.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Correcto! Saber leer correctamente el contador permite estimar con precisión el gasto energético.",
+            "feedbackIncorrecto": "Fíjate en la importancia de cada bloque numérico. ¿Qué impacto tiene un error de lectura en una factura real?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q4",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Un almacén registra los siguientes productos:\n\n- 500 000 tuercas\n- 20 000 tornillos grandes\n- 7 000 tornillos pequeños\n- 60 herramientas\n- 5 llaves\n\n¿Cuántas unidades tiene en total?",
+            "opciones": [
+                {
+                    "texto": "527 065",
+                    "esCorrecta": true,
+                    "justificacion": "Aplica suma por bloques de valor a una situación real de inventario. Típico razonamiento constructor orientado a lo práctico.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "520 765",
+                    "esCorrecta": false,
+                    "justificacion": "Error de cálculo parcial o lectura apresurada. Omite una categoría o calcula mal la suma.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "507 065",
+                    "esCorrecta": false,
+                    "justificacion": "Confunde el valor de tornillos grandes y pequeños. Refleja razonamiento funcional erróneo.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "527 605",
+                    "esCorrecta": false,
+                    "justificacion": "Permutación de cifras al sumar los bloques finales. Error impulsivo típico.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Perfecto! Esta suma te permite tener un control total del stock disponible.",
+            "feedbackIncorrecto": "Revisa cada categoría con calma y suma por partes. ¿Te faltó algún bloque?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q5",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una empresa produce 274 825 artículos. Si quiere estimar la producción para planificar su transporte en camiones de capacidad aproximada, ¿cuál sería un buen redondeo a los millones?",
+            "opciones": [
+                {
+                    "texto": "275 000 000",
+                    "esCorrecta": true,
+                    "justificacion": "Redondear a los millones permite hacer estimaciones funcionales para logística. Razonamiento práctico ideal para constructor.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "270 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "Subestima la cifra real. Puede llevar a errores logísticos por falta de previsión.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "274 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "No aplica correctamente la regla de redondeo. Criterio técnico mal aplicado.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "280 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "Sobreestimación que puede inflar los costos de transporte innecesariamente.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Redondear te permite tomar decisiones prácticas sin perder de vista la escala.",
+            "feedbackIncorrecto": "Piensa qué tan cerca está el número del siguiente millón. ¿Ayudaría a planificar mejor si redondeas hacia arriba?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q6",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una máquina produce 507 000 piezas al mes. ¿Por qué es importante entender que el 0 en el lugar de las centenas tiene valor aunque sea cero?",
+            "opciones": [
+                {
+                    "texto": "Porque indica que no hay centenas, pero permite mantener el orden posicional correcto del número.",
+                    "esCorrecta": true,
+                    "justificacion": "Comprender el valor posicional del 0 es esencial para interpretar correctamente registros productivos. Ideal para un perfil constructor.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque sin ese 0, el número representaría una cantidad menor de piezas.",
+                    "esCorrecta": false,
+                    "justificacion": "Aunque parece lógica, no explica bien el rol estructural del 0. Confunde la forma con el valor.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "Porque el 0 suma una unidad más si va entre cifras importantes.",
+                    "esCorrecta": false,
+                    "justificacion": "Concepto erróneo sobre el 0 como suma activa. Error simbólico.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "Porque representa un control de calidad sobre las centenas.",
+                    "esCorrecta": false,
+                    "justificacion": "Interpretación fuera de contexto. Razonamiento funcional mal orientado.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Exacto! El 0 en esa posición asegura que todas las demás cifras mantienen su valor real.",
+            "feedbackIncorrecto": "Piensa cómo cambiaría el número si eliminaras ese 0. ¿Afectaría la cantidad total?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q7",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una empresa reporta ingresos por 3 200 500 soles. ¿Qué representa el 2 en ese número?",
+            "opciones": [
+                {
+                    "texto": "200 000 soles, está en la posición de las centenas de millar.",
+                    "esCorrecta": true,
+                    "justificacion": "Interpretar el valor de una cifra según su posición es clave para leer correctamente cifras contables. Habilidad práctica para el constructor.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "2 millones de soles, porque está después del 3.",
+                    "esCorrecta": false,
+                    "justificacion": "Error por inferencia de orden sin análisis posicional real. Lectura intuitiva pero incorrecta.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "20 000 soles, porque está entre cifras grandes.",
+                    "esCorrecta": false,
+                    "justificacion": "Confusión con las unidades de millar. Error de ubicación funcional.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.3,
+                        "MINIMALISTA": 0.5
+                    }
+                },
+                {
+                    "texto": "200 soles, porque está en la posición de las centenas.",
+                    "esCorrecta": false,
+                    "justificacion": "Subestimación grave de la posición. Refleja razonamiento impulsivo o superficial.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.4,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Identificar el valor de cada cifra es esencial en contextos financieros reales.",
+            "feedbackIncorrecto": "Piensa en cuántas cifras hay a la derecha del 2. ¿En qué orden de magnitud se encuentra?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q8",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una municipalidad presenta su presupuesto anual desglosado así:\n\n1 000 000 para obras públicas,\n300 000 para educación,\n50 000 para salud,\n9 000 para cultura,\n20 para papelería,\n5 para mantenimiento eléctrico.\n\n¿Cuál es el presupuesto total?",
+            "opciones": [
+                {
+                    "texto": "1 359 025",
+                    "esCorrecta": true,
+                    "justificacion": "Permite al alumno aplicar la descomposición y suma a una situación real de presupuesto institucional. Pensamiento funcional constructor.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                },
+                {
+                    "texto": "1 359 520",
+                    "esCorrecta": false,
+                    "justificacion": "Error por permutación en el valor de cultura y papelería. Error práctico común.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "1 359 000",
+                    "esCorrecta": false,
+                    "justificacion": "Omisión de los montos pequeños. Razonamiento aproximado poco funcional.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5,
+                        "CONQUISTADOR": 0.4
+                    }
+                },
+                {
+                    "texto": "1 300 000",
+                    "esCorrecta": false,
+                    "justificacion": "Solo considera el monto grande y el de educación. Lectura incompleta del desglose.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Perfecto! Sumaste correctamente cada parte del presupuesto. Así se analiza un informe real.",
+            "feedbackIncorrecto": "No olvides sumar también los montos pequeños: todos forman parte del total final."
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q9",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "Una empresa está negociando un préstamo para financiar 1 298 460 soles en infraestructura. Para simplificar los cálculos, ¿cuál es el mejor redondeo a los millones?",
+            "opciones": [
+                {
+                    "texto": "1 000 000",
+                    "esCorrecta": false,
+                    "justificacion": "Subestima en exceso. Podría generar una financiación insuficiente.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "1 200 000",
+                    "esCorrecta": false,
+                    "justificacion": "Aproximación imprecisa. No redondea al orden solicitado.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.4,
+                        "CONQUISTADOR": 0.5
+                    }
+                },
+                {
+                    "texto": "1 300 000",
+                    "esCorrecta": false,
+                    "justificacion": "Redondeo funcional, pero a la centena de mil más próxima, no al millón.",
+                    "pathWeight": {
+                        "REFLEXIVO": 0.5,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "1 000 000 + 300 000 = 1 300 000 (se redondea a 1 000 000)",
+                    "esCorrecta": true,
+                    "justificacion": "Redondear a los millones requiere observar si las centenas de mil son mayores o iguales a 500 000. Aquí no lo son, así que se baja.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.4
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Redondear a los millones permite negociar cifras realistas sin perder de vista el orden de magnitud.",
+            "feedbackIncorrecto": "Piensa cuán cerca está de 1 500 000. ¿Está más cerca del millón anterior o del siguiente?"
+        },
+        {
+            "preguntaId": "1ESO-numeracion-CONSTRUCTOR-Q10",
+            "targetPath": "CONSTRUCTOR",
+            "enunciado": "En un informe oficial aparece escrito el número 203057 como 2 30 57. ¿Cuál es el problema funcional de esta escritura?",
+            "opciones": [
+                {
+                    "texto": "Que rompe el orden posicional y cambia completamente el valor numérico del informe.",
+                    "esCorrecta": true,
+                    "justificacion": "Identifica un error funcional que podría afectar la interpretación de datos contables. Ideal para el perfil constructor, centrado en el uso práctico de los números.",
+                    "pathWeight": {
+                        "CONSTRUCTOR": 0.9,
+                        "REFLEXIVO": 0.5
+                    }
+                },
+                {
+                    "texto": "Que solo afecta la estética, pero no el significado del número.",
+                    "esCorrecta": false,
+                    "justificacion": "Subestima el impacto práctico del error. Lectura visual sin sentido funcional.",
+                    "pathWeight": {
+                        "MINIMALISTA": 0.6
+                    }
+                },
+                {
+                    "texto": "Que confunde con unidades de tiempo como horas y minutos.",
+                    "esCorrecta": false,
+                    "justificacion": "Interpretación fuera de contexto. Asociación errónea.",
+                    "pathWeight": {
+                        "EXPLORADOR": 0.4,
+                        "MINIMALISTA": 0.4
+                    }
+                },
+                {
+                    "texto": "Que puede hacer que el número parezca más grande por los espacios.",
+                    "esCorrecta": false,
+                    "justificacion": "Error perceptivo. No reconoce que los espacios cambian el valor por alterar la estructura decimal.",
+                    "pathWeight": {
+                        "CONQUISTADOR": 0.5,
+                        "MINIMALISTA": 0.5
+                    }
+                }
+            ],
+            "tipo": "multipleChoice",
+            "feedbackCorrecto": "¡Muy bien! Mantener la estructura decimal es vital para que los datos se interpreten correctamente.",
+            "feedbackIncorrecto": "Piensa qué número obtendrías si leyeras '2 30 57' literalmente. ¿Es el mismo que 203 057?"
+        }
+    ]
+}
